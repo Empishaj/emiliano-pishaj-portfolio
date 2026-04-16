@@ -1,8 +1,7 @@
 # Portfolio – Emiliano Pishaj
 
-<div align="center">
-  <img src="logo.png" alt="Logo" width="120"/>
-  <h2>Engineering Lead | AI | Team Culture</h2>
+<div align="left">
+  <img src="epishaj.jpg" alt="Bild" width="120"/>
 </div>
 
 Willkommen zu meinem Portfolio!
