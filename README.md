@@ -45,7 +45,7 @@ Für Rückfragen oder einen persönlichen Austausch:
   <tr>
     <th>LinkedIn</th>
     <td>
-      <a href="https://www.linkedin.com/in/emiliano-pishaj-41525b68/" target="_blank >LinkedIn-Profil</a>
+  (https://www.linkedin.com/in/emiliano-pishaj-41525b68/)  
      </td>
   </tr>
 </table>
