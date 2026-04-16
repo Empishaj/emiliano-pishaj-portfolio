@@ -5,10 +5,10 @@ Willkommen in meinem Portfolio.
 Dieses Repository ist dafür da, meine Arbeitsweise jenseits eines klassischen Lebenslaufs sichtbar zu machen. Du findest hier keine interne Unternehmensdokumentation und keine Hochglanz-Folien, sondern anonymisierte, abstrahierte und bewusst kuratierte Arbeitsproben aus dem Umfeld von Engineering Leadership, Delivery, Architektur, Governance und Capability Building.
 
 Der Fokus liegt nicht auf Selbstdarstellung, sondern auf praktischer Umsetzungslogik:  
-Wie führe ich Themen ein?  
-Wie strukturiere ich Arbeit?  
-Wie mache ich Verantwortungen, Entscheidungswege und Qualitätsanforderungen explizit?  
-Wie übersetze ich abstrakte Führungsthemen in konkrete Routinen, Arbeitspakete und funktionierende Mechaniken?
+- Wie führe ich Themen ein?  
+- Wie strukturiere ich Arbeit?  
+- Wie mache ich Verantwortungen, Entscheidungswege und Qualitätsanforderungen explizit?  
+- Wie übersetze ich abstrakte Führungsthemen in konkrete Routinen, Arbeitspakete und funktionierende Mechaniken?
 
 Wenn du verstehen willst, wie ich technische und organisatorische Themen in realen Engineering-Kontexten angehe, bist du hier richtig.
 
@@ -52,28 +52,6 @@ In diesem Bereich geht es um Führung, Hiring, Coaching, fachliche Entwicklung, 
 ### 4. Architecture & Technical Decision Making  
 Hier geht es um technische Entscheidungsfindung, Architekturabstimmung, Leitplanken für komplexe Systeme und die praktische Verbindung von technischer Tiefe und organisatorischer Wirksamkeit.
 
-## Wie du die Inhalte lesen kannst
-
-Wenn du schnell einen Eindruck gewinnen willst, beginne jeweils mit den `README.md`- und `executive-summary.md`-Dateien in den einzelnen Bereichen.
-
-Wenn du tiefer einsteigen willst, findest du darunter zwei Formate:
-
-- **Playbooks** zeigen wiederholbare Vorgehensweisen und Einführungslogiken
-- **Case Studies** zeigen die Anwendung solcher Denkmuster in konkreten, anonymisierten Kontexten
-
-So kannst du entweder schnell Orientierung gewinnen oder gezielt in die Tiefe gehen.
-
-## Warum dieses Portfolio existiert
-
-Ein Lebenslauf zeigt Rollen, Stationen und Verantwortungen. Er zeigt aber nur selten, wie jemand tatsächlich denkt, priorisiert, strukturiert und umsetzt.
-
-Genau diese Lücke will dieses Repository schließen.
-
-Ich möchte hier sichtbar machen, wie ich an technische und organisatorische Fragestellungen herangehe, wie ich Führung und Delivery verbinde und wie ich versuche, Systeme so zu gestalten, dass gute Entscheidungen nicht vom Zufall oder von Einzelpersonen abhängen.
-
-## Vertraulichkeit
-
-Alle Inhalte in diesem Repository sind bewusst anonymisiert, abstrahiert oder aus realer Erfahrung in verallgemeinerter Form rekonstruiert. Es geht nicht um interne Unterlagen, sondern um Arbeitsweise, Umsetzungslogik und belastbare Denk- und Führungsmuster.
 
 ## Weiterführend
 
