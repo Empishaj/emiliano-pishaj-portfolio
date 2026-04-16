@@ -1,11 +1,11 @@
-# Portfolio – Emiliano Pishaj
+# Emiliano Pishaj - Portfolio
 
 <div align="left">
   <img src="epishaj.jpg" alt="Bild" width="120"/>
 </div>
 
 Willkommen zu meinem Portfolio!
-Hier finden Sie anonymisierte Arbeitsproben zu Software-Architektur, AI, Teamentwicklung und mehr.
+Hier findest su anonymisierte Arbeitsproben zu Software-Architektur, AI, Teamentwicklung und mehr.
 
 ## Inhalt
 
