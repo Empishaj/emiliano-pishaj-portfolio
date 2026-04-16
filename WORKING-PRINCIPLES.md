@@ -175,9 +175,3 @@ Gleichzeitig kümmere ich mich um die Dinge, die Teams oft nicht allein absicher
 Ich glaube nicht an Organisationen, die dauerhaft nur durch einzelne starke Personen funktionieren. Das ist auf Dauer zu teuer und zu fragil. Gute Arbeit muss weitergegeben werden können. Wissen darf nicht nur in einzelnen Köpfen stecken. Darum sind für mich Mentoring, Feedback, Reviews, klare Standards und gemeinsames Lernen keine Extras. Sie gehören zum Kern guter Engineering-Arbeit.
 
 Ich finde es wichtig, dass Lernen nicht vom Zufall abhängt. Teams sollen nicht nur einzelne Probleme lösen, sondern mit der Zeit besser werden. Menschen sollen nicht nur Erfahrung sammeln, sondern diese Erfahrung soll auch für andere nutzbar werden. Genau darin liegt für mich ein wichtiger Unterschied zwischen kurzfristigem Funktionieren und echter Reife.
-
-## 12. Kurz gesagt: So arbeite ich
-
-Ich schaue auf Systeme. Ich suche Reibung. Ich schaffe Klarheit. Ich verbinde Technik, Führung und Zusammenarbeit, statt sie getrennt zu behandeln. Ich übersetze große Begriffe in konkrete Praxis. Ich fordere Mitdenken und gebe Raum zum Ausprobieren. Ich glaube an Vertrauen, an Verantwortung und an Lernen durch Erfahrung. Ich führe nicht über Show, sondern über Richtung, Rahmen und Arbeitsfähigkeit. Und ich sehe mich dann als erfolgreich, wenn Teams ihren Weg kennen, gute Arbeit leisten und mich dafür immer weniger brauchen.
-
-Das ist mir wichtig, weil gute Engineering-Arbeit aus meiner Sicht nicht dann entsteht, wenn einzelne alles mit Kraft ausgleichen, sondern dann, wenn das System gute Arbeit wahrscheinlicher macht.
