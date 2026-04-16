@@ -35,6 +35,3 @@ Warum dieses Repository existiert, ist einfach: Ein Lebenslauf zeigt Rollen, Sta
 
 Wenn du also verstehen willst, wie ich Engineering Governance einführe, Delivery-Strukturen stabilisiere, technische Führung mit organisatorischer Klarheit verbinde oder Capability Building praktisch denke, dann bist du hier richtig.
 
-## Vertraulichkeit
-
-Alle Inhalte in diesem Repository sind bewusst anonymisiert, abstrahiert oder aus realer Erfahrung in verallgemeinerter Form rekonstruiert. Es geht hier nicht um interne Unterlagen, sondern um Denkweise, Umsetzungslogik und belastbare Arbeitsmuster.
