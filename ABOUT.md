@@ -18,15 +18,18 @@ Deshalb beschäftige ich mich intensiv mit Fragen wie:
 
 In meiner Arbeit geht es deshalb oft um Themen wie Operating Models, Delivery-Routinen, technische Entscheidungswege, Qualitätsleitplanken, Secure SDLC, DevSecOps, Architekturabstimmung, Hiring, Coaching und den systematischen Aufbau von Engineering-Fähigkeiten.
 
-Was du hier findest, sind anonymisierte und abstrahierte Playbooks, Case Studies und Arbeitsmuster aus genau diesem Umfeld. Nicht als Schaufenster für Perfektion, sondern als Einblick in meine praktische Arbeitsweise. Ich will hier nicht zeigen, dass ich schöne Begriffe kenne. Ich will zeigen, wie ich Probleme schneide, wie ich Spannungen im System lese, wie ich Arbeit in sinnvolle Pakete zerlege und wie ich Veränderung so einführe, dass sie nicht nur beschlossen, sondern auch getragen wird.
+Was du hier findest, sind anonymisierte und abstrahierte Playbooks, Case Studies und Arbeitsmuster aus genau diesem Umfeld. Es ist ein kleines Schaufenster in meine praktische Arbeitsweise. Ich will zeigen, wie ich Probleme schneide, wie ich Spannungen im System lese, wie ich Arbeit in sinnvolle Pakete zerlege und wie ich Veränderung so einführe, dass sie nicht nur beschlossen, sondern auch getragen wird.
 
 Ein Teil der Inhalte ist bewusst als Playbook geschrieben. Dort geht es um wiederholbare Vorgehensweisen: also darum, wie man ein Thema grundsätzlich aufsetzen und einführen kann. Andere Inhalte sind als Case Study aufgebaut. Dort zeige ich, wie ähnliche Denkmuster in realen Kontexten angewendet wurden, welche Zielkonflikte dabei entstanden sind und was ich daraus gelernt habe.
 
-Wenn du dieses Portfolio liest, bekommst du also nicht einfach Themen, mit denen ich mich „beschäftige“. Du bekommst einen Einblick in meine Arbeitslogik:
+Wenn du dieses Portfolio liest, bekommst du also nicht einfach Themen, mit denen ich mich „beschäftige“. Du bekommst einen Einblick in meine Arbeitslogik und zum Teil auch in meine Gedenkenwelt:
 
-Ich versuche, Komplexität so weit zu reduzieren, dass man wieder handlungsfähig wird, ohne sie dabei zu verharmlosen. Ich mache Verantwortungen explizit, bevor ich über Tempo rede. Ich bevorzuge klare Review-Routinen gegenüber diffuser Abstimmung. Ich halte wenig von künstlicher Sicherheit, aber viel von transparenten Trade-offs. Und ich glaube, dass gute technische Arbeit fast immer auch gute organisatorische Arbeit braucht.
+Kurz:
+- Wie ich Komplexität reduziere
+- Wie mache ich Verantwortungen explizit
+- Wie gehe ich mir Riesiken um
 
-Kurz gesagt: Ich arbeite gerne dort, wo Technik, Führung und Umsetzung zusammenkommen.
+Noch kürzer: Ich arbeite gerne dort, wo Technik, Führung und Umsetzung zusammenkommen.
 
 Warum dieses Repository existiert, ist einfach: Ein Lebenslauf zeigt Rollen, Stationen und Zuständigkeiten. Er zeigt aber nur selten, wie jemand tatsächlich denkt und arbeitet. Genau diese Lücke will ich hier schließen.
 
