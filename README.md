@@ -58,3 +58,8 @@ Hier geht es um technische Entscheidungsfindung, Architekturabstimmung, Leitplan
 Wenn du zuerst mein fachliches Selbstverständnis lesen möchtest, findest du das hier: [`ABOUT.md`](./ABOUT.md)
 
 Wenn du dich für meine Arbeitsprinzipien interessierst, geht es hier weiter: [`WORKING-PRINCIPLES.md`](./WORKING-PRINCIPLES.md)
+
+
+## Vertraulichkeit
+
+Alle Inhalte in diesem Repository sind bewusst anonymisiert, abstrahiert oder aus realer Erfahrung in verallgemeinerter Form rekonstruiert. Es geht hier nicht um interne Unterlagen, sondern um Denkweise, Umsetzungslogik und belastbare Arbeitsmuster.
