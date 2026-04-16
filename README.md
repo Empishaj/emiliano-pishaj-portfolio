@@ -38,7 +38,7 @@ Je nachdem, was dich interessiert, kannst du an unterschiedlichen Stellen einste
 
 ## Aufbau des Repositories
 
-Das Repository ist bewusst nicht nach Zufall oder Themenresten organisiert, sondern nach Problem- und Wirkungsklassen.
+Das Repository ist bewusst nach Problem- und Wirkungsklassen organisiert.
 
 ### 1. Operating Models & Governance  
 Hier geht es um Rollen, Entscheidungsrechte, Review-Routinen, Qualitätsleitplanken und die Frage, wie man Steuerungsfähigkeit erhöht, ohne ein schwerfälliges Prozesssystem zu bauen.
