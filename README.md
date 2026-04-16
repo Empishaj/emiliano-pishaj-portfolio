@@ -1,5 +1,10 @@
 # Portfolio – Emiliano Pishaj
 
+<div align="center">
+  <img src="logo.png" alt="Logo" width="120"/>
+  <h2>Engineering Lead | AI | Team Culture</h2>
+</div>
+
 Willkommen zu meinem Portfolio!
 Hier finden Sie anonymisierte Arbeitsproben zu Software-Architektur, AI, Teamentwicklung und mehr.
 
