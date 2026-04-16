@@ -1,7 +1,5 @@
 # About
 
-Schön, dass du hier bist.
-
 Dieses Repository ist kein Lebenslauf in Markdown und auch keine lose Sammlung von Dokumenten. Es ist mein Versuch, sichtbarer zu machen, wie ich in Engineering-Organisationen denke, arbeite und Veränderung konkret einführe.
 
 Ich bewege mich an der Schnittstelle von Engineering Leadership, Delivery, Architektur, Governance und Capability Building. Mich interessiert besonders der Punkt, an dem Organisationen zu groß für reine Zurufe werden, aber noch keine schwere Prozessmaschine brauchen. Genau dort entscheidet sich oft, ob Engineering klarer, wirksamer und verlässlicher wird – oder ob Komplexität einfach nur teurer wird.
