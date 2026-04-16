@@ -27,9 +27,11 @@ Kurz:
 - Wie mache ich Verantwortungen explizit
 - Wie gehe ich mir Riesiken um
 
-Noch kürzer: Ich arbeite gerne dort, wo Technik, Führung und Umsetzung zusammenkommen.
+Noch kürzer: 
+Ich arbeite gerne dort, wo Technik, Führung und Umsetzung zusammenkommen.
 
-Warum dieses Repository existiert, ist einfach: Ein Lebenslauf zeigt Rollen, Stationen und Zuständigkeiten. Er zeigt aber nur selten, wie jemand tatsächlich denkt und arbeitet. Genau diese Lücke will ich hier schließen.
+Warum dieses Repository existiert, ist einfach: 
+Ein Lebenslauf zeigt Rollen, Stationen und Zuständigkeiten. Er zeigt aber nur selten, wie jemand tatsächlich denkt und arbeitet. Genau diese Lücke will ich hier schließen.
 
 Wenn du also verstehen willst, wie ich Engineering Governance einführe, Delivery-Strukturen stabilisiere, technische Führung mit organisatorischer Klarheit verbinde oder Capability Building praktisch denke, dann bist du hier richtig.
 
