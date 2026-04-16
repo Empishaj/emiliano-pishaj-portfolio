@@ -1,55 +1,37 @@
 # About
 
-I work at the intersection of engineering leadership, delivery governance, architecture, and capability building.
+Schön, dass du hier bist.
 
-My background spans Java-based product engineering, platform development, IT operations, technical consulting, and people leadership. Over the years, I have worked in roles that required not only technical depth, but also the ability to make engineering systems more coherent, more reliable, and easier to operate at scale.
+Dieses Repository ist kein Lebenslauf in Markdown und auch keine lose Sammlung von Dokumenten. Es ist mein Versuch, sichtbarer zu machen, wie ich in Engineering-Organisationen denke, arbeite und Veränderung konkret einführe.
 
-What interests me most is the point where organizations outgrow informal coordination but are not yet helped by heavyweight process. That is usually where engineering clarity matters most: decision rights, review cadences, quality expectations, technical guardrails, delivery transparency, and cross-functional alignment.
+Ich bewege mich an der Schnittstelle von Engineering Leadership, Delivery, Architektur, Governance und Capability Building. Mich interessiert besonders der Punkt, an dem Organisationen zu groß für reine Zurufe werden, aber noch keine schwere Prozessmaschine brauchen. Genau dort entscheidet sich oft, ob Engineering klarer, wirksamer und verlässlicher wird – oder ob Komplexität einfach nur teurer wird.
 
-I do not see governance as control theatre. I see it as an operating model for better engineering judgment. The same applies to leadership: not motivational language detached from reality, but creating the conditions in which teams can make better decisions, surface risk earlier, improve continuously, and deliver with more confidence.
+Ich mag keine Bürokratie um der Bürokratie willen. Gleichzeitig glaube ich nicht an das romantische Bild völliger Freiheit ohne klare Leitplanken. Gute Engineering-Arbeit braucht aus meiner Sicht beides: genug Raum für lokale Entscheidungen und genug Klarheit, damit Verantwortung, Qualität und Umsetzung nicht vom Zufall abhängen.
 
-Across the roles and experiences reflected in this portfolio, my work has focused on themes such as:
+Deshalb beschäftige ich mich intensiv mit Fragen wie:
 
-- introducing lightweight but explicit operating models
-- improving delivery transparency and execution confidence
-- building engineering capability through hiring, coaching, standards, and chapter work
-- supporting architecture and technical decision-making in environments with shared system impact
-- integrating security, quality, and operability into day-to-day engineering instead of treating them as late-stage checks
-- translating strategic intent into practical routines, work packages, and implementation guardrails
+- Wie schafft man klare Verantwortlichkeiten, ohne Teams zu lähmen?
+- Wie führt man Governance ein, ohne ein Reporting-Theater zu bauen?
+- Wie verbessert man Delivery, ohne nur über Geschwindigkeit zu reden?
+- Wie entwickelt man technische Organisationen so weiter, dass Qualität, Sicherheit und Umsetzbarkeit im Alltag wirklich besser werden?
+- Wie baut man Strukturen, in denen Menschen gute Entscheidungen treffen können – nicht nur gute Präsentationen?
 
-This repository is not a reproduction of internal company material. It is a curated and anonymized portfolio of playbooks, case studies, and working patterns that reflect how I approach real engineering and organizational problems.
+In meiner Arbeit geht es deshalb oft um Themen wie Operating Models, Delivery-Routinen, technische Entscheidungswege, Qualitätsleitplanken, Secure SDLC, DevSecOps, Architekturabstimmung, Hiring, Coaching und den systematischen Aufbau von Engineering-Fähigkeiten.
 
-The goal is not to present polished abstractions. The goal is to make practical thinking visible:
-how problems are framed, how change is introduced, how trade-offs are managed, and how execution is stabilized over time.
+Was du hier findest, sind anonymisierte und abstrahierte Playbooks, Case Studies und Arbeitsmuster aus genau diesem Umfeld. Nicht als Schaufenster für Perfektion, sondern als Einblick in meine praktische Arbeitsweise. Ich will hier nicht zeigen, dass ich schöne Begriffe kenne. Ich will zeigen, wie ich Probleme schneide, wie ich Spannungen im System lese, wie ich Arbeit in sinnvolle Pakete zerlege und wie ich Veränderung so einführe, dass sie nicht nur beschlossen, sondern auch getragen wird.
 
-## What you will find in this portfolio
+Ein Teil der Inhalte ist bewusst als Playbook geschrieben. Dort geht es um wiederholbare Vorgehensweisen: also darum, wie man ein Thema grundsätzlich aufsetzen und einführen kann. Andere Inhalte sind als Case Study aufgebaut. Dort zeige ich, wie ähnliche Denkmuster in realen Kontexten angewendet wurden, welche Zielkonflikte dabei entstanden sind und was ich daraus gelernt habe.
 
-You will find material around:
+Wenn du dieses Portfolio liest, bekommst du also nicht einfach Themen, mit denen ich mich „beschäftige“. Du bekommst einen Einblick in meine Arbeitslogik:
 
-- engineering operating models and governance
-- delivery and operational excellence
-- engineering leadership and capability building
-- architecture and technical decision-making
-- selected reflections on how to introduce change without creating unnecessary bureaucracy
+Ich versuche, Komplexität so weit zu reduzieren, dass man wieder handlungsfähig wird, ohne sie dabei zu verharmlosen. Ich mache Verantwortungen explizit, bevor ich über Tempo rede. Ich bevorzuge klare Review-Routinen gegenüber diffuser Abstimmung. Ich halte wenig von künstlicher Sicherheit, aber viel von transparenten Trade-offs. Und ich glaube, dass gute technische Arbeit fast immer auch gute organisatorische Arbeit braucht.
 
-Some documents are written as playbooks. Others are structured as case studies. This distinction is intentional. Playbooks show repeatable operating logic. Case studies show how similar thinking was applied in practice.
+Kurz gesagt: Ich arbeite gerne dort, wo Technik, Führung und Umsetzung zusammenkommen.
 
-## How I work
+Warum dieses Repository existiert, ist einfach: Ein Lebenslauf zeigt Rollen, Stationen und Zuständigkeiten. Er zeigt aber nur selten, wie jemand tatsächlich denkt und arbeitet. Genau diese Lücke will ich hier schließen.
 
-My working style is structured, pragmatic, and systems-oriented.
+Wenn du also verstehen willst, wie ich Engineering Governance einführe, Delivery-Strukturen stabilisiere, technische Führung mit organisatorischer Klarheit verbinde oder Capability Building praktisch denke, dann bist du hier richtig.
 
-I tend to break complex problems into explicit work packages, decision paths, and review mechanisms. I prefer clarity over noise, lightweight routines over decorative process, and transparent trade-offs over artificial certainty. I care about execution quality, but I also care about the conditions that make quality repeatable: ownership, interfaces, technical standards, feedback loops, and psychological safety in day-to-day engineering work.
+## Vertraulichkeit
 
-In practice, that means I usually work by making the operating assumptions explicit, reducing hidden coordination cost, and introducing just enough structure to improve decisions without slowing the system down.
-
-## Why this repository exists
-
-A CV can show roles, titles, and responsibilities. It rarely shows how someone actually thinks and works.
-
-This portfolio exists to make that visible.
-
-It is meant to give deeper insight into the way I approach engineering leadership, organizational design, delivery improvement, technical governance, and implementation in real environments.
-
-## Confidentiality note
-
-All materials in this repository are intentionally anonymized, generalized, or reconstructed from experience. They are designed to show working logic and implementation approach without disclosing confidential employer, customer, or internal delivery information.
+Alle Inhalte in diesem Repository sind bewusst anonymisiert, abstrahiert oder aus realer Erfahrung in verallgemeinerter Form rekonstruiert. Es geht hier nicht um interne Unterlagen, sondern um Denkweise, Umsetzungslogik und belastbare Arbeitsmuster.
