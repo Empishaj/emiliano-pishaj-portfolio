@@ -29,6 +29,6 @@ Jeder Ordner enthält eine kurze Übersicht und Links zu den jeweiligen Arbeitsp
 ## Kontakt
 
 Für Rückfragen oder einen persönlichen Austausch:
-> Emiliano Mustermann  
-> [LinkedIn-Profil](https://www.linkedin.com/in/emiliano-mustermann/)  
-> emiliano@email.de
+> Emiliano Pishaj
+> [LinkedIn-Profil]([https://www.linkedin.com/in/emiliano-mustermann/](https://www.linkedin.com/in/emiliano-pishaj-41525b68/))  
+> pishaj.emiliano@gmail.com
