@@ -30,5 +30,5 @@ Jeder Ordner enthält eine kurze Übersicht und Links zu den jeweiligen Arbeitsp
 
 Für Rückfragen oder einen persönlichen Austausch:
 > Emiliano Pishaj
-> [LinkedIn-Profil]([https://www.linkedin.com/in/emiliano-mustermann/](https://www.linkedin.com/in/emiliano-pishaj-41525b68/))  
+> [LinkedIn-Profil]([https://www.linkedin.com/in/emiliano-pishaj-41525b68/])  
 > pishaj.emiliano@gmail.com
