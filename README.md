@@ -33,7 +33,17 @@ Jeder Ordner enthält eine kurze Übersicht und Links zu den jeweiligen Arbeitsp
 ## Kontakt
 
 Für Rückfragen oder einen persönlichen Austausch:
-> Emiliano Pishaj
-> [LinkedIn-Profil](https://www.linkedin.com/in/emiliano-pishaj-41525b68/)  
-> pishaj.emiliano@gmail.com
-> Mobil: 01525 3 402 518
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Name</th>
+    <td>Emiliano Pishaj</td>
+  </tr>
+  <tr>
+    <th>E-Mail</th>
+    <td>pishaj.emiliano@gmail.com</td>
+  </tr>
+  <tr>
+    <th>LinkedIn</th>
+    <td><a href="https://www.linkedin.com/in/emiliano-pishaj-41525b68/" target="_blank >LinkedIn-Profil</a></td>
+  </tr>
+</table>
