@@ -46,7 +46,7 @@ Dafür braucht es Mut. Und dieser Mut entsteht nicht in Umgebungen, in denen jed
 
 Für mich ist der Gedanke „fail fast, fail forward“ kein Freifahrtschein für schlechte Arbeit. Ich verstehe ihn als Einladung, Annahmen früh zu testen, Irrtümer klein zu halten und schnell aus Erfahrung zu lernen. Gerade in komplexen Themen ist das oft besser, als lange auf das perfekte Bild zu warten, bevor man überhaupt den ersten Schritt macht.
 
-## 7. Warum nicht jede Entscheidung das Ja von allen braucht
+## 7. Warum nicht jede Entscheidung das "Ja" von allen braucht
 
 Ich halte wenig davon, für jede Entscheidung vollständigen Konsens zu verlangen. In vielen Fällen reicht es aus, wenn niemand ein gut begründetes Nein hat. Dann kann man etwas in einem sauberen Rahmen ausprobieren, Machbarkeit prüfen und danach auf Basis echter Erfahrung besser entscheiden.
 
