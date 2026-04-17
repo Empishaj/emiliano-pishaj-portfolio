@@ -12,7 +12,9 @@ Ein paar Fragen, die mich seit Jahren begleiten:
 * Wie baut man Strukturen, in denen Leute gute Entscheidungen treffen und nicht nur gute Präsentationen halten?
 
 In der Praxis landet das dann bei Themen wie Operating Models, Delivery-Routinen, technischen Entscheidungswegen und Qualitäts-Leitplanken. Dazu kommen Secure SDLC und DevSecOps, Architektur-Abstimmung zwischen Teams, Hiring, Coaching und der systematische Aufbau von Engineering-Fähigkeiten.
+
 Was hier im Repo liegt, sind anonymisierte Playbooks, Case Studies und Arbeitsmuster aus genau diesem Umfeld. Manches ist bewusst als Playbook geschrieben — also als wiederholbares Vorgehen: wie man ein Thema aufsetzt, einführt und am Laufen hält. Anderes ist als Case Study aufgebaut: da zeige ich, wie ähnliche Denkmuster in realen Kontexten funktioniert haben (oder eben nicht ganz so glatt), welche Zielkonflikte dabei entstanden sind und was ich daraus mitgenommen habe.
+
 Wer das hier durchliest, bekommt also nicht einfach eine Themenliste, mit der ich mich „beschäftige". Eher ein Bild davon, wie ich Probleme schneide, wie ich Spannungen im System lese, wie ich Arbeit in sinnvolle Pakete zerlege und wie ich Veränderung so einführe, dass sie am Ende nicht nur beschlossen, sondern auch getragen wird.
 
 Kurz:
