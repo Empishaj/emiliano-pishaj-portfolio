@@ -24,17 +24,59 @@
 
 Wenn du verstehen willst, wie ich arbeite, fang am besten hier an: **Ich schaue zuerst auf das System.** Mich interessiert, wie Arbeit wirklich läuft — nicht auf Folien, nicht in Prozessbeschreibungen, sondern im Alltag. Wo bleiben Entscheidungen hängen? Wo arbeiten Leute aneinander vorbei? Wo ist Verantwortung unklar, wo geht Energie verloren? Genau dort fängt für mich gute Führungs- und Engineering-Arbeit an.
 
-Ich sehe mich da ziemlich klar als Beobachter. Ich bin eigentlich permanent damit beschäftigt, Reibung zu erkennen und gezielt zu reparieren. Reibung zeigt sich dabei selten spektakulär. Sie steckt in unnötigen Rückfragen, in Missverständnissen, die immer wiederkommen, in Schnittstellen, die zu viel Abstimmung brauchen, in Entscheidungen, die zu spät fallen, oder in Themen, die seltsamerweise immer wieder bei denselben Leuten landen. Solche Dinge nehme ich ernst — nicht weil ich Ordnung an sich mag, sondern weil Reibung den Leuten Kraft entzieht und gute Arbeit unnötig schwer macht.
+Ich sehe mich da ziemlich klar als Beobachter. Ich bin eigentlich permanent damit beschäftigt, Reibung zu erkennen und gezielt zu reparieren. Reibung ist dabei selten laut oder offensichtlich. Sie kommt in den meisten Fällen unauffällig daher — im Alltag, zwischen den Zeilen, und oft genau an den Stellen, an die man zuerst gar nicht hinschaut. Sie steckt in unnötigen Rückfragen, in Missverständnissen, die immer wiederkommen, in Schnittstellen, die zu viel Abstimmung brauchen, in Entscheidungen, die zu spät fallen, oder in Themen, die seltsamerweise immer wieder bei denselben Leuten landen. Solche Dinge nehme ich ernst — nicht weil ich Ordnung an sich mag, sondern weil Reibung den Leuten Kraft entzieht und gute Arbeit unnötig schwer macht.
 
 ---
 
 ## 2. Warum Klarheit für mich so wichtig ist
 
-Klarheit ist aus meiner Sicht die Grundlage von guter Arbeit. Menschen können nur dann wirklich gut handeln, wenn sie verstehen, was wichtig ist: woran gute Arbeit erkannt wird, wer welche Verantwortung trägt, wie Entscheidungen entstehen, wann ein Thema im Team geklärt werden darf und wann es breiter raus muss.
+Klarheit ist aus meiner Sicht die Grundlage von guter Arbeit. Menschen können nur dann wirklich gut handeln, wenn sie verstehen, was wichtig ist: woran gute Arbeit erkannt wird, wer welche Verantwortung trägt, wie Entscheidungen entstehen, wann ein Thema im Team geklärt werden darf und wann es breiter kommuniziert werden muss.
 
 Für mich ist Klarheit dabei nicht bloß ein Strukturthema. Sie hat genauso viel mit Sicherheit, Vertrauen und Zusammenarbeit zu tun. Wenn unklar ist, was gesagt werden darf, was erwartet wird oder wie offen man Unsicherheit ansprechen kann, werden Leute vorsichtiger. Probleme werden dann gern weich formuliert oder kommen erst spät auf den Tisch. Von außen sieht das manchmal nach mangelndem Tempo aus. In Wahrheit fehlt dem System einfach eine gemeinsame Lesbarkeit.
 
-Deshalb arbeite ich gern an Klarheit. Ich will Dinge so ordnen, dass Leute nicht raten müssen. Sie sollen ihren Weg kennen, Entscheidungen einordnen können und nicht ständig Energie in Unsicherheit verlieren. Das ist für mich kein Beiwerk. **Das ist die Grundlage dafür, dass ein Team überhaupt gut werden kann.**
+### Wie ich prüfe, ob Klarheit wirklich da ist
+
+Ob Klarheit tatsächlich im System angekommen ist, erkenne ich selten an den offiziellen Artefakten. Prozesse, Org-Charts und Confluence-Seiten können sehr ordentlich aussehen, während in den Köpfen drei völlig verschiedene Bilder existieren. Ich gehe deshalb lieber über Fragen, die ich mir im Kopf stelle oder im Gespräch platziere. Sie sind für mich eine Art innerer Sensor:
+
+**Zu Verantwortung und Rollen**
+
+- Wenn ich drei Leute im Team zum gleichen Thema frage, bekomme ich drei konsistente Antworten — oder drei verschiedene?
+- Wüsste jemand, der neu ist, nach einer Woche verlässlich, an wen er sich bei welchem Thema wendet?
+- Gibt es Aufgaben, bei denen sich gleich mehrere verantwortlich fühlen? Und andere, bei denen sich niemand zuständig fühlt, obwohl sie wichtig sind?
+- Wo enden lokale Entscheidungen, wo beginnt Abstimmung — und wissen die Leute das im Alltag, oder müssen sie jedes Mal neu raten?
+
+**Zu Entscheidungen**
+
+- Können die Leute konkret beschreiben, wie eine Entscheidung hier eigentlich zustande kommt? Wer wird gefragt, wer entscheidet, wer wird nur informiert?
+- Wissen sie, welche Entscheidungen sie selbst treffen dürfen — und welche nicht?
+- Wenn eine Entscheidung länger liegt: Liegt sie, weil jemand ernsthaft nachdenkt? Oder liegt sie, weil keiner weiß, dass er an der Reihe ist?
+- Werden Entscheidungen nachvollziehbar festgehalten, oder lebt das Wissen darüber nur in der Erinnerung einzelner?
+
+**Zu Information und Wissen**
+
+- Weiß das Team, was gerade wirklich wichtig ist — und warum gerade das?
+- Gibt es Informationen, die regelmäßig nur mündlich im Flur, im 1:1 oder in einer Chat-DM entstehen und nirgendwo sichtbar landen?
+- Wenn eine Schlüsselperson morgen ausfällt — fehlt dann nur diese Person, oder fehlt auch das Wissen über offene Themen, Stände, Abhängigkeiten?
+- Haben die Leute, die etwas entscheiden müssen, die Information, die sie dafür brauchen — oder entscheiden sie strukturell blind?
+
+**Zu Erwartung und Qualität**
+
+- Könnten zwei Leute im Team unabhängig voneinander beschreiben, was „gut gemachte Arbeit" hier konkret bedeutet — und würden sich ihre Beschreibungen ähneln?
+- Gibt es ein geteiltes Verständnis davon, wann etwas fertig ist? Oder hängt das stark davon ab, wer gerade schaut?
+- Werden Qualitätsstandards geteilt gelebt, oder stehen sie nur auf einer Folie, die niemand mehr öffnet?
+
+**Zu Sicherheit und Offenheit**
+
+- Werden schlechte Nachrichten früh oder spät gemeldet?
+- Wenn jemand nicht weiterkommt: Fragt die Person nach, oder versucht sie es erst noch drei Tage allein?
+- Werden Risiken klar benannt, oder kommen sie in so vorsichtigen Formulierungen daher, dass man sie erst übersetzen muss, um zu verstehen, wie ernst die Lage wirklich ist?
+- Gibt es Themen, bei denen ich merke, dass sie im Raum sind — aber niemand spricht sie offen an?
+
+Wenn die Antworten auf diese Fragen auseinanderlaufen, wenn Leute zögern, wenn Beispiele schwerfallen oder wenn das Gespräch plötzlich vorsichtig wird, dann ist das für mich ein klares Signal: Hier ist weniger Klarheit im System, als die offiziellen Dokumente vermuten lassen. Genau dort setze ich dann an.
+
+### Warum ich daran gern arbeite
+
+Ich will Dinge so ordnen, dass Leute nicht raten müssen. Sie sollen ihren Weg kennen, Entscheidungen einordnen können und nicht ständig Energie in Unsicherheit verlieren. Das ist für mich kein Beiwerk. **Das ist die Grundlage dafür, dass ein Team überhaupt gut werden kann.**
 
 ---
 
