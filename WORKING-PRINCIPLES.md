@@ -156,8 +156,6 @@ Genau darum denke ich Technik, Zusammenarbeit und Führung konsequent zusammen. 
 
 ## 4. Warum ich große Begriffe immer in die Praxis übersetze
 
-## 4. Warum ich große Begriffe immer in die Praxis übersetze
-
 Ich habe oft erlebt, dass große Begriffe sehr unterschiedlich verstanden werden. Wörter wie *Ownership*, *DevOps*, *agil*, *Scrum*, *Excellence*, *Empowerment* oder *Accountability* klingen klar. In der Praxis meinen aber verschiedene Leute damit oft völlig unterschiedliche Dinge — und genau dort entstehen Missverständnisse, die später viel Zeit und Kraft kosten. Manchmal merkt man erst nach Monaten, dass ein ganzes Projekt auf einer scheinbar geteilten Sprache aufgebaut war, hinter der fünf verschiedene Bilder standen.
 
 ### Warum das kein semantisches Detail ist, sondern ein Systemrisiko
