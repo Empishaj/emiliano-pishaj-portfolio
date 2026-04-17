@@ -243,9 +243,8 @@ Wenn ein Begriff an einer dieser drei Stellen im Nebel bleibt, weiß ich: Hier s
 Mir ist bewusst, dass dieses ständige Nachfragen auf andere pedantisch wirken kann. Ich mache das trotzdem — bewusst, aber mit Augenmaß. Denn Begriffe, die im Nebel bleiben, sind später die teuersten Begriffe. Sie werden zu Strategiefolien, zu Reorganisationen, zu Erwartungen an Teams, zu Bewertungen von Menschen. Und irgendwann steht jemand da, der an einer Erwartung gemessen wird, die nie ausgesprochen, geschweige denn verhandelt wurde.
 
 Für mich gehört die Übersetzung aus der Abstraktion in die beobachtbare Praxis deshalb zum Kern guter Führung. Nicht, weil ich Wörtern misstraue, sondern weil ich weiß, was sie in Systemen anrichten können, wenn man sie unausgepackt stehen lässt. **Ein Begriff, der nicht konkret gemacht wurde, ist keine Klarheit. Er ist ein Versprechen, das im Ernstfall niemand einlösen muss.**
----
 
-## 5. Warum ich Vertrauen für so entscheidend halte
+---
 
 ## 5. Warum ich Vertrauen für so entscheidend halte
  
