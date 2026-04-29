@@ -143,7 +143,7 @@ Lieferung von Java-Webportalen und Geschäftsanwendungen auf Basis von JSF und A
 
 ## Ausbildung
 
-### 09/2006 – 09/2011 | B.Sc. Informatik (Note: 2,27)
+### 09/2006 – 09/2011 | B.Sc. Informatik
 
 **Hochschule für Angewandte Wissenschaften, Niedersachsen, Deutschland**
 
@@ -155,8 +155,8 @@ Abschlussarbeit: Evaluation des Apache Wicket Frameworks.
 
 | Datum | Zertifikat / Weiterbildung |
 |-------|----------------------------|
-| 01/2026 | Digital Product Management: Modern Fundamentals |
-| 07/2024 | License to Lead (Leadership-Programm) |
+| 01/2026 | Digital Product Management|
+| 07/2024 | License to Lead|
 | 05/2024 | Delegation & Verantwortlichkeit |
 | 05/2024 | Schwierige Gespräche / Konfliktmanagement |
 | 12/2022 | Arbeit in einem cross-funktionalen Team |

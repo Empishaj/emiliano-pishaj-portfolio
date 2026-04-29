@@ -1,166 +1,166 @@
 # Emiliano Pishaj
 
-*Lebenslauf*
+*Curriculum Vitae*
 
 ---
 
-Organisationsdesign und Engineering-Governance (Rollen, Schnittstellen, Entscheidungsroutinen). Lieferexzellenz durch wiederholbare Kadenzen, messbare Transparenz und pragmatische Qualitäts-Leitplanken. Portfolio-, Priorisierungs- und Kapazitätssteuerung über Abhängigkeitsmanagement und transparente Abwägung von Zielkonflikten. Personalführung in den Bereichen Recruiting, Coaching, Performance-Management und Karriereentwicklung. Qualitätsengineering durch Review-Standards und testbare Strukturen, die die Wartbarkeit verbessern. Sicherer SDLC und DevSecOps mit OWASP-konformen Leitlinien in einer ISO 27001-konformen Umgebung. Technische Glaubwürdigkeit in Java/JVM, APIs und Microservices zur Unterstützung von Architektur- und Lieferentscheidungen. KI-Befähigung im Engineering: Übersetzung von Leitlinien in sichere, alltagstaugliche Anwendung.
+Organisation design and engineering governance (roles, interfaces, decision routines). Delivery excellence via repeatable cadence, measurable transparency and pragmatic quality guardrails. Portfolio, prioritisation and capacity steering through dependency management and trade-off framing. People leadership across hiring, coaching, performance management and growth pathways. Quality engineering through review standards and testable structures that improve maintainability. Secure SDLC and DevSecOps with OWASP-aligned guidance in an ISO 27001-aligned environment. Technical credibility in Java/JVM, APIs and microservices to support architectural and delivery decisions. AI enablement in engineering: translating guidelines into safe, day-to-day adoption.
 
 ---
 
-## Kontakt
+## Contact
 
-- **E-Mail:** pishaj.emiliano@gmail.com
-- **Telefon:** +49 (0) 1525 340 2 518
-- **Wohnort:** Leer, Niedersachsen, Deutschland
+- **Email:** pishaj.emiliano@gmail.com
+- **Phone:** +49 (0) 1525 340 2 518
+- **Location:** Leer, Lower Saxony, Germany
 
-## Sprachen
+## Languages
 
-- **Deutsch** – C2
-- **Englisch** – C1
+- **German** – C2
+- **English** – C1
 
-## Führungs-Schwerpunkte
+## Leadership Highlights
 
-- Engineering-Führung mit Lieferfokus
-- Betriebsmodell & Governance
-- Recruiting, Coaching & Kompetenzaufbau
-- Stakeholder-Abstimmung
-- Kommunikation auf Führungsebene
-- Disziplinarische Führung: 22 Engineers (DE + Nearshore)
+- Engineering leadership with delivery focus
+- Operating model & governance
+- Hiring, coaching & capability building
+- Stakeholder alignment
+- Executive communication
+- Line management: 22 engineers (DE + nearshore)
 
-## Kernkompetenzen
+## Core Competencies
 
-- Engineering-Führung & Organisationsskalierung
-- Delivery-Governance & Betriebsmodell
-- Priorisierung & Kapazitätsplanung
-- Recruiting, Coaching & Teamentwicklung
-- Stakeholder-Management
-- Qualitätsengineering & CI/CD-Leitplanken
-- DevSecOps & sicherer SDLC (ISO 27001)
-- Vendor- / Nearshore-Steuerung
-- Plattform-Ausrichtung
-- API-Design
-- KI-Befähigung & Engineering-Richtlinien
-- KI-Integration
+- Engineering Leadership & Org Scaling
+- Delivery Governance & Operating Model
+- Prioritisation & Capacity Planning
+- Hiring, Coaching & Team Development
+- Stakeholder Management
+- Quality Engineering & CI/CD Guardrails
+- DevSecOps & Secure SDLC (ISO 27001)
+- Vendor / Nearshore Leadership
+- Platform Direction
+- API Design
+- AI Enablement & Engineering Guidelines
+- AI Integration
 
-## Ausgewählte Technologien
+## Selected Tech
 
-Java 21+ · Spring Boot · AWS · PostgreSQL / MySQL / Oracle · Docker / Kubernetes · Linux / Bash · GitLab CI · API-Design
-
----
-
-## Berufserfahrung
-
-### 02/2025 – heute | Java Chapter Lead (Disziplinarischer Engineering Manager)
-
-**Branche:** Mobilität / Öffentlicher Personenverkehr (Ticketing-Plattformen) — Deutschland
-
-Leitung des Java-Chapters und Gestaltung von Engineering-Governance, Kompetenzaufbau und technischer Ausrichtung für eine Java-basierte Ticketing-Suite-Plattform in einer komplexen Mobilitätsdomäne. Führung eines Chapters von ca. 22 Engineers in Deutschland und in Nearshore-Teams (Portugal, Polen) – einschließlich Recruiting, jährlicher Leistungsbeurteilungen, Feedbackzyklen und Entwicklungsplänen.
-
-Verantwortung für Engineering-Standards, technische Qualitäts-Leitplanken und die Weiterentwicklung der Java-Services der Plattform sowie für Wissenstransfer und fachliche Entwicklung innerhalb des Chapters. Gemeinsam mit dem Head of Development Konzeption des Engineering-Betriebsmodells (Rollen, Teamstrukturen, Governance) und Funktion als Sparringspartner für Delivery- und DevOps-Themen.
-
-Etablierung einer CI/CD-Governance mit DORA-konformen Metriken, Quality Gates und Delivery-Routinen zur Stärkung von Transparenz und Release-Sicherheit. Einführung von DevSecOps-Praktiken und OWASP-konformen Secure-Coding-Richtlinien in einem ISO 27001-konformen Kontext. Wahrnehmung der Rolle des unternehmensweiten KI-Key-Users mit Enablement-Programmen und Einführung unternehmensweiter KI-Nutzungsrichtlinien im Engineering. Beratung von Product Ownern und Squads bei technischen und architektonischen Entscheidungen sowie Unterstützung bei Priorisierung und Kapazitätsplanung über Stakeholder hinweg.
+Java 21+ · Spring Boot · AWS · PostgreSQL / MySQL / Oracle · Docker / Kubernetes · Linux / Bash · GitLab CI · API Design
 
 ---
 
-### 11/2022 – 01/2025 | Disziplinarischer Engineering Manager (Java Tech Lead)
+## Professional Experience
 
-**Branche:** Bildung / EdTech (Hochschulwesen) — Deutschland
+### 02/2025 – Present | Java Chapter Lead (Disciplinary Engineering Manager)
 
-Aufbau und Leitung eines internationalen Plattformteams (8 Engineers) als disziplinarischer People Manager (Recruiting, strukturiertes Feedback, fachliche Entwicklung im Tagesgeschäft). Verantwortung für Aufbau und Wartung einer komplexen Plattform auf Basis von Java, MarkLogic und Camunda.
+**Industry:** Mobility / Public Transport (Ticketing platforms) — Germany
 
-Erstellung von Architektur- und Systemdesigns, Sicherstellung einer an den fachlichen Anforderungen ausgerichteten Lieferung, Stakeholder-Management sowie Etablierung von Code-Reviews und Engineering-Standards zur Förderung von Wartbarkeit und Lieferqualität.
+Leading the Java chapter and shaping engineering governance, capability building and technical direction for a Java-based ticketing suite platform in a complex mobility domain. Managing a chapter of c. 22 engineers across Germany and nearshore teams (Portugal, Poland), including hiring, annual performance reviews, feedback cycles and development plans.
 
----
+Accountable for engineering standards, technical quality guardrails and the evolution of the platform's Java services, as well as knowledge transfer and professional development within the chapter. Co-designed the engineering operating model (roles, team structures, governance) with the Head of Development and act as a sparring partner on delivery and DevOps topics.
 
-### 05/2022 – 10/2022 | Senior Java Developer / IT-Consultant
-
-**Branche:** IT-Beratung mit Schwerpunkt öffentlicher Sektor — Deutschland
-
-Unterstützung von Kunden im öffentlichen Sektor bei der Modernisierung und Weiterentwicklung von Java-Anwendungen. Beitrag zur Stabilisierung der Delivery-Praktiken in DevOps-orientierten Umgebungen durch Analyse, Refactoring und Auslieferung technischer Arbeitspakete unter Zuverlässigkeits- und Betriebsanforderungen.
+Established CI/CD governance with DORA-aligned metrics, quality gates and delivery routines to strengthen transparency and release confidence. Introduced DevSecOps practices and OWASP-aligned secure coding guidelines in an ISO 27001-aligned context. Serving as company-wide AI key user by running enablement programmes and introducing engineering-wide AI usage guidelines. Advise Product Owners and squads on technical and architectural decisions and support prioritisation and capacity planning across stakeholders.
 
 ---
 
-### 10/2012 – 03/2022 | Spezialist für Abrechnungssysteme (IT-Operations)
+### 11/2022 – 01/2025 | Disciplinary Engineering Manager (Java Tech Lead)
 
-**Branche:** Telekommunikation — Deutschland
+**Industry:** Education / EdTech (Higher Education) — Germany
 
-Verantwortung und Weiterentwicklung einer eigenständigen Abrechnungsumgebung (Interconnection-Billing, Offline-Billing und Partner-Billing). Zentrale Schnittstelle zwischen IT-Betrieb, Carrier-Management und Finanzen/Rechnungswesen mit starkem Fokus auf Zuverlässigkeit, Effizienz und Qualität unter Spitzenlasten.
+Built and led an international platform team (8 engineers) as a disciplinary people manager (hiring, structured feedback, day-to-day development). Took responsibility for building and maintaining a complex platform based on Java, MarkLogic and Camunda.
 
----
-
-## Selbstständige Beratungstätigkeit (Teilzeit)
-
-### 03/2021 – 11/2022 | Technischer Business-Consultant
-
-**Branche:** Energie / Erneuerbare Energien — Schweiz (Remote)
-
-Technische Steuerung, Architekturausrichtung und Liefer-Kadenz für vier Teams (ca. 20 Entwickler) in Brasilien; Partner des Managements bei Zielsetzung, Priorisierung und Umsetzung.
-
-Vom Kunden im Arbeitszeugnis berichtete Ergebnisse: Cloud-Migration mit Beitrag zu ca. 30 % Reduktion der Betriebskosten; Standardisierung von Scrum-/Kanban-Praktiken mit Beitrag zu ca. 45 % Steigerung der Liefereffizienz und ca. 40 % Verbesserung der Projektabschlussquote; gestärkte Sicherheitskontrollen mit Beitrag zu ca. 50 % Reduktion der Sicherheitsvorfälle; eine API-Plattform für Drittanbieter-Integrationen mit Beitrag zu ca. 25 % Reduktion der Time-to-Market; sowie ein Mentoring-Programm zur Stärkung der Teamentwicklung und -zufriedenheit.
+Produced architecture and system designs, ensured delivery aligned with business requirements, managed stakeholders, and drove code review and engineering standards to support maintainability and delivery quality.
 
 ---
 
-### 06/2021 – 05/2022 | Technischer Business-Consultant
+### 05/2022 – 10/2022 | Senior Java Developer / IT Consultant
 
-**Branche:** Versicherungswesen (Versicherungspool) — Schweiz (Remote)
+**Industry:** IT Consulting (Public Sector focus) — Germany
 
-Teilzeit-Remote-Engagement mit Fokus auf Lösungsarchitektur, Stakeholder-Abstimmung und Lieferplanung (Steuerung und Governance statt operativer Tagesarbeit). Konzeption und Umsetzung einer Workflow-Management-Lösung im Kontext eines Versicherungspools – Übersetzung der Anforderungen in skalierbare Workflows und ein wartbares Systemdesign.
-
-Durchgängige Stakeholder-Abstimmung über die gesamte Lieferphase, Definition von Implementierungs-Leitplanken für Qualität und Betriebsfähigkeit sowie Unterstützung bei Rollout-Planung und Betriebsübergabe. Steigerung der operativen Effizienz um 35 % durch optimierte Workflows und Systemunterstützung.
+Supported customers in public sector contexts with modernisation and further development of Java applications. Contributed to stabilising delivery practices in DevOps-oriented environments through analysis, refactoring and delivery of technical work packages under reliability and operational constraints.
 
 ---
 
-### 01/2020 – 03/2022 | Technischer Business-Consultant
+### 10/2012 – 03/2022 | Billing Systems Specialist (IT Operations)
 
-**Branche:** Private Equity / Investment — Schweiz (Remote)
+**Industry:** Telecommunications — Germany
 
-Teilzeit-Remote-Engagement mit Kombination aus praktischer Lösungsgestaltung und Delivery-Leitung; Führung eines kleinen Lieferteams (drei Entwickler) sowie Koordination von Prioritäten und Stakeholder-Abstimmung. Konzeption und Umsetzung eines CRM-Systems zur Digitalisierung von Investoren-Workflows im Private-Equity-Kontext und Verbesserung der Ende-zu-Ende-Transparenz durch Prozess-Redesign und Systemunterstützung.
-
-Steigerung des Investitionsvolumens um 57 % (34 Mio. €) durch Prozessdigitalisierung (laut Kundenangabe). Sicherstellung der Lieferqualität durch klare Entscheidungsfindung, Review-Standards und eine planbare Liefer-Kadenz.
+Owned and evolved a standalone billing environment (interconnection billing, offline billing and partner billing). Acted as a key interface between IT operations, carrier management and finance/accounting, with a strong focus on reliability, efficiency and quality under peak workloads.
 
 ---
 
-### 01/2018 – 08/2020 | Technischer Business-Consultant
+## Independent Consulting (Part-Time)
 
-**Branche:** E-Commerce / Einzelhandel — Deutschland (Remote)
+### 03/2021 – 11/2022 | Technical Business Consultant
 
-Teilzeit-Remote-Engagement mit Ende-zu-Ende-Verantwortung für ein kleines E-Commerce-Setup, einschließlich Umsetzung, Hosting-/Server-Administration und laufendem Betriebssupport. Lieferung und Betrieb eines Online-Shops Ende-zu-Ende mit Verbesserungen der Customer Journey und des Tagesgeschäfts durch pragmatische Prozessoptimierung.
+**Industry:** Energy / Renewable Energy — Switzerland (Remote)
 
-Einführung von WhatsApp als zusätzlichem Vertriebskanal und Unterstützung der Lieferanten-/Partner-Koordination zur Verbesserung von Reaktionsfähigkeit und Durchsatz. Strukturierte, verlässliche Kundenkommunikation einschließlich Eskalationen sowie Sicherstellung eines stabilen Betriebs durch disziplinierte Wartungsroutinen.
+Provided technical steering, architecture direction and delivery cadence across four teams (c. 20 developers) based in Brazil; partnered with management on goals, prioritisation and execution.
 
----
-
-### 09/2006 – 09/2012 | Geschäftsinhaber (Selbstständig)
-
-**Branche:** IT-Dienstleistungen / Softwareentwicklung & Hosting — Deutschland
-
-Betrieb von Linux-basiertem Managed Hosting für lokale Unternehmen, einschließlich Backup-Speicherung, Wiederherstellungsverfahren und Betriebs-Wartung (Patching, Monitoring, Zugriffssteuerung, Incident-Handling).
-
-Lieferung von Java-Webportalen und Geschäftsanwendungen auf Basis von JSF und Apache Wicket – einschließlich Architektur/Design, Umsetzung und Deployment. Frühzeitige Etablierung verlässlicher Build-and-Run-Praktiken (Deployments, Backups und Service-Kontinuität für Kunden-Workloads).
+Client-reported outcomes in the reference include: cloud migration contributing to ~30% operational cost reduction; standardised Scrum/Kanban practices contributing to ~45% delivery efficiency improvement and ~40% project completion improvement; strengthened security controls contributing to ~50% reduction in security incidents; an API platform enabling third-party integrations contributing to ~25% reduction in time-to-market; and a mentoring programme to strengthen team development and satisfaction.
 
 ---
 
-## Ausbildung
+### 06/2021 – 05/2022 | Technical Business Consultant
 
-### 09/2006 – 09/2011 | B.Sc. Informatik (Note: 2,27)
+**Industry:** Insurance (insurance pooling) — Switzerland (Remote)
 
-**Hochschule für Angewandte Wissenschaften, Niedersachsen, Deutschland**
+Part-time remote engagement focused on solution architecture, stakeholder alignment, and delivery planning (steering and governance rather than day-to-day execution). Designed and delivered a workflow management solution in an insurance pooling context, translating requirements into scalable workflows and a maintainable system design.
 
-Abschlussarbeit: Evaluation des Apache Wicket Frameworks.
-
----
-
-## Zertifikate & ausgewählte Weiterbildungen
-
-| Datum | Zertifikat / Weiterbildung |
-|-------|----------------------------|
-| 01/2026 | Digital Product Management: Modern Fundamentals |
-| 07/2024 | License to Lead (Leadership-Programm) |
-| 05/2024 | Delegation & Verantwortlichkeit |
-| 05/2024 | Schwierige Gespräche / Konfliktmanagement |
-| 12/2022 | Arbeit in einem cross-funktionalen Team |
+Maintained stakeholder alignment throughout delivery, set implementation guardrails for quality and operability, and supported rollout planning and operational handover. Improved operational efficiency by 35% through streamlined workflows and system enablement.
 
 ---
 
-*Leer, 29.04.2026*
+### 01/2020 – 03/2022 | Technical Business Consultant
+
+**Industry:** Private Equity / Investment — Switzerland (Remote)
+
+Part-time remote engagement combining hands-on solution design with delivery leadership; led a small delivery team (three developers) and coordinated priorities and stakeholder alignment. Designed and delivered a CRM system to digitise investor workflows in a private equity context and improved end-to-end workflow transparency through process redesign and system enablement.
+
+Increased investment volume by 57% (€34m) through process digitisation (as reported by the client). Ensured delivery quality through clear decision-making, review standards, and a predictable delivery cadence.
+
+---
+
+### 01/2018 – 08/2020 | Technical Business Consultant
+
+**Industry:** E-commerce / Retail — Germany (Remote)
+
+Part-time remote engagement with end-to-end ownership for a small e-commerce setup, including implementation, hosting/server administration, and ongoing operational support. Delivered and operated an online shop end-to-end, improving the customer journey and day-to-day operations through pragmatic process optimisation.
+
+Introduced WhatsApp as an additional sales channel and supported vendor/partner coordination to improve responsiveness and throughput. Managed customer communication including escalations with a structured, reliable approach and ensured stable operations through disciplined maintenance routines.
+
+---
+
+### 09/2006 – 09/2012 | Business Owner (Self-Employed)
+
+**Industry:** IT Services / Software Development & Hosting — Germany
+
+Operated Linux-based managed hosting for local companies, including backup storage, recovery procedures, and operational maintenance (patching, monitoring, access control, incident handling).
+
+Delivered Java web portals and business applications using JSF and Apache Wicket, including architecture/design, implementation, and deployment. Established reliable build-and-run practices early (deployments, backups, and service continuity for client workloads).
+
+---
+
+## Education
+
+### 09/2006 – 09/2011 | BSc Computer Science
+
+**University of Applied Sciences, Lower Saxony, Germany**
+
+Thesis: Evaluation of the Apache Wicket framework.
+
+---
+
+## Certifications & Selected Professional Development
+
+| Date | Certification / Programme |
+|------|---------------------------|
+| 01/2026 | Digital Product Management|
+| 07/2024 | License to Lead (Leadership programme) |
+| 05/2024 | Delegation & Accountability |
+| 05/2024 | Difficult Conversations / Conflict Management |
+| 12/2022 | Working on a Cross-functional Team |
+
+---
+
+*Leer, 29/04/2026*
