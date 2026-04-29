@@ -1,386 +1,415 @@
 # Working Principles
 
-> Wie ich moderne Softwareentwicklung, Führung und Veränderung in Engineering-Organisationen aufbaue.
+> How I build modern software development, leadership and change in engineering organisations.
 
 ---
 
-## Inhaltsverzeichnis
+## Table of Contents
 
-- [Einordnung](#einordnung)
-- [1. Ich schaue zuerst auf das System](#systemblick)
-- [2. Klarheit ist für mich die Grundlage guter Arbeit](#klarheit)
-- [3. Begriffe müssen im Alltag verständlich sein](#begriffe)
-- [4. Technik, Zusammenarbeit und Führung gehören zusammen](#zusammenhang)
-- [5. Technische Prinzipien moderner Softwareentwicklung](#technische-prinzipien)
-- [6. Vertrauen entscheidet darüber, wie gut ein System wirklich funktioniert](#vertrauen)
-- [7. Ich erwarte Mitdenken, Mut und sauberes Ausprobieren](#mitdenken)
-- [8. Nicht jede Entscheidung braucht Zustimmung von allen](#entscheidungen)
-- [9. Führung heißt für mich, gute Bedingungen zu schaffen](#fuehrung)
-- [10. Wenn Teams stärker werden, verändert sich meine Rolle](#reife-teams)
-- [11. Lernen muss im System ankommen](#lernen)
-
----
-
-<a id="einordnung"></a>
-## Einordnung
-
-Dieses Dokument beschreibt, wie ich auf Arbeit, Teams, Technik und Organisationen schaue.
-
-Es zeigt, wie ich moderne Softwareentwicklung nicht nur technisch, sondern auch organisatorisch und führungsseitig denke. Meine Grundannahme ist einfach: Gute Software entsteht nicht allein durch gute Entwickler oder gute Architektur. Sie entsteht dort, wo Menschen verstehen, was wichtig ist, wo sie Verantwortung übernehmen können, wo Probleme früh sichtbar werden und wo das System sauberes Arbeiten unterstützt statt behindert.
-
-Die folgenden Punkte bauen deshalb bewusst aufeinander auf. Zuerst geht es darum, wie ich Systeme lese und wie Orientierung entsteht. Danach geht es um Technik, Zusammenarbeit, Vertrauen, Entscheidungen und Führung. Am Ende kommen Reife und Lernen im System. Zusammen ergibt das für mich ein Bild davon, wie moderne Engineering-Arbeit tragfähig wird.
+* [How I see my role](#how-i-see-my-role)
+* [1. I look at the operating model first](#1-i-look-at-the-operating-model-first)
+* [2. My agile mindset](#2-my-agile-mindset)
+* [3. Clarity is the foundation of good work](#3-clarity-is-the-foundation-of-good-work)
+* [4. Terms must be understandable in everyday work](#4-terms-must-be-understandable-in-everyday-work)
+* [5. Technology, collaboration and leadership belong together](#5-technology-collaboration-and-leadership-belong-together)
+* [6. Technical principles of modern software development](#6-technical-principles-of-modern-software-development)
+* [7. Trust decides how well a system really works](#7-trust-decides-how-well-a-system-really-works)
+* [8. I expect thinking along, courage and clean experimentation](#8-i-expect-thinking-along-courage-and-clean-experimentation)
+* [9. Not every decision needs everyone's agreement](#9-not-every-decision-needs-everyones-agreement)
+* [10. Leadership as a people leader: creating good conditions, developing people](#10-leadership-as-a-people-leader-creating-good-conditions-developing-people)
+* [11. As teams grow stronger, my role changes](#11-as-teams-grow-stronger-my-role-changes)
+* [12. Learning has to land in the system](#12-learning-has-to-land-in-the-system)
 
 ---
 
-<a id="systemblick"></a>
-## 1. Ich schaue zuerst auf das System
+## How I see my role
 
-Wenn ich mit einem Team oder einer Organisation arbeite, frage ich nicht zuerst: Wer hat einen Fehler gemacht? Oder: Wer liefert gerade nicht gut genug? Ich schaue zuerst auf das System.
+This document describes how I look at work, teams, technology and organisations. Before you go into the individual points, three things you will recognise me by throughout this document.
 
-Damit meine ich: Ich will verstehen, wie Arbeit in der Realität wirklich läuft. Nicht auf einer Folie, nicht in einem Organigramm und auch nicht nur in einer Prozessbeschreibung. Mich interessiert der Alltag. Wo bleiben Entscheidungen hängen? Wo reden Teams aneinander vorbei? Wo landen Themen immer wieder bei denselben Leuten? Wo ist offiziell alles klar, aber in der Praxis trotzdem nicht?
+**I am a people leader.** My first reference point is not the technology and not the process, but the people I build engineering with and for. My task is to enable them to work effectively, learn well and carry responsibility — through careful hiring, honest day-to-day feedback, individual development, clear expectations, and protection when it matters. I make technical and organisational decisions always with an eye on what they mean for the people who have to live with them.
 
-Genau dort beginnt für mich gute Führungs- und Engineering-Arbeit.
+**I work with an agile mindset.** By that I do not mean a particular method. Scrum, Kanban, SAFe or any other framework are tools. Agile, for me, means: learning in small steps, getting feedback early, testing assumptions instead of debating them to death, giving responsibility to where the context sits, and adjusting plans when reality delivers new information.
 
-Ich nehme Reibung sehr ernst. Reibung ist alles, was Arbeit unnötig schwer macht. Zum Beispiel unnötige Rückfragen, unklare Zuständigkeiten, zu viele Übergaben, Missverständnisse, Wartezeiten oder kleine Entscheidungen, die immer wieder nach oben gegeben werden. Das klingt oft nicht dramatisch, kostet im Alltag aber viel Energie.
+**I always think in the operating model.** I never look at a decision, a team or a technical question in isolation. I am interested in how it fits into the engineering operating model — the interplay of roles, decision rights, interfaces, routines, quality guardrails and accountabilities. That is where effectiveness emerges. Or where friction emerges.
 
-Viele Probleme sehen auf den ersten Blick wie Personenprobleme aus. In Wirklichkeit sind sie oft Systemprobleme. Wenn dieselben Themen an mehreren Stellen auftauchen, liegt das meist nicht daran, dass zufällig mehrere Menschen gleichzeitig schwach sind. Dann stimmt oft etwas im System nicht.
-
-Darum versuche ich, Muster zu erkennen. Wenn ich immer wieder ähnliche Symptome sehe, suche ich nach der Ursache dahinter. Für mich ist das oft der Punkt, an dem echte Verbesserung erst anfängt.
+These three lines run through everything below. The individual points build deliberately on each other: first operating model and mindset, then clarity, terms, and the interplay of technology, collaboration and leadership, then trust, responsibility and decisions, and finally maturity and learning in the system.
 
 ---
 
-<a id="klarheit"></a>
-## 2. Klarheit ist für mich die Grundlage guter Arbeit
+## 1. I look at the operating model first
 
-Klarheit ist für mich keine Nebensache. Ohne Klarheit wird Arbeit langsam, mühsam und unnötig kompliziert.
+When I work with a team or an organisation, I do not first ask: who made a mistake? Or: who is not delivering well enough right now? I look at the operating model first — that is, how work is actually organised in this organisation, who gets to make which decision, what interfaces exist, and which routines shape the behaviour of the people involved.
 
-Mit Klarheit meine ich, dass Menschen sich in einer Organisation selbstständig zurechtfinden können. Sie sollen wissen, wie das System funktioniert, an wen sie sich bei welchem Thema wenden können, was sie selbst entscheiden dürfen und wann sie andere einbeziehen müssen. Sie sollen also nicht ständig raten oder sich bei jedem Schritt erst absichern müssen.
+I do not mean what is on a slide or in an org chart. I am interested in everyday reality. Where do decisions get stuck? Where do teams talk past each other? Where do topics keep landing with the same people? Where is everything officially clear, but in practice it is not?
 
-Menschen können nur dann gut arbeiten, wenn sie verstehen, was wirklich wichtig ist, woran gute Arbeit erkannt wird, wer wofür verantwortlich ist und wie Entscheidungen entstehen. Wenn das unklar ist, passiert fast immer dasselbe: Menschen werden vorsichtiger, Fragen werden zu spät gestellt, Risiken weich formuliert und Themen lieber einmal zu oft eskaliert als einmal sauber entschieden.
+That is exactly where good leadership and engineering work begin for me.
 
-Deshalb ist Klarheit für mich nicht nur ein Strukturthema. Sie hat genauso mit Vertrauen und Sicherheit zu tun. Wenn Menschen nicht wissen, woran sie sind, verhalten sie sich verständlicherweise vorsichtig. Das ist kein persönliches Problem, sondern eine normale Reaktion auf ein unklar aufgebautes System.
+I take friction very seriously. Friction is everything that makes work unnecessarily hard. For example: unnecessary follow-up questions, unclear responsibilities, too many handovers, misunderstandings, waiting times, or small decisions that keep getting pushed upwards. It often does not sound dramatic, but it costs a lot of energy in everyday work.
 
-Ich prüfe Klarheit deshalb nicht daran, ob ein Wiki gepflegt ist oder eine Rollenbeschreibung ordentlich aussieht. Ich prüfe sie daran, ob Menschen im Alltag dieselbe Realität beschreiben. Wenn drei Leute auf dieselbe Frage drei verschiedene Antworten geben, dann ist etwas nicht klar. Ganz egal, wie sauber es irgendwo dokumentiert ist.
+Many problems look like people problems at first glance. In reality they are often problems in the operating model. When the same topics show up in several places, it is usually not because several people happen to be weak at the same time. More often, something is off in the way the system organises work, distributes responsibility or structures handovers.
 
-Auf ein paar Fragen achte ich dabei besonders:
-
-- Wissen Menschen, welche Entscheidungen sie selbst treffen dürfen?
-- Ist klar, wer bei welchem Thema wirklich verantwortlich ist?
-- Haben wir ein gemeinsames Verständnis davon, was „fertig“ heißt?
-- Wissen wir, was gute Qualität in diesem Kontext bedeutet?
-- Werden schlechte Nachrichten früh angesprochen oder erst dann, wenn es schon weh tut?
-- Können Menschen Unsicherheit offen benennen, ohne sich dafür rechtfertigen zu müssen?
-
-Wenn die Antworten auf diese Fragen auseinanderlaufen, dann fehlt meistens nicht zuerst Tempo. Dann fehlt Klarheit.
-
-Mein Ziel ist deshalb einfach: Menschen sollen nicht raten müssen. Sie sollen verstehen, wie das System funktioniert, was von ihnen erwartet wird und wo ihr eigener Entscheidungsraum beginnt und endet.
+That is why I try to recognise patterns. When I keep seeing similar symptoms, I look for the cause behind them. For me, that is often the point at which real improvement actually begins — not at the symptom, but at the mechanism that keeps producing it.
 
 ---
 
-<a id="begriffe"></a>
-## 3. Begriffe müssen im Alltag verständlich sein
+## 2. My agile mindset
 
-Ich habe oft erlebt, dass Organisationen mit großen Begriffen arbeiten, die erst einmal gut klingen, im Alltag aber von verschiedenen Menschen völlig unterschiedlich verstanden werden.
+When I talk about "agile", I do not mean a method or a ceremony. Scrum, Kanban or whichever framework is just a tool. An agile mindset, for me, describes how to work well under uncertainty.
 
-Wörter wie Ownership, DevOps, agil, Empowerment, Accountability oder Excellence sind dafür typische Beispiele. Viele nicken, wenn solche Begriffe fallen. Später merkt man dann, dass jeder etwas anderes darunter verstanden hat.
+Concretely, that means a few simple things.
 
-Genau das ist gefährlich. Denn dann sieht es am Anfang nach Einigkeit aus, obwohl in Wahrheit schon ein Missverständnis im Raum steht.
+**Small, testable steps over large, risky packages.** Small steps generate early feedback. They are easier to review, easier to roll back and easier to learn from. Large packages mainly generate hope — and hope is not a strategy.
 
-Darum lasse ich solche Begriffe ungern einfach stehen. Ich will wissen, was sie konkret bedeuten.
+**Outcome over plan.** Plans are useful, but they are not the goal. When reality shows something new, adjusting the plan is not failure. Failure would be sticking to the plan even though you know better.
 
-Wenn jemand zum Beispiel von **Ownership** spricht, meine ich damit nicht nur ein schönes Wort für Verantwortung. Dann will ich wissen: Wer entscheidet konkret was? Wo endet die Verantwortung des Teams? Gehört der Betrieb dazu? Ist das Team nur für die Umsetzung verantwortlich oder auch für das Ergebnis? Und hat es überhaupt die Mittel, dieser Verantwortung gerecht zu werden?
+**Responsibility where the context sits.** The best decisions usually emerge close to the work, not far away from it. Agile work, for me, means actually giving teams that decision space — not just in communication, but in practice. Responsibility without decision space is just another form of pressure.
 
-Wenn jemand von **Empowerment** spricht, dann frage ich: Haben Menschen wirklich Entscheidungsraum? Oder sollen sie nur mehr Verantwortung tragen, ohne dass sie wirklich entscheiden dürfen?
+**Learning is part of delivery, not an extra.** Retrospectives, postmortems, small experiments, short feedback loops — these are not breaks from "real delivery". They are what makes delivery better over time.
 
-Wenn jemand von **DevOps** spricht, frage ich: Meinen wir Zusammenarbeit zwischen Entwicklung und Betrieb? Meinen wir ein Plattform-Modell? Meinen wir eine Toolchain? Oder reden wir nur über CI/CD?
+**Customer and product context stay present.** Even in deeply technical discussions, I do not lose sight of who we are building for and what we are trying to solve. Technology without product context quickly becomes formally correct but substantively empty.
 
-Ich prüfe bei solchen Begriffen fast immer drei Dinge:
+**Change is a normal state, not a special case.** In any serious engineering context, requirements, market conditions, technologies or team compositions shift. An agile mindset acknowledges this instead of acting surprised every time. Routines, architecture and the operating model have to be able to handle it.
 
-**Erstens: Wie sieht das im Alltag aus?**  
-Was wäre konkret anders, wenn wir den Begriff ernst meinen?
-
-**Zweitens: Wer trägt die Verantwortung?**  
-Und: Hat diese Person oder dieses Team auch den nötigen Entscheidungsraum?
-
-**Drittens: Kann unser System das überhaupt tragen?**  
-Haben wir die Fähigkeiten, die Zeit, die Werkzeuge und den Rückhalt dafür?
-
-Wenn diese Punkte unklar bleiben, dann ist der Begriff für mich noch nicht brauchbar. Dann kommt er später fast sicher als Konflikt wieder zurück.
-
-Ich halte das nicht für Wortklauberei. Ich halte es für gute Führungsarbeit. Denn unklare Begriffe führen später fast immer zu unklaren Erwartungen.
+So an agile mindset, for me, is not a framework. It is a particular way of dealing with complexity, uncertainty and change — and that is exactly why modern engineering needs it.
 
 ---
 
-<a id="zusammenhang"></a>
-## 4. Technik, Zusammenarbeit und Führung gehören zusammen
+## 3. Clarity is the foundation of good work
 
-Ich glaube nicht daran, technische Themen getrennt von Zusammenarbeit, Verantwortung und Führung zu betrachten.
+Clarity, for me, is not a side topic. Without clarity, work becomes slow, painful and unnecessarily complicated.
 
-In der Praxis hängen diese Dinge fast immer zusammen. Die Architektur beeinflusst, wie Teams arbeiten können. Teamgrenzen beeinflussen, wie gut Entscheidungen getroffen werden. Deployment-Wege, Schnittstellen, Zuständigkeiten und Kommunikationsmuster wirken aufeinander. Wer nur auf eine Ebene schaut, löst oft nur einen Teil des Problems.
+By clarity I mean that people in an organisation can find their way around independently. They should know how the system works, who they can turn to for which topic, what they are allowed to decide themselves, and when they need to involve others. They should not have to constantly guess or check in for every step.
 
-Man kann das mit einem einfachen Satz beschreiben: Das technische System und das organisatorische System formen sich gegenseitig.
+People can only work well when they understand what really matters, what good work is recognised by, who is responsible for what, and how decisions come about. When that is unclear, almost the same thing always happens: people become more cautious, questions get asked too late, risks are softened in language, and topics are escalated one time too many rather than decided cleanly once.
 
-Wenn zwei Teams ständig aneinander geraten, ist das vielleicht ein technisches Thema. Vielleicht sind Schnittstellen schlecht geschnitten. Vielleicht ist die Verantwortung unklar. Vielleicht muss für jede kleine Änderung erst zwischen Teams abgestimmt werden. In der Realität ist es oft alles zusammen.
+That is why clarity, for me, is not just a structural topic. It has just as much to do with trust and safety. When people do not know where they stand, they understandably behave cautiously. That is not a personal problem, but a normal reaction to an unclearly built system.
 
-Deshalb schaue ich fast jedes Thema auf vier Ebenen an:
+I therefore do not check clarity by whether a wiki is maintained or a role description looks tidy. I check it by whether people in everyday work describe the same reality. When three people give three different answers to the same question, then something is not clear. No matter how cleanly it is documented somewhere.
 
-**Technisch:** Welche Architektur, welche Schnittstellen, welche Altlasten oder welche Kopplungen spielen eine Rolle?
+A few questions I pay particular attention to:
 
-**Organisatorisch:** Welche Teams, Rollen, Verantwortungen oder Abhängigkeiten wirken hier?
+* Do people know which decisions they are allowed to make themselves?
+* Is it clear who is really responsible for which topic?
+* Do we have a shared understanding of what "done" means?
+* Do we know what good quality means in this context?
+* Are bad news raised early, or only when it already hurts?
+* Can people openly name uncertainty without having to justify themselves?
 
-**Im Ablauf:** Welche Routinen, Entscheidungswege und Feedback-Schleifen helfen gerade – oder bremsen?
+When the answers to these questions diverge, what is usually missing first is not speed. What is missing is clarity.
 
-**Menschlich:** Welche Erwartungen, Spannungen, Unsicherheiten oder Vertrauensfragen sind mit im Raum?
-
-Wenn ein Team langsam liefert, ist das für mich fast nie nur ein Delivery-Thema. Vielleicht gibt es zu viele Übergaben. Vielleicht sind Prioritäten unklar. Vielleicht fehlen Entscheidungen. Vielleicht kostet jede Änderung zu viel, weil die technische Basis zu schwer geworden ist.
-
-Wenn Qualität leidet, frage ich nicht nur nach Tests. Ich frage auch: Haben wir überhaupt ein gemeinsames Verständnis davon, was gute Qualität hier heißt? Gibt es den Raum, Qualität einzufordern? Oder wird sie nur verlangt, aber im Alltag immer wieder weggedrückt?
-
-Wenn ein Incident passiert – also ein ernstes Problem im Betrieb –, dann schaue ich nicht nur auf den technischen Auslöser. Ich schaue auch darauf, wie Ownership gelebt wird, wie gut Alerting funktioniert, ob Dokumentation hilft und ob Menschen sich trauen, früh genug Stopp zu sagen.
-
-Für mich müssen gute Lösungen deshalb auf mehreren Ebenen passen. Sie müssen technisch sinnvoll sein, organisatorisch tragen und für die Menschen im Alltag funktionieren.
+My goal is therefore simple: people should not have to guess. They should understand how the system works, what is expected of them, and where their own decision space starts and ends.
 
 ---
 
-<a id="technische-prinzipien"></a>
-## 5. Technische Prinzipien moderner Softwareentwicklung
+## 4. Terms must be understandable in everyday work
 
-Neben Führung, Klarheit, Verantwortung und Lernen gibt es für mich auch ein paar technische Grundsätze, ohne die moderne Softwareentwicklung auf Dauer nicht gut funktioniert.
+I have often seen organisations work with big words that sound good at first, but in everyday work are understood completely differently by different people.
 
-Der erste Punkt ist für mich: **Software muss veränderbar bleiben.**  
-Ein System ist nicht gut, nur weil es heute funktioniert. Es ist dann gut, wenn man es auch morgen noch mit vertretbarem Aufwand ändern kann. Wenn jede kleine Anpassung riskant, teuer oder langsam wird, dann ist das kein stabiles System, sondern ein schwer bewegliches.
+Words like Ownership, DevOps, Agile, Empowerment, Accountability or Excellence are typical examples. Many people nod when these terms come up. Later you notice that everyone meant something different by them.
 
-Der zweite Punkt ist: **Einfachheit ist ein Qualitätsmerkmal.**  
-Ich halte wenig davon, Komplexität mit Professionalität zu verwechseln. Gute Lösungen sind für mich nicht die beeindruckendsten, sondern die, die das Problem sauber lösen und dabei für andere verständlich bleiben. Komplexität lässt sich nicht immer vermeiden. Aber man sollte sie bewusst eingehen und nicht aus Gewohnheit erzeugen.
+That is exactly the dangerous part. Because at the start it looks like agreement, even though there is already a misunderstanding in the room.
 
-Der dritte Punkt ist: **Automatisierung schlägt manuelle Heldentaten.**  
-Wenn Qualität, Sicherheit oder Auslieferung davon abhängen, dass einzelne Menschen besonders aufmerksam sind, dann ist das auf Dauer zu fragil. Wiederholbare Qualität braucht saubere Automatisierung. Dazu gehören für mich zum Beispiel Builds, Tests, Checks, Deployments und technische Leitplanken, die verlässlich greifen, ohne dass jedes Mal neu daran erinnert werden muss.
+That is why I do not like to leave such terms standing on their own. I want to know what they concretely mean.
 
-Der vierte Punkt ist: **Betrieb ist Teil der Entwicklung.**  
-Software ist für mich nicht fertig, wenn der Code gemerged wurde. Sie muss auch im echten Betrieb tragfähig sein. Dazu gehören Beobachtbarkeit, sinnvolles Alerting, nachvollziehbare Logs, klare Zuständigkeiten und die Fähigkeit, Probleme im Betrieb schnell zu verstehen und sauber darauf zu reagieren.
+When someone speaks of **Ownership**, I do not mean it as a nice word for responsibility. Then I want to know: who decides what concretely? Where does the team's responsibility end? Does operations belong to it? Is the team only responsible for delivery, or also for the outcome? And does it actually have the means to live up to that responsibility?
 
-Der fünfte Punkt ist: **Sicherheit gehört nicht ans Ende.**  
-Sicherheit ist für mich kein Zusatzpaket, das man irgendwann später noch auf ein System legt. Sie gehört von Anfang an in die Entwicklung. Nicht als reine Compliance-Übung, sondern als Teil guter technischer Arbeit. Wer Sicherheit erst spät betrachtet, baut fast immer unnötige Risiken und teure Nacharbeit ein.
+When someone speaks of **Empowerment**, I ask: do people really have decision space? Or are they just expected to carry more responsibility without actually being allowed to decide?
 
-Der sechste Punkt ist: **Lieber in kleinen, sauberen Schritten liefern als in großen riskanten Paketen.**  
-Große Releases erzeugen oft mehr Unsicherheit, mehr Koordinationsaufwand und mehr Risiko. Kleine, gut verstandene Änderungen sind meistens leichter zu prüfen, leichter zurückzunehmen und leichter zu lernen. Das macht Systeme auf Dauer beweglicher.
+When someone speaks of **DevOps**, I ask: do we mean collaboration between development and operations? Do we mean a platform model? Do we mean a toolchain? Or are we only talking about CI/CD?
 
-Der siebte Punkt ist: **Architekturentscheidungen müssen bewusst und nachvollziehbar sein.**  
-Architektur darf nicht nur das Nebenprodukt einzelner Implementierungen sein. Gerade wichtige technische Entscheidungen müssen verständlich bleiben: Warum haben wir diesen Weg gewählt? Welches Problem wollten wir lösen? Welche Folgen hat das für andere Teams, für den Betrieb oder für spätere Änderungen? Genau deshalb sind für mich Dinge wie ADRs so wichtig.
+I almost always check three things on such terms:
 
-Der achte Punkt ist: **Produktkontext und Technik dürfen nicht auseinanderlaufen.**  
-Technische Entscheidungen sind für mich dann stark, wenn man noch erkennen kann, welches fachliche Problem sie eigentlich lösen sollten. Wenn diese Verbindung verloren geht, entstehen schnell technisch saubere, aber fachlich unpassende Lösungen. Gute Softwareentwicklung verbindet deshalb Produktverständnis und technische Umsetzung bewusst miteinander.
+**First: what does it look like in everyday work?**
+What would concretely be different if we mean the term seriously?
 
-Am Ende ist moderne Softwareentwicklung für mich keine Sammlung einzelner Methoden. Sie ist das Zusammenspiel aus guter Technik, klarer Verantwortung, lernfähigen Teams, sauberem Betrieb und einem System, das Änderungen möglich macht, statt sie ständig schwerer zu machen.
+**Second: who carries the responsibility?**
+And: does that person or team also have the decision space they need?
 
----
+**Third: can our operating model actually carry this?**
+Do we have the capabilities, the time, the tools and the support for it?
 
-<a id="vertrauen"></a>
-## 6. Vertrauen entscheidet darüber, wie gut ein System wirklich funktioniert
+When these points remain unclear, the term is not yet usable for me. It will almost certainly come back later as a conflict.
 
-Ein wichtiger Teil meiner Laufbahn war, dass ich früh Verantwortung übernehmen durfte. Auch in Situationen, in denen ich noch nicht alles wusste. Ich habe Entscheidungsraum bekommen, durfte Dinge ausprobieren, habe Fehler gemacht und daraus gelernt. Manche Fehler waren teuer. Gerade dadurch habe ich verstanden, was gute Führung in schwierigen Momenten wirklich bedeutet.
-
-Vertrauen zeigt sich nicht dann, wenn alles ruhig ist. Vertrauen zeigt sich dann, wenn etwas schiefgeht.
-
-Für mich ist Vertrauen kein nettes Extra. Es entscheidet direkt darüber, wie gut ein Team oder eine Organisation wirklich funktioniert.
-
-In einem Umfeld mit Vertrauen werden Probleme früher angesprochen. Menschen fragen eher nach Hilfe. Risiken werden klarer benannt. Entscheidungen werden eher dort getroffen, wo der beste Kontext vorhanden ist.
-
-In einem Umfeld ohne Vertrauen passiert oft das Gegenteil. Menschen formulieren vorsichtiger. Sie sichern sich mehr ab. Sie eskalieren früher nach oben, nicht weil es nötig wäre, sondern weil es sich sicherer anfühlt. Schlechte Nachrichten werden weicher formuliert oder später gebracht. Von außen sieht das manchmal wie Langsamkeit aus. In Wahrheit schützt sich das System selbst vor unangenehmen Folgen.
-
-Darum interessiert mich bei Fehlern nicht zuerst die Schuldfrage. Mich interessiert zuerst:
-
-- Was ist passiert?
-- Warum ist es passiert?
-- Was sagt das über das System aus?
-- Und was lernen wir daraus?
-
-Fragen, die ich mir dann stelle, sind zum Beispiel:
-
-- Wurde das Problem früh erkannt und offen benannt?
-- Versteht die Person selbst, wie es dazu kam?
-- Welche Bedingungen haben den Fehler wahrscheinlicher gemacht?
-- Hätte jemand anderes in derselben Situation vielleicht ähnlich gehandelt?
-- Was senden wir gerade für ein Signal an alle anderen, die diesen Fall beobachten?
-
-Vertrauen heißt für mich nicht, dass alles ohne Folgen bleibt. Es gibt Situationen, in denen etwas klar benannt werden muss. Es gibt Entscheidungen, die nicht tragfähig sind. Und es gibt Verhalten, das nicht dauerhaft passt und korrigiert werden muss.
-
-Aber ich trenne bewusst zwischen Konsequenz und Reflex.
-
-Menschen nach einem ehrlichen Fehler sofort fallen zu lassen, wirkt oft klar und hart. In Wahrheit ist es meist nur die schnellste Art, Verantwortung scheinbar loszuwerden. Für das System ist das fast immer teuer. Denn alle anderen lernen in diesem Moment mit. Sie lernen, ob frühe Offenheit sicher ist oder gefährlich.
-
-Wenn Menschen lernen, dass Ehrlichkeit riskant ist, werden Probleme später sichtbar. Und genau das wird irgendwann richtig teuer.
-
-Darum ist Vertrauen für mich kein weiches Thema. Es ist eine Investition in die Arbeitsfähigkeit eines Teams und einer Organisation.
+I do not see this as nitpicking over words. I see it as good leadership work. Because unclear terms almost always lead to unclear expectations later.
 
 ---
 
-<a id="mitdenken"></a>
-## 7. Ich erwarte Mitdenken, Mut und sauberes Ausprobieren
+## 5. Technology, collaboration and leadership belong together
 
-Ich will nicht, dass Menschen einfach nur Aufgaben abarbeiten. Ich erwarte, dass sie mitdenken.
+I do not believe in looking at technical topics separately from collaboration, responsibility and leadership.
 
-Mitdenken heißt für mich nicht, dass jeder zu allem eine Meinung haben muss. Es heißt auch nicht, dass jede Entscheidung ständig neu infrage gestellt wird. Für mich ist das etwas sehr Praktisches.
+In practice, these things are almost always connected. The architecture influences how teams can work. Team boundaries influence how well decisions are made. Deployment paths, interfaces, responsibilities and communication patterns interact. Anyone looking at only one level usually only solves part of the problem.
 
-Mitdenken heißt:
+You can describe it in one sentence: the technical system and the operating model shape each other.
 
-- den Kontext zu verstehen
-- Annahmen zu hinterfragen, wenn etwas nicht stimmig wirkt
-- Folgen für andere Teams, den Betrieb oder spätere Änderungen mitzudenken
-- mögliche Alternativen zu sehen
-- die eigenen Wissensgrenzen ehrlich zu benennen
-- und im Zweifel auch kurz vor einem Deployment zu sagen: „Wir sollten so nicht deployen.“
+When two teams keep clashing, that may be a technical issue. Maybe interfaces are badly cut. Maybe responsibility is unclear. Maybe every small change requires alignment between teams first. In reality, it is often all of it together.
 
-Gerade in komplexen Engineering-Umfeldern reicht reine Ausführung nicht aus. Viele wichtige Entscheidungen entstehen direkt dort, wo gerade gearbeitet wird: im Code, in der Abstimmung, in einem Review, in einer Betriebssituation. Wenn an dieser Stelle niemand mitdenkt, werden Entscheidungen schlechter. Oder sie werden nach oben geschoben, obwohl sie dort gar nicht hingehören. Beides macht Teams und Systeme langsam.
+That is why I look at almost every topic on four levels:
 
-Damit Mitdenken überhaupt stattfinden kann, braucht es aber das richtige Umfeld. Rückfragen und Einwände dürfen nicht wie Störungen behandelt werden. Teams merken sehr schnell, ob ihre Gedanken wirklich willkommen sind. Sie merken auch, ob jemand Rückhalt bekommt, wenn er ein Risiko früh anspricht, oder ob diese Person am Ende allein dasteht.
+**Technical:** which architecture, which interfaces, which legacy debt or which couplings play a role?
 
-Für mich gehört deshalb etwas ganz Grundsätzliches zu gutem Engineering: Entwickler müssen auf grobe fachliche oder technische Fehler hinweisen können, auch dann, wenn dieser Fehler von mir kommt. Und sie müssen das tun können, ohne Angst zu haben, dafür hierarchisch zurechtgewiesen zu werden. Gutes Engineering zeigt sich für mich genau an solchen Stellen. Am Ende sollte die beste Lösung gewinnen und nicht die Lösung der bestbezahlten oder ranghöchsten Person.
+**Organisational:** which teams, roles, responsibilities or dependencies are at work here? What does the operating model say?
 
-Mut ist für mich deshalb nicht Lautstärke. Mut heißt, Unsicherheit offen auszusprechen. Einen Einwand zu formulieren, obwohl er unbequem ist. Eine Idee in der Realität zu testen, obwohl noch nicht klar ist, ob sie trägt. Und auch einen Fehler sichtbar zu machen, bevor ihn jemand anderes entdeckt.
+**In flow:** which routines, decision paths and feedback loops help right now — or slow things down?
 
-Ausprobieren ist für mich dabei weder Chaos noch blindes Losrennen. Es ist sauberes Lernen unter Unsicherheit.
+**Human:** which expectations, tensions, uncertainties or trust questions are also in the room?
 
-Wenn wir etwas als Experiment machen, will ich vorher ein paar Dinge geklärt haben:
+When a team delivers slowly, that is almost never just a delivery topic for me. Maybe there are too many handovers. Maybe priorities are unclear. Maybe decisions are missing. Maybe every change costs too much because the technical foundation has become too heavy.
 
-- Welche Annahme testen wir eigentlich?
-- Woran erkennen wir, ob es funktioniert oder nicht?
-- Wie groß ist der Rahmen?
-- Welches Risiko ist dabei vertretbar?
-- Wer entscheidet, ob wir abbrechen, weitermachen oder ausrollen?
-- Wie bringen wir das Gelernte zurück ins Team oder ins System?
+When quality suffers, I do not just ask about tests. I also ask: do we even have a shared understanding of what good quality means here? Is there room to insist on quality? Or is it only demanded, but pushed aside again and again in everyday work?
 
-Wenn diese Punkte klar sind, dann ist Ausprobieren oft vernünftiger als lange Planung auf Basis von Annahmen, die nie getestet wurden.
+When an incident happens — that is, a serious problem in production — I do not just look at the technical trigger. I also look at how ownership is lived, how well alerting works, whether documentation helps, and whether people dare to say stop early enough.
+
+That is why good solutions, for me, must fit on several levels. They have to make technical sense, work in the operating model, and function for the people in everyday work.
 
 ---
 
-<a id="entscheidungen"></a>
-## 8. Nicht jede Entscheidung braucht Zustimmung von allen
+## 6. Technical principles of modern software development
 
-Ich halte wenig davon, für jede Entscheidung vollen Konsens zu verlangen.
+Alongside leadership, clarity, responsibility and learning, there are also a few technical fundamentals for me, without which modern software development does not work well in the long run.
 
-Auf den ersten Blick klingt das vernünftig: Alle sollen einverstanden sein, niemand soll übergangen werden. In der Praxis führt das aber oft dazu, dass Entscheidungen sehr lange dauern, weichgespült werden oder am Ende niemand mehr wirklich Verantwortung dafür übernimmt.
+The first point for me is: **Software must remain changeable.**
+A system is not good just because it works today. It is good when you can still change it tomorrow with reasonable effort. When every small adjustment becomes risky, expensive or slow, then it is not a stable system, but one that is hard to move.
 
-Darum arbeite ich gedanklich lieber mit einer einfachen Unterscheidung:
+The second point is: **Simplicity is a quality attribute.**
+I think little of confusing complexity with professionalism. For me, good solutions are not the most impressive ones, but the ones that solve the problem cleanly while remaining understandable to others. Complexity cannot always be avoided. But it should be entered into deliberately, not produced out of habit.
 
-**Konsens** heißt: Alle sind dafür.
+The third point is: **Automation beats manual heroics.**
+When quality, security or delivery depend on individual people being especially attentive, that is too fragile in the long run. Repeatable quality needs clean automation. That includes, for me, builds, tests, checks, deployments and technical guardrails that hold reliably without needing to be remembered every time.
 
-**Konsent** heißt: Niemand hat einen schwerwiegenden, gut begründeten Einwand.
+The fourth point is: **Operations is part of development.**
+Software is not done for me when the code is merged. It also has to be sustainable in real production. That includes observability, sensible alerting, traceable logs, clear ownership and the ability to understand and respond cleanly to problems in production quickly.
 
-Gerade bei Entscheidungen, die man später wieder ändern kann, ist das ein großer Unterschied. Wenn niemand einen guten Grund hat, klar dagegen zu sein, dann sollte man in einem sauberen Rahmen losgehen, Erfahrungen sammeln und danach besser entscheiden.
+The fifth point is: **Security does not belong at the end.**
+Security, for me, is not an add-on package laid on top of a system at some later point. It belongs in development from the start. Not as a pure compliance exercise, but as part of good technical work. Anyone who only considers security late almost always builds in unnecessary risks and expensive rework.
 
-Für mich ist das nicht leichtsinnig. Im Gegenteil. Es ist oft die erwachsenere Art, mit Unsicherheit umzugehen.
+The sixth point is: **Better to deliver in small, clean steps than in large risky packages.**
+Large releases often create more uncertainty, more coordination effort and more risk. Small, well-understood changes are usually easier to review, easier to roll back and easier to learn from. That makes systems more flexible over time — and fits directly with what I described above as an agile mindset.
 
-Ich unterscheide Entscheidungen grob in vier Gruppen:
+The seventh point is: **Architectural decisions must be deliberate and traceable.**
+Architecture must not be merely the by-product of individual implementations. Important technical decisions in particular must remain understandable: why did we choose this path? What problem were we trying to solve? What consequences does it have for other teams, for operations or for later changes? That is exactly why things like ADRs are so important to me.
 
-- kleine Entscheidungen, die leicht rückgängig zu machen sind
-- größere Entscheidungen, die man in einem klaren Rahmen testen kann
-- teure oder schwer rückgängig zu machende Entscheidungen
-- Entscheidungen, die kulturell oder strukturell besonders wichtig sind
+The eighth point is: **Product context and technology must not drift apart.**
+Technical decisions, for me, are strong when you can still recognise which business problem they were actually meant to solve. When that connection is lost, technically clean but functionally inappropriate solutions emerge quickly. Good software development therefore deliberately connects product understanding and technical implementation.
 
-Viele Organisationen machen hier denselben Fehler: Kleine Dinge werden viel zu groß gemacht. Große Dinge werden zu locker entschieden.
-
-Mich interessiert bei Entscheidungen aber nicht nur das offizielle Verfahren. Mich interessiert auch, warum Entscheidungen in einer Organisation so laufen, wie sie laufen.
-
-Wenn alles in großen Runden besprochen werden muss, steckt oft fehlender Entscheidungsraum dahinter. Wenn ständig nach oben eskaliert wird, steckt oft Unsicherheit oder fehlender Schutz dahinter. Wenn Manager jedes letzte Go geben müssen, ist das meist kein echtes Empowerment.
-
-Darum braucht eine gute Entscheidung aus meiner Sicht immer zwei Dinge: eine passende Art zu entscheiden und ein Umfeld, in dem Menschen diese Art auch wirklich leben können.
+In the end, modern software development is not a collection of individual methods for me. It is the interplay of good technology, clear responsibility, learning teams, clean operations and an operating model that makes change possible instead of constantly making it harder.
 
 ---
 
-<a id="fuehrung"></a>
-## 9. Führung heißt für mich, gute Bedingungen zu schaffen
+## 7. Trust decides how well a system really works
 
-Ich verstehe Führung nicht als Dauerpräsenz, als Motivationsshow oder als ständige Einmischung in operative Themen.
+An important part of my career was that I was allowed to take responsibility early. Even in situations where I did not yet know everything. I was given decision space, allowed to try things out, made mistakes and learned from them. Some mistakes were expensive. It was precisely through that experience that I understood what good leadership in difficult moments really means.
 
-Ich glaube auch nicht, dass Führungskräfte Menschen im engeren Sinn motivieren. Echte Motivation entsteht meistens aus der Arbeit selbst. Aus Sinn. Aus Entwicklung. Aus echter Verantwortung. Und aus dem Gefühl, mit der eigenen Arbeit etwas zu bewirken.
+Trust does not show itself when everything is calm. Trust shows itself when something goes wrong.
 
-Meine Aufgabe als Führungskraft ist deshalb vor allem, gute Bedingungen zu schaffen.
+For me, trust is not a nice extra. It directly determines how well a team or organisation really functions.
 
-Das heißt für mich konkret:
+In an environment with trust, problems are raised earlier. People are more likely to ask for help. Risks are named more clearly. Decisions are more likely to be made where the best context sits.
 
-- Klarheit schaffen
-- Reibung senken
-- Hindernisse aus dem Weg räumen
-- gute Abstimmung ermöglichen
-- Verantwortung mit echtem Entscheidungsraum verbinden
-- Teams schützen, wenn Druck von außen entsteht
-- Entwicklung ermöglichen, statt nur Leistung einzufordern
+In an environment without trust, the opposite often happens. People formulate more cautiously. They cover themselves more. They escalate upwards earlier, not because it is necessary, but because it feels safer. Bad news is softened in language or delivered later. From the outside, this sometimes looks like slowness. In truth, the system is protecting itself from unpleasant consequences.
 
-Ich halte mich nicht dann für wirksam, wenn alles über meinen Tisch läuft. Eher im Gegenteil.
+That is why, when mistakes happen, the question of blame is not what interests me first. What interests me first is:
 
-Ich sehe mich dann als erfolgreich, wenn mein Team mich im Alltag immer weniger braucht. Nicht weil ich unwichtig bin, sondern weil das Team seinen Weg kennt, Verantwortung tragen kann und Probleme selbst sauber bearbeitet.
+* What happened?
+* Why did it happen?
+* What does that say about the system?
+* And what do we learn from it?
 
-Das heißt nicht, dass ich verschwinde. Es heißt, dass sich meine Rolle verändert.
+Questions I then ask myself include:
 
-Ich bin dann weniger die operative Engstelle und mehr Rückhalt, Sparringspartner, Brückenbauer über Teamgrenzen hinweg, Übersetzer nach außen und jemand, der Bedingungen gestaltet.
+* Was the problem recognised and openly named early?
+* Does the person themselves understand how it came about?
+* Which conditions made the mistake more likely?
+* Would someone else in the same situation have perhaps acted similarly?
+* What signal are we sending right now to everyone else who is watching this case?
 
-Eine einfache Frage ist für mich dabei sehr ehrlich: Wie gut läuft es weiter, wenn ich für einige Wochen nicht da bin?
+Trust does not mean for me that everything stays without consequences. There are situations in which something has to be named clearly. There are decisions that are not sustainable. And there is behaviour that does not fit lastingly and has to be corrected.
 
-Wenn dann alles ins Stocken gerät, habe ich keine gute Führung aufgebaut, sondern Abhängigkeit. Wenn das System weiterläuft, vielleicht etwas langsamer, aber stabil, dann ist etwas Gutes entstanden.
+But I deliberately separate consequence from reflex.
 
----
+Letting people fall right after an honest mistake often looks clear and tough. In reality, it is mostly just the fastest way to seemingly get rid of responsibility. For the system, this is almost always expensive. Because everyone else is learning in that moment too. They are learning whether early openness is safe or dangerous.
 
-<a id="reife-teams"></a>
-## 10. Wenn Teams stärker werden, verändert sich meine Rolle
+When people learn that honesty is risky, problems become visible later. And that is what eventually becomes really expensive.
 
-Ein starkes Team braucht nicht keine Führung mehr. Es braucht eine andere Art von Führung.
-
-In frühen Phasen braucht es oft mehr direkte Steuerung. Prioritäten müssen klarer gesetzt werden. Konflikte müssen moderiert werden. Entscheidungen brauchen mehr Rahmen. Unsicherheit muss stärker eingeordnet werden.
-
-Wenn ein Team reifer wird, verändert sich diese Arbeit. Dann geht es weniger um tägliche Steuerung und mehr darum, das Umfeld gesund zu halten.
-
-In dieser Phase tue ich vor allem Dinge, die Teams selten allein gut absichern können:
-
-- Ich schütze das Team vor unnötiger Reibung.
-- Ich mache gute Arbeit nach innen und außen sichtbar.
-- Ich sorge dafür, dass Erfolge nicht sofort untergehen.
-- Ich halte die Verbindung über Teamgrenzen hinweg aktiv.
-- Ich übersetze nach außen, was das Team tut, warum es das so tut und was es braucht.
-- Ich gebe Rückhalt, wenn es schwierig wird.
-- Ich öffne Räume für Entwicklung, bevor aus Stabilität irgendwann Stillstand wird.
-
-Gerade in dieser Phase muss Führung diszipliniert sein. Denn die Versuchung ist groß, sich wieder in operative Themen einzumischen. Dort bekommt man schnelles Feedback. Dort fühlt man sich sofort wieder gebraucht.
-
-Aber genau das kann ein Team wieder schwächer machen. Wenn ein Team gute Entscheidungen selbst treffen kann, sollte ich mich nicht unnötig dazwischenschieben.
-
-Für mich ist das eine der schwierigsten, aber auch eine der besten Formen von Führung: weniger sichtbar, aber oft mit mehr Wirkung.
+That is why trust, for me, is not a soft topic. It is an investment in the working capacity of a team and an organisation.
 
 ---
 
-<a id="lernen"></a>
-## 11. Lernen muss im System ankommen
+## 8. I expect thinking along, courage and clean experimentation
 
-Ich glaube nicht an Organisationen, die auf Dauer nur deshalb funktionieren, weil dort ein paar besonders starke Leute alles tragen.
+I do not want people to simply work through tasks. I expect them to think along.
 
-So etwas wirkt von außen oft stabil. In Wirklichkeit ist es meistens fragil. Denn sobald eine dieser Personen weg ist, krank wird oder das Team wechselt, merkt man sehr schnell, wie viel Wissen nie wirklich im System war.
+Thinking along, for me, does not mean that everyone has to have an opinion on everything. It also does not mean that every decision is constantly questioned anew. For me, this is something very practical.
 
-Darum ist mir ein Unterschied besonders wichtig.
+Thinking along means:
 
-**Individuelles Lernen** bedeutet: Eine Person hat etwas verstanden, gelöst oder über die Zeit gemeistert.
+* understanding the context
+* questioning assumptions when something does not feel coherent
+* thinking through consequences for other teams, operations or later changes
+* seeing possible alternatives
+* honestly naming the limits of one's own knowledge
+* and, in case of doubt, even saying just before a deployment: "we should not deploy like this."
 
-**Lernen im System** bedeutet: Dieses Wissen bleibt nicht bei einer Person hängen. Andere können es nutzen. Es fließt in Standards, Reviews, Zusammenarbeit, Entscheidungen und in die Art ein, wie ein Team arbeitet.
+Especially in complex engineering environments, pure execution is not enough. Many important decisions emerge directly where the work is happening: in the code, in alignment, in a review, in an operational situation. When no one thinks along at this point, decisions become worse. Or they get pushed upwards even though they do not belong there. Both make teams and systems slow.
 
-Wenn eine Organisation nur auf persönliches Lernen setzt, macht sie dieselben Fehler später oft noch einmal, nur mit anderen Leuten. Wenn Lernen dagegen im System ankommt, wird die Organisation mit der Zeit wirklich besser.
+For thinking along to happen at all, however, the right environment is needed. Questions and objections must not be treated like disturbances. Teams notice very quickly whether their thoughts are really welcome. They also notice whether someone gets backing when they raise a risk early, or whether that person ends up standing alone.
 
-Für mich passiert das nicht abstrakt, sondern an sehr konkreten Stellen im Alltag: in guten Code-Reviews, in ehrlichen Retrospektiven und Postmortems, in Pairing und gemeinsamer Problemlösung, in klaren Standards, in sauberem Feedback und in der bewussten Weitergabe von Erfahrungswissen.
+For me, something quite fundamental belongs to good engineering: developers must be able to point out gross technical or domain errors, even when that error comes from me. And they must be able to do so without fear of being put in their place hierarchically. Good engineering, for me, shows itself precisely at such points. In the end, the best solution should win, not the solution from the best-paid or highest-ranking person.
 
-Gerade Feedback ist mir dabei besonders wichtig. Nicht als HR-Maßnahme, sondern als Teil echter Zusammenarbeit. Gutes Feedback ist konkret, zeitnah und bezieht sich auf Verhalten, Entscheidungen oder Arbeitsweise, nicht auf den Wert einer Person. Und es darf nicht nur von oben nach unten laufen. Es muss auch zwischen Peers, zwischen Teams und von Teams an Führung möglich sein.
+Courage, for me, is therefore not loudness. Courage means openly speaking out uncertainty. Formulating an objection even though it is uncomfortable. Testing an idea in reality even when it is not yet clear whether it holds. And making a mistake visible before someone else discovers it.
 
-Lernen braucht aber mehr als gute Absichten. Es braucht die richtigen Bedingungen. Wenn Kalender vollgestopft sind, Fehler sofort bestraft werden, Wissen zurückgehalten wird oder Reviews nur noch formale Freigaben sind, dann wird Lernen im Alltag fast unmöglich. Dann redet man zwar darüber, besser zu werden, baut aber die Bedingungen dafür nicht.
+Experimentation, for me, is neither chaos nor blind running. It is clean learning under uncertainty — which is exactly what an agile mindset means in everyday work.
 
-Deshalb reicht es aus meiner Sicht nicht, Lernen nur zu fordern. Man muss es konkret in die Arbeitsweise einbauen.
+When we do something as an experiment, I want a few things clarified beforehand:
 
-Ein Format, das ich dafür bewusst nutze, sind **Service-Deep-Dives**. Dabei wird jeder Service nach einer gemeinsamen Struktur dokumentiert. Nicht irgendwie, sondern so, dass alle Services nach derselben Logik beschrieben sind. Dazu gehören fachlicher Zweck, technische Bausteine, Abhängigkeiten, Betriebsaspekte, bekannte Risiken, offene Themen und wichtige Entscheidungen.
+* What assumption are we actually testing?
+* How will we recognise whether it works or not?
+* How big is the frame?
+* What risk is acceptable?
+* Who decides whether we abort, continue or roll out?
+* How do we bring what we learnt back to the team or to the system?
 
-Der große Vorteil ist: Wissen wird dadurch vergleichbar, auffindbar und für andere nutzbar. Neue Entwickler können sich viel schneller orientieren. Onboarding wird einfacher. Diskussionen werden konkreter. Und solche Deep-Dives sind auch eine sehr gute Grundlage für Hackathons, interne Verbesserungsrunden oder gezielte technische Analysen, weil alle mit derselben Sicht auf einen Service starten.
-
-Ein zweites wichtiges Instrument sind für mich **ADRs pro Service**, direkt im Repository. Damit dokumentieren wir Architektur- und Designentscheidungen nicht irgendwo separat, sondern nah am Code. Für mich geht es dabei nicht darum, dass Entwickler sich rechtfertigen müssen. Es geht darum, dass Entscheidungen später noch nachvollziehbar sind: Was war das Problem? Welche fachliche Anforderung stand dahinter? Welche Optionen gab es? Warum wurde genau dieser Weg gewählt?
-
-Das hilft auf mehreren Ebenen. Erstens bleibt der Code selbst sauber, weil nicht jede größere Entscheidung in impliziten Kommentaren oder verstreuten Erklärungen versteckt werden muss. Zweitens wird die Historie verständlich. Man kann später noch erkennen, warum etwas so gebaut wurde und in welchem fachlichen Kontext die Entscheidung entstanden ist. Drittens entsteht damit eine belastbare Wissensbasis, auf die später auch Automatisierung aufsetzen kann. Außerdem ist es ein gutes Mittel, um die Produkt-Ebene mit der Engineering-Ebene zu verbinden.
-
-Genau darin sehe ich einen wichtigen Hebel für die Zukunft. Wenn Entscheidungen, Fachkontext und technische Begründungen sauber dokumentiert sind, können Werkzeuge später deutlich besser unterstützen, zum Beispiel bei Analyse, Dokumentation oder Generierung von fachlich passenderen Lösungen. Ohne diesen Kontext produzieren Automatisierungen oft nur formal richtigen, aber inhaltlich schwachen Code. Mit sauberem Entscheidungswissen im System steigt die Chance, dass solche Werkzeuge wirklich nützlich werden.
+When these points are clear, then experimentation is often more sensible than long planning based on assumptions that have never been tested.
 
 ---
 
-*Letzte Aktualisierung: April 2026*
+## 9. Not every decision needs everyone's agreement
+
+I think little of demanding full consensus for every decision.
+
+At first glance, that sounds reasonable: everyone should agree, no one should be overruled. In practice, however, it often leads to decisions taking very long, getting watered down, or in the end no one really taking responsibility for them anymore.
+
+That is why I prefer to work mentally with a simple distinction:
+
+**Consensus** means: everyone is in favour.
+
+**Consent** means: no one has a serious, well-founded objection.
+
+Especially for decisions that can be changed later, that is a big difference. When no one has a good reason to be clearly against it, then in a clean frame you should just go, gather experience, and decide better afterwards.
+
+For me, this is not careless. On the contrary. It is often the more grown-up way of dealing with uncertainty — and it fits with the agile attitude of learning in small steps instead of debating in large rounds.
+
+I roughly distinguish decisions into four groups:
+
+* small decisions that are easy to reverse
+* larger decisions that can be tested in a clear frame
+* expensive or hard-to-reverse decisions
+* decisions that are particularly important culturally or structurally
+
+Many organisations make the same mistake here: small things are made far too big. Big things are decided too loosely.
+
+When it comes to decisions, however, it is not just the official procedure that interests me. I am also interested in why decisions in an organisation run the way they do.
+
+When everything has to be discussed in large rounds, there is often a lack of decision space behind it. When everything is constantly escalated upwards, there is often uncertainty or a lack of protection behind it. When managers have to give every last go-ahead, that is mostly not real empowerment.
+
+That is why a good decision, in my view, always needs two things: a fitting way to decide, and an operating model in which people can actually live that way.
+
+---
+
+## 10. Leadership as a people leader: creating good conditions, developing people
+
+I understand my role first and foremost as that of a people leader. That means: before I think about architecture, delivery or roadmaps, I think about the people who carry this work — about their strengths, their development, their workload, their goals, and the conditions under which they really become effective.
+
+Concretely, that means for me:
+
+**Hiring is a leadership task**, not an HR obligation. Who I bring into the team shapes the culture and the technical depth of the next years. I take honest time for that, check not just skills but also attitude and fit with the team, and give candidates the same respect I would expect from my own application experience.
+
+**Coaching and development belong in everyday work**, not in annual review meetings. I give concrete feedback in a timely way and not in a saved-up appointment. I accompany development topics continuously, not on a fixed half-yearly cadence.
+
+**Career paths are individual.** Not every strong person has to become a manager. Some unfold their greatest impact as a technical expert, others as a bridge-builder, others as a coach. My job is to make these paths visible and accompany them realistically — even when the path leads out of my own area.
+
+**Performance conversations are honest, but never humiliating.** When something does not fit, I say so early, clearly and concretely. But in a way that the person remains capable of acting, keeps their dignity, and sees a way forward.
+
+**I treat people differently because they are different.** What motivates one person overwhelms another. What protects one limits another. Equal treatment is not the goal — fairness and individual effectiveness are.
+
+**I protect my team when pressure comes from outside** — and I confront it when something is going wrong inside. Both belong together. A team that is only protected but never challenged becomes weaker over time.
+
+I do not believe that managers motivate people in the narrow sense. Real motivation usually emerges from the work itself. From meaning. From development. From real responsibility. And from the feeling of having an impact through one's own work.
+
+My task as a leader, therefore, is above all to create good conditions.
+
+For me, that concretely means:
+
+* creating clarity
+* reducing friction
+* removing obstacles
+* enabling good alignment
+* connecting responsibility with real decision space
+* protecting teams when external pressure builds up
+* enabling development instead of only demanding performance
+
+I do not consider myself effective when everything runs across my desk. Rather the opposite.
+
+I see myself as successful when my team needs me less and less in everyday work. Not because I am unimportant, but because the team knows its way, can carry responsibility and works through problems cleanly itself.
+
+That does not mean I disappear. It means my role changes.
+
+I am then less the operational bottleneck and more a backstop, sparring partner, bridge-builder across team boundaries, translator outwards, and someone who shapes conditions.
+
+A simple question is very honest for me here: how well does it continue when I am not there for a few weeks?
+
+If everything stalls then, I have not built good leadership but dependency. If the system continues, perhaps a bit more slowly but stably, then something good has emerged.
+
+---
+
+## 11. As teams grow stronger, my role changes
+
+A strong team does not need no leadership anymore. It needs a different kind of leadership.
+
+In early phases, more direct steering is often needed. Priorities have to be set more clearly. Conflicts have to be moderated. Decisions need more frame. Uncertainty has to be put in context more strongly.
+
+When a team becomes more mature, this work changes. Then it is less about daily steering and more about keeping the environment healthy.
+
+In this phase, I mainly do things that teams rarely safeguard well on their own:
+
+* I protect the team from unnecessary friction.
+* I make good work visible inwards and outwards.
+* I make sure that successes do not vanish immediately.
+* I keep the connection across team boundaries active.
+* I translate outwards what the team is doing, why it does it that way, and what it needs.
+* I provide backing when things become difficult.
+* I open spaces for development before stability eventually turns into stagnation.
+
+In this phase in particular, leadership has to be disciplined. Because the temptation is great to get involved in operational topics again. There you get fast feedback. There you immediately feel needed again.
+
+But that is exactly what can make a team weaker again. When a team can make good decisions itself, I should not unnecessarily push myself in between.
+
+For me, this is one of the most difficult, but also one of the best forms of leadership: less visible, but often with more impact.
+
+---
+
+## 12. Learning has to land in the system
+
+I do not believe in organisations that function in the long run only because a few particularly strong people carry everything.
+
+Such things often look stable from the outside. In reality, they are mostly fragile. Because as soon as one of these people is gone, falls ill or changes team, you notice very quickly how much knowledge was never really in the system.
+
+That is why a distinction is particularly important to me.
+
+**Individual learning** means: a person has understood, solved, or mastered something over time.
+
+**Learning in the system** means: this knowledge does not stay with one person. Others can use it. It flows into standards, reviews, collaboration, decisions and the way a team works — that is, directly into the operating model.
+
+When an organisation only relies on personal learning, it often makes the same mistakes later, just with different people. When learning lands in the system, however, the organisation really gets better over time.
+
+For me, this does not happen abstractly, but at very concrete points in everyday work: in good code reviews, in honest retrospectives and postmortems, in pairing and joint problem-solving, in clear standards, in clean feedback, and in the deliberate passing on of experiential knowledge.
+
+Feedback in particular is especially important to me here. Not as an HR measure, but as part of real collaboration. Good feedback is concrete, timely, and refers to behaviour, decisions or ways of working — not to the worth of a person. And it must not only run from top to bottom. It must also be possible between peers, between teams and from teams to leadership.
+
+Learning needs more than good intentions, however. It needs the right conditions. When calendars are stuffed, mistakes are punished immediately, knowledge is held back, or reviews are only formal sign-offs anymore, then learning becomes almost impossible in everyday work. Then people talk about getting better, but they do not build the conditions for it.
+
+That is why, in my view, it is not enough just to demand learning. You have to build it concretely into the way of working.
+
+One format I deliberately use for this is **service deep dives**. In these, every service is documented along a shared structure. Not just somehow, but in such a way that all services are described according to the same logic. This includes business purpose, technical building blocks, dependencies, operational aspects, known risks, open topics and important decisions.
+
+The big advantage is: knowledge becomes comparable, findable and usable for others. New developers can orient themselves much faster. Onboarding becomes easier. Discussions become more concrete. And such deep dives are also a very good basis for hackathons, internal improvement rounds or targeted technical analyses, because everyone starts with the same view of a service.
+
+A second important instrument for me are **ADRs per service**, directly in the repository. With these we document architectural and design decisions not somewhere separately, but close to the code. For me, this is not about developers having to justify themselves. It is about decisions remaining traceable later: what was the problem? Which business requirement was behind it? Which options were there? Why was exactly this path chosen?
+
+That helps on several levels. First, the code itself stays clean, because not every major decision has to be hidden in implicit comments or scattered explanations. Second, the history becomes understandable. You can later still recognise why something was built the way it was, and in which business context the decision emerged. Third, this creates a robust knowledge base that automation can later build on as well. It is also a good means of connecting the product level with the engineering level.
+
+Precisely there, I see an important lever for the future. When decisions, business context and technical justifications are cleanly documented, tools can later support significantly better — for example in analysis, documentation or generation of more contextually fitting solutions. Without this context, automation often produces only formally correct but substantively weak code. With clean decision knowledge in the system, the chance increases that such tools really become useful.
+
+---
+
+*Last updated: April 2026*
