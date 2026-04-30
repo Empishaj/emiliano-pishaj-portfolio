@@ -2,7 +2,6 @@
 
 | Feld       | Wert                                        |
 |------------|---------------------------------------------|
-| Status     | ✅ Akzeptiert                               |
 | Java       | 21 · Gatling 3.x · Spring Boot 3.x          |
 | Datum      | 2024-01-01                                  |
 | Kategorie  | Testing / Performance                       |
@@ -197,16 +196,9 @@ public class OrderTotalBenchmark {
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **Immer P95 und P99 messen**, nicht nur Durchschnitt — Durchschnitt versteckt Ausreißer.
 - **Isolierte Umgebung**: Load-Tests gegen Staging, niemals Produktion.
 - **Datenbank-State beachten**: Load-Test mit leerem Cache ergibt andere Ergebnisse als warmer Cache.
 - **Bottleneck identifizieren**: Gatling zeigt Symptome. Ursache: JFR (JVM), EXPLAIN ANALYZE (DB), Jaeger (Traces).
-
----
-
-## Verwandte ADRs
-
-- [ADR-017](ADR-017-observability-logging-tracing.md) — Metriken während Load-Test überwachen.
-- [ADR-043](ADR-043-jvm-tuning-hikaricp.md) — JVM und Connection Pool unter Last kalibrieren.

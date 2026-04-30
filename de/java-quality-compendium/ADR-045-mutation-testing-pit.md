@@ -2,7 +2,6 @@
 
 | Feld       | Wert                                        |
 |------------|---------------------------------------------|
-| Status     | ✅ Akzeptiert                               |
 | Java       | 21 · JUnit 5 · PIT 1.15+                   |
 | Datum      | 2024-01-01                                  |
 | Kategorie  | Testing / Qualitätssicherung                |
@@ -185,17 +184,9 @@ Empfehlung: 80% als CI-Gate
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **Nicht auf 100% optimieren** — ab ~85% werden die verbleibenden Mutanten oft äquivalent.
 - **Selektiv ausführen**: `./gradlew pitest --targetClasses "com.example.domain.Order*"` für spezifische Klassen.
 - **PIT + Parametrisierte Tests** (→ ADR-014): `@ParameterizedTest` mit Grenzwerten tötet Boundary-Mutanten systematisch.
 - **Coverage ≠ Mutation Score**: Ein Projekt mit 95% Coverage und 50% Mutation Score hat schlechte Tests.
-
----
-
-## Verwandte ADRs
-
-- [ADR-010](ADR-010-junit-grundlagen-struktur.md) — Testqualität durch gute Assertions (→ tötet Mutanten).
-- [ADR-014](ADR-014-parametrisierte-tests.md) — Grenzwerte systematisch testen → Boundary-Mutanten töten.
-- [ADR-012](ADR-012-assertions-assertj.md) — Fehlende Assertions = überlebende Mutanten.

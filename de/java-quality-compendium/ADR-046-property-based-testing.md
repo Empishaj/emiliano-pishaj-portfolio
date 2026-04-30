@@ -2,7 +2,6 @@
 
 | Feld       | Wert                                        |
 |------------|---------------------------------------------|
-| Status     | ✅ Akzeptiert                               |
 | Java       | 21 · JUnit 5 · jqwik 1.8+                  |
 | Datum      | 2024-01-01                                  |
 | Kategorie  | Testing / Testmethodik                      |
@@ -211,16 +210,9 @@ Property-Based (jqwik @Property):
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **Starte mit Round-Trip-Properties**: Serialisierung, Parsing, Encoding/Decoding — einfach zu formulieren, findet viele Bugs.
 - **Seed fixieren** für reproduzierbare CI-Fehler: `@Property(seed = 42L)` — reproduziert exakt denselben Zufalls-Stream.
 - **`@Report(Reporting.GENERATED)` für Debugging**: zeigt alle generierten Werte.
 - **Property-Tests ergänzen Beispiel-Tests** — sie ersetzen sie nicht. Beide haben ihre Stärken.
-
----
-
-## Verwandte ADRs
-
-- [ADR-014](ADR-014-parametrisierte-tests.md) — Parametrisierte Tests für bekannte Varianten.
-- [ADR-045](ADR-045-mutation-testing-pit.md) — Mutation Testing + Property-Based = maximale Abdeckung.
