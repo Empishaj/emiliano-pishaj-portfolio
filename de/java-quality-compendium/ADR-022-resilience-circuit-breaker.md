@@ -2,9 +2,8 @@
 
 | Feld       | Wert                                              |
 |------------|---------------------------------------------------|
-| Status     | ✅ Akzeptiert                                     |
 | Java       | 21 · Spring Boot 3.x · Resilience4j 2.x          |
-| Datum      | 2024-01-01                                        |
+| Datum      | 2024-09-23                                       |
 | Kategorie  | Resilience / Architektur                          |
 
 ---
@@ -17,7 +16,7 @@ In verteilten Systemen scheitern externe Aufrufe. Ein Netzwerk-Timeout, ein übe
 
 ## Regel 1 — Timeout: Immer, ohne Ausnahme
 
-### ❌ Schlecht — kein Timeout
+### Schlecht — kein Timeout
 
 ```java
 // RestTemplate ohne Timeout — ein hängender Service blockiert den Thread für immer
@@ -33,7 +32,7 @@ WebClient.builder()
 List<Order> findAll();
 ```
 
-### ✅ Gut — überall Timeouts konfigurieren
+### Gut — überall Timeouts konfigurieren
 
 ```java
 // RestClient (Spring Boot 3.2+) mit Timeout
@@ -62,7 +61,7 @@ List<Order> findExpensiveQuery();
 
 ## Regel 2 — Retry: Mit Backoff, nicht naiv
 
-### ❌ Schlecht — naive Retry-Schleife
+### Schlecht — naive Retry-Schleife
 
 ```java
 // Ohne Backoff: bei 100 Instanzen feuern alle gleichzeitig → Thundering Herd
@@ -77,7 +76,7 @@ for (int i = 0; i < 3; i++) {
 throw new PaymentException("Retry exhausted");
 ```
 
-### ✅ Gut — Resilience4j Retry mit exponentialem Backoff
+### Gut — Resilience4j Retry mit exponentialem Backoff
 
 ```java
 // application.yml
@@ -239,16 +238,9 @@ void charge_retriesOnTimeout_andSucceedsOnThirdAttempt() {
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **Idempotenz bei Retry**: Nur idempotente Operationen dürfen automatisch retryed werden (GET, DELETE, idempotente POST mit Idempotency-Key — → ADR-021).
 - **Fachliche Fehler nicht retrien**: `PaymentDeclinedException` ist kein transienter Fehler — Retry ändert nichts, nervt nur den Upstream.
 - **Resilience4j Metrics** sind automatisch in Micrometer integriert — Circuit-Breaker-Status ist in Grafana sichtbar (→ ADR-017).
 - **Chaos Engineering**: Resilience-Verhalten mit Chaos Monkey for Spring Boot testen.
-
----
-
-## Verwandte ADRs
-
-- [ADR-017](ADR-017-observability-logging-tracing.md) — Resilience-Ereignisse loggen und messen.
-- [ADR-021](ADR-021-rest-api-design.md) — Idempotency Keys für sichere Retries.

@@ -2,7 +2,6 @@
 
 | Feld       | Wert                                              |
 |------------|---------------------------------------------------|
-| Status     | ✅ Akzeptiert                                     |
 | Java       | 21 · Spring Boot 3.x                             |
 | Datum      | 2024-01-01                                        |
 | Kategorie  | API Design                                        |
@@ -17,7 +16,7 @@ Eine REST-API ist ein öffentlicher Vertrag. Schlechtes API-Design ist schwer zu
 
 ## Regel 1 — URL-Konventionen: Ressourcen, keine Aktionen
 
-### ❌ Schlecht — RPC-Style mit Verben in URLs
+### Schlecht — RPC-Style mit Verben in URLs
 
 ```
 POST /api/createOrder
@@ -28,7 +27,7 @@ GET  /api/getAllActiveUsers
 POST /api/doPayment
 ```
 
-### ✅ Gut — REST-Ressourcen mit HTTP-Verben
+### Gut — REST-Ressourcen mit HTTP-Verben
 
 ```
 POST   /api/v1/orders                    → Bestellung erstellen
@@ -47,7 +46,7 @@ GET    /api/v1/users/{id}/orders         → Bestellungen eines Users (Relation)
 
 ## Regel 2 — HTTP-Status-Codes: semantisch korrekt
 
-### ❌ Schlecht — alles 200, Fehler im Body
+### Schlecht — alles 200, Fehler im Body
 
 ```java
 // Anti-Pattern: HTTP 200 für alles, Fehler im Body versteckt
@@ -61,7 +60,7 @@ public ResponseEntity<Map<String, Object>> createOrder(@RequestBody CreateOrderR
 }
 ```
 
-### ✅ Gut — HTTP-Status-Codes als primäres Fehler-Signal
+### Gut — HTTP-Status-Codes als primäres Fehler-Signal
 
 ```java
 @RestController
@@ -235,17 +234,10 @@ public ResponseEntity<PaymentResponse> pay(
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **OpenAPI/Swagger** mit `springdoc-openapi` — automatisch generiert, immer aktuell.
 - **Immer `application/json` und `application/problem+json`** im `produces`/`consumes` angeben.
 - **HATEOAS** (Spring HATEOAS) für Hypermedia-Links wenn Consumer von URL-Struktur entkoppelt werden sollen.
 - **Keine sensitiven Daten in URLs** (Passwörter, Tokens) — landen in Logs und Browser-History.
-
----
-
-## Verwandte ADRs
-
-- [ADR-015](ADR-015-sicherheit-owasp.md) — Security auf API-Ebene.
-- [ADR-019](ADR-019-contract-testing.md) — Contract Tests sichern API-Kompatibilität.
-- [ADR-020](ADR-020-springboottest-slice-tests.md) — `@WebMvcTest` für Controller-Tests.
+ 

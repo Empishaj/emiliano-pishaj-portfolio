@@ -2,9 +2,8 @@
 
 | Feld       | Wert                          |
 |------------|-------------------------------|
-| Status     | ✅ Akzeptiert                 |
 | Java       | 21                            |
-| Datum      | 2024-01-01                    |
+| Datum      | 2023-12-02                    |
 | Kategorie  | Design-Prinzipien             |
 
 ---
@@ -19,7 +18,7 @@ SOLID ist kein Regelwerk das blind angewendet wird — es ist ein Diagnosewerkze
 
 **Eine Klasse hat genau einen Grund sich zu ändern.**
 
-### ❌ Schlecht
+### Schlecht
 
 ```java
 public class UserService {
@@ -31,7 +30,7 @@ public class UserService {
 }
 ```
 
-### ✅ Gut
+### Gut
 
 ```java
 @Service public class UserRegistrationService { /* nur: Registrierungsfluss */ }
@@ -48,7 +47,7 @@ public class UserService {
 
 **Offen für Erweiterung, geschlossen für Modifikation.**
 
-### ❌ Schlecht
+### Schlecht
 
 ```java
 // Jeder neue Rabatttyp erfordert Änderung dieser Methode
@@ -61,7 +60,7 @@ public BigDecimal calculateDiscount(Order order, String type) {
 }
 ```
 
-### ✅ Gut
+### Gut
 
 ```java
 // Strategie-Interface — geschlossen für Modifikation
@@ -94,7 +93,7 @@ public class DiscountService {
 
 **Subtypen müssen durch ihre Basistypen ersetzbar sein, ohne das Programm zu brechen.**
 
-### ❌ Schlecht
+### Schlecht
 
 ```java
 public class Rectangle {
@@ -118,7 +117,7 @@ void testArea(Rectangle r) {
 }
 ```
 
-### ✅ Gut
+### Gut
 
 ```java
 // Gemeinsames Interface nur mit Verhalten das beide teilen
@@ -144,7 +143,7 @@ public record Square(int side) implements Shape {
 
 **Clients sollen nicht von Interfaces abhängen die sie nicht nutzen.**
 
-### ❌ Schlecht
+### Schlecht
 
 ```java
 // Fettes Interface — Implementierer müssen alle Methoden anbieten
@@ -160,7 +159,7 @@ public interface UserRepository {
 // UserService muss alle 7 Methoden implementieren, obwohl er 3 braucht
 ```
 
-### ✅ Gut
+### Gut
 
 ```java
 // Fokussierte Interfaces — jeder Abnehmer bekommt genau was er braucht
@@ -197,7 +196,7 @@ public class UserService {
 
 **High-Level-Module hängen von Abstraktionen ab — nicht von konkreten Implementierungen.**
 
-### ❌ Schlecht
+### Schlecht
 
 ```java
 // UserService hängt direkt von konkreter MySQL-Implementierung ab
@@ -208,7 +207,7 @@ public class UserService {
 }
 ```
 
-### ✅ Gut
+### Gut
 
 ```java
 // UserService hängt von Abstraktionen ab
@@ -240,17 +239,9 @@ var service = new UserService(
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **SRP-Test**: Zähle die Abhängigkeiten. Mehr als 4–5 Konstruktor-Parameter? Verletzt fast immer SRP.
 - **OCP über Strategie oder Konfiguration**: Nicht jede Erweiterung braucht eine neue Klasse — manchmal reicht ein Konfigurationswert.
 - **LSP täglich anwenden**: Vor jeder Vererbung fragen: "Kann ich überall wo der Basistyp steht auch den Subtyp einsetzen?" Wenn nein: Komposition statt Vererbung (→ ADR-008).
 - **DIP ≠ DI-Framework**: Dependency Inversion ist ein Designprinzip. Dependency Injection (Spring) ist ein Mechanismus es umzusetzen.
-
----
-
-## Verwandte ADRs
-
-- [ADR-008](ADR-008-falsche-objektorientierung.md) — Komposition statt Vererbung (LSP-Verletzungen vermeiden).
-- [ADR-026](ADR-026-kiss-dry-yagni.md) — YAGNI verhindert spekulatives SOLID-Overengineering.
-- [ADR-027](ADR-027-entwurfsmuster-creational.md) — Erzeugungsmuster setzen DIP praktisch um.

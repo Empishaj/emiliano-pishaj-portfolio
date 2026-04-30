@@ -2,9 +2,8 @@
 
 | Feld       | Wert                                              |
 |------------|---------------------------------------------------|
-| Status     | ✅ Akzeptiert                                     |
 | Java       | 21 · Spring Boot 3.x                             |
-| Datum      | 2024-01-01                                        |
+| Datum      | 2026-02-21                                        |
 | Kategorie  | Architektur / Domain Design                       |
 
 ---
@@ -17,7 +16,7 @@ Ohne klare Domänenmodellierung wächst Software zur "Big Ball of Mud": alles h�
 
 ## Konzept 1 — Ubiquitous Language: Eine Sprache für Code und Gespräch
 
-### ❌ Schlecht — technische Namen statt Domänensprache
+### Schlecht — technische Namen statt Domänensprache
 
 ```java
 // Code spricht andere Sprache als die Domäne
@@ -35,7 +34,7 @@ public class UserDataProcessor {  // "Processor" ist technisch, nicht fachlich
 // Im Code steht DataRecord, OrderEntry, PurchaseObject, BuyRequest...
 ```
 
-### ✅ Gut — Code spiegelt die Domänensprache
+### Gut — Code spiegelt die Domänensprache
 
 ```java
 // Code klingt wie das fachliche Gespräch
@@ -59,7 +58,7 @@ order.ship();           // "Bestellung versenden"
 
 Ein Aggregate ist eine Gruppe von Objekten, die immer **konsistent** sein müssen. Das Aggregate-Root kontrolliert alle Änderungen.
 
-### ❌ Schlecht — kein Aggregate, direkte Manipulation
+### Schlecht — kein Aggregate, direkte Manipulation
 
 ```java
 // Direkte Manipulation von internen Objekten — Konsistenz unkontrollierbar
@@ -81,7 +80,7 @@ public class OrderItemService {
 }
 ```
 
-### ✅ Gut — Aggregate-Root kontrolliert alle Änderungen
+### Gut — Aggregate-Root kontrolliert alle Änderungen
 
 ```java
 // Order ist das Aggregate-Root — alle Änderungen gehen durch sie
@@ -127,7 +126,7 @@ public interface OrderRepository extends JpaRepository<Order, OrderId> { }
 
 Verschiedene Teile des Systems haben verschiedene Modelle desselben Konzepts — und das ist richtig so.
 
-### ❌ Schlecht — ein User-Objekt für alle Kontexte
+### Schlecht — ein User-Objekt für alle Kontexte
 
 ```java
 // Ein monolithisches User-Objekt das alles kann
@@ -159,7 +158,7 @@ public class User {
 // Jeder Service modifiziert dieses Objekt — niemand versteht mehr was was ist
 ```
 
-### ✅ Gut — jeder Bounded Context hat sein eigenes Modell
+### Gut — jeder Bounded Context hat sein eigenes Modell
 
 ```java
 // Identity Context: nur was für Authentication nötig ist
@@ -280,17 +279,9 @@ public record Money(BigDecimal amount, Currency currency) {
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **Event Storming**: Workshop-Format um Bounded Contexts und Domain Events gemeinsam mit Domänenexperten zu identifizieren.
 - **Repository pro Aggregate-Root**: Nie ein Repository für interne Aggregate-Objekte — das ist ein Zeichen für fehlende Kapselung.
 - **Anti-Corruption Layer (ACL)**: Wenn Kontext A Daten aus Kontext B braucht, niemals direkt das Modell von B übernehmen — Übersetzer-Schicht dazwischen.
 - **Starte nicht mit DDD**: Erst wenn die Domäne komplex genug ist. Für einfache CRUD-Anwendungen ist DDD Overengineering.
-
----
-
-## Verwandte ADRs
-
-- [ADR-008](ADR-008-falsche-objektorientierung.md) — Rich Domain Model (Verhalten beim Objekt).
-- [ADR-001](ADR-001-records-statt-javabeans.md) — Records für Value Objects.
-- [ADR-006](ADR-006-spring-boot-serviceschicht.md) — Services koordinieren, Domains entscheiden.

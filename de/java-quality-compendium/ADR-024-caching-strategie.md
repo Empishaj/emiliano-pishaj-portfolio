@@ -2,9 +2,8 @@
 
 | Feld       | Wert                                              |
 |------------|---------------------------------------------------|
-| Status     | ✅ Akzeptiert                                     |
 | Java       | 21 · Spring Boot 3.x · Caffeine · Redis           |
-| Datum      | 2024-01-01                                        |
+| Datum      | 2025-03-24                                       |
 | Kategorie  | Performance / Architektur                         |
 
 ---
@@ -31,7 +30,7 @@ Caching löst Performanceprobleme — aber falsch eingesetzt schafft es neue: ve
 
 ## Regel 1 — Cache-Abstraktionen: Spring Cache + Caffeine/Redis
 
-### ❌ Schlecht — manuelles Cache-Handling
+### Schlecht — manuelles Cache-Handling
 
 ```java
 @Service
@@ -56,7 +55,7 @@ public class ProductService {
 }
 ```
 
-### ✅ Gut — Spring Cache mit @Cacheable / @CacheEvict
+### Gut — Spring Cache mit @Cacheable / @CacheEvict
 
 ```java
 // application.yml (Caffeine für lokalen Cache):
@@ -258,17 +257,9 @@ public class RedisConfig {
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **Cache zuletzt**: Erst ohne Cache messen, dann gezielt cachen. Falsches Caching verdeckt Design-Probleme.
 - **Cache-Key-Design**: Keys müssen alle Variablen enthalten die das Ergebnis beeinflussen — vergessene Parameter führen zu falschen Cache-Treffern.
 - **Lokaler Cache vs. Redis**: Lokaler Caffeine-Cache ist 10–100x schneller als Redis-Netzwerkcall — für einzelne Instanzen bevorzugen. Redis wenn Cache über mehrere Instanzen geteilt werden muss.
 - **Cache-Warming**: Kritische Caches beim Start befüllen statt kalte Starts zu erleiden.
-
----
-
-## Verwandte ADRs
-
-- [ADR-017](ADR-017-observability-logging-tracing.md) — Cache-Metriken monitoren.
-- [ADR-016](ADR-016-datenbank-jpa-n-plus-eins.md) — Caching reduziert Datenbankdruck.
-- [ADR-015](ADR-015-sicherheit-owasp.md) — Was nicht gecacht werden darf (Credentials, Permissions).
