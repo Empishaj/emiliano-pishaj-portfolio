@@ -3,7 +3,7 @@
 | Feld       | Wert                          |
 |------------|-------------------------------|
 | Java       | 17+ · JEP 409                 |
-| Datum      | 2024-01-01                    |
+| Datum      | 2024-03-12                    |
 | Kategorie  | Domain Design                 |
 
 ---
