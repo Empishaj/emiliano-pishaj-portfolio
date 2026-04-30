@@ -1,8 +1,7 @@
-# ADR-027 — Code Smells: Der vollständige Diagnosekatalog
+# ADR-027 — Code Smells: Diagnosekatalog
 
 | Feld       | Wert                          |
 |------------|-------------------------------|
-| Status     | ✅ Akzeptiert                 |
 | Java       | 21                            |
 | Datum      | 2024-01-01                    |
 | Kategorie  | Code Quality / Refactoring    |
@@ -114,7 +113,7 @@ public class UserService {
     public void notify(...)      { /* Push + SMS + Email */ }
 }
 
-// ✅ Separate Klassen, jede ändert sich aus einem Grund (→ ADR-025 SRP)
+//Separate Klassen, jede ändert sich aus einem Grund
 ```
 
 ---
@@ -131,7 +130,7 @@ void sendNotification(String email) { validateEmail(email); ... }
 void updateContact(String email) { validateEmail(email); ... }
 // validateEmail() ist an 47 Stellen aufgerufen
 
-// ✅ Email als Value Object — Validierung einmal, im Typ (→ ADR-008, ADR-026 DRY)
+//Email als Value Object — Validierung einmal, im Typ 
 public record Email(String value) {
     public Email { /* Validierung hier und nur hier */ }
 }
@@ -292,17 +291,10 @@ Code-Smell erkannt?
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **Smells sind kumulativ**: Ein Smell allein schadet kaum. Drei Smells in derselben Klasse — dann wird Refactoring dringend.
 - **Smells vor Features fixen**: "Boy Scout Rule" — hinterlasse den Code sauberer als du ihn vorgefunden hast. Kleines Refactoring bei jedem Commit.
 - **SonarQube / SpotBugs** automatisiert Smell-Erkennung im CI-Pipeline.
 - **Refactoring ≠ Rewrite**: Refactoring ist eine schrittweise Verbesserung mit laufenden Tests — kein "Big Bang" Umbau.
 
----
-
-## Verwandte ADRs
-
-- [ADR-025](ADR-025-solid-prinzipien.md) — SOLID als Gegenmittel für die meisten Smells.
-- [ADR-026](ADR-026-kiss-dry-yagni-demeter.md) — KISS/DRY/YAGNI für spezifische Smells.
-- [ADR-008](ADR-008-falsche-objektorientierung.md) — OOP-Fehler die oft Smells erzeugen.

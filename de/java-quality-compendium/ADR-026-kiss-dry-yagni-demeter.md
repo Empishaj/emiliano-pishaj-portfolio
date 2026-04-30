@@ -2,9 +2,8 @@
 
 | Feld       | Wert                          |
 |------------|-------------------------------|
-| Status     | ✅ Akzeptiert                 |
 | Java       | 21                            |
-| Datum      | 2024-01-01                    |
+| Datum      | 2023-05-17                    |
 | Kategorie  | Design-Prinzipien             |
 
 ---
@@ -13,7 +12,7 @@
 
 **Die einfachste Lösung die funktioniert ist die richtige.**
 
-### ❌ Schlecht — überengineerte Lösung für ein triviales Problem
+### Schlecht — überengineerte Lösung für ein triviales Problem
 
 ```java
 // Für eine Liste von 5 konfigurierten Strings:
@@ -31,7 +30,7 @@ public class ConfigurationRegistry {
 }
 ```
 
-### ✅ Gut — so einfach wie möglich
+### Gut — so einfach wie möglich
 
 ```java
 // application.yml: feature.flags: [FLAG_A, FLAG_B, FLAG_C]
@@ -55,7 +54,7 @@ public record FeatureConfig(List<String> flags) {}
 
 **Jedes Stück Wissen hat eine einzige, eindeutige, maßgebliche Darstellung im System.**
 
-### ❌ Schlecht — Wissen dupliziert
+### Schlecht — Wissen dupliziert
 
 ```java
 // Validierungslogik an drei verschiedenen Orten
@@ -85,7 +84,7 @@ public class UserRepository {
 }
 ```
 
-### ✅ Gut — Wissen einmal, am richtigen Ort
+### Gut — Wissen einmal, am richtigen Ort
 
 ```java
 // Validierung einmal: im Record-Konstruktor (der "Single Source of Truth")
@@ -115,7 +114,7 @@ public record CreateUserRequest(@NotNull Email email, @NotBlank String name) {}
 
 **Implementiere nichts was aktuell nicht gebraucht wird.**
 
-### ❌ Schlecht — spekulative Generalisierung
+### Schlecht — spekulative Generalisierung
 
 ```java
 // Aufgabe: Benutzer-Email aus DB lesen und zurückgeben
@@ -132,7 +131,7 @@ public interface DataFetcher<T, ID, CTX, OPT> {
 // → Alle diese Fälle existieren NICHT. Jetzt wird alles wartungsaufwändiger.
 ```
 
-### ✅ Gut — nur was jetzt gebraucht wird
+### Gut — nur was jetzt gebraucht wird
 
 ```java
 // Aufgabe ist: Email aus DB lesen
@@ -161,7 +160,7 @@ public interface UserRepository extends JpaRepository<UserEntity, Long> {
 
 **Nie**: Methoden von Objekten die durch Methodenaufrufe zurückgeliefert werden (`a.getB().getC().doSomething()`).
 
-### ❌ Schlecht — Train Wreck / Message Chain
+### Schlecht — Train Wreck / Message Chain
 
 ```java
 // Drei Ebenen tief — enge Kopplung an interne Struktur
@@ -185,7 +184,7 @@ public class OrderPrinter {
 // Enge Kopplung über 3 Ebenen.
 ```
 
-### ✅ Gut — Verhalten delegieren, nicht Daten holen
+### Gut — Verhalten delegieren, nicht Daten holen
 
 ```java
 // Order kennt ihre eigene Lieferadresse
@@ -234,15 +233,8 @@ user.grantAdminAccessIfEligible(); // User kennt seine eigene Logik
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **AHA-Principle** (Avoid Hasty Abstractions): Erst ab der dritten Wiederholung abstrahieren — nicht beim zweiten Mal. Zwei ähnliche Stellen können zufällig ähnlich sein.
 - **YAGNI vs. SOLID**: SOLID sagt "halte es offen für Erweiterung". YAGNI sagt "aber implementiere die Erweiterung erst wenn sie gebraucht wird". Kein Widerspruch — aber im Zweifel zuerst YAGNI.
 - **Law of Demeter im Review**: Mehr als zwei `.` in einer Methodenkette? Als Warnsignal markieren.
-
----
-
-## Verwandte ADRs
-
-- [ADR-025](ADR-025-solid-prinzipien.md) — SOLID als ergänzendes Fundament.
-- [ADR-008](ADR-008-falsche-objektorientierung.md) — Tell don't ask als OOP-Grundprinzip.
