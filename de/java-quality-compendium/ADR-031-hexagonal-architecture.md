@@ -2,7 +2,6 @@
 
 | Feld       | Wert                              |
 |------------|-----------------------------------|
-| Status     | ✅ Akzeptiert                     |
 | Java       | 21 · Spring Boot 3.x              |
 | Datum      | 2024-01-01                        |
 | Kategorie  | Architektur                       |
@@ -31,7 +30,7 @@ Die Domain kennt niemanden außer sich selbst
 
 ---
 
-## ❌ Schlecht — Framework-Details in der Domäne
+## Schlecht — Framework-Details in der Domäne
 
 ```java
 // Domain-Entity: voller JPA-Annotationen — kein Test ohne Spring-Context
@@ -64,7 +63,7 @@ public class OrderService {
 
 ---
 
-## ✅ Gut — Hexagonale Struktur
+## Gut — Hexagonale Struktur
 
 ### Paketstruktur
 
@@ -273,7 +272,7 @@ class OrderDomainServiceTest {
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **Ports sind Interfaces** — niemals Klassen. Sie sind der Vertrag zwischen Domain und Außenwelt.
 - **Mapper-Klassen** für Domain ↔ Persistence: MapStruct (→ ADR-011) spart Boilerplate.
@@ -285,11 +284,3 @@ class OrderDomainServiceTest {
       .because("ADR-031: Domain kennt keine Adapter");
   ```
 - **Spring-Annotationen auf Adapter beschränken**: `@Service`, `@Repository`, `@Component` — nie in `domain/`.
-
----
-
-## Verwandte ADRs
-
-- [ADR-025](ADR-025-solid-prinzipien.md) — DIP ist das Fundament der Hexagonalen Architektur.
-- [ADR-023](ADR-023-domain-driven-design.md) — DDD + Hexagonal ergänzen sich.
-- [ADR-009](ADR-009-clean-code-adrs-im-quellcode.md) — ArchUnit sichert Abhängigkeitsregel.

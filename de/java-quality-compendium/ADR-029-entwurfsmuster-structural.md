@@ -2,7 +2,6 @@
 
 | Feld       | Wert                          |
 |------------|-------------------------------|
-| Status     | ✅ Akzeptiert                 |
 | Java       | 21                            |
 | Datum      | 2024-01-01                    |
 | Kategorie  | Design Patterns / GoF         |
@@ -308,17 +307,9 @@ var smsOrderNotification   = new OrderNotification(smsSender);
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **Spring AOP ist Proxy/Decorator**: `@Transactional`, `@Cacheable`, `@Secured` sind Decorators die Spring automatisch als Proxies umsetzt.
 - **Facade ≠ God Service**: Eine Facade delegiert — sie implementiert keine Business-Logik selbst.
 - **Decorator ist die saubere Alternative zu Vererbung** wenn neue Verhaltensaspekte hinzugefügt werden.
 - **Adapter als Anti-Corruption Layer** (→ ADR-023): Externe Systeme hinter einem Adapter kapseln — Domänencode nie direkt gegen externe APIs schreiben.
-
----
-
-## Verwandte ADRs
-
-- [ADR-028](ADR-028-entwurfsmuster-creational.md) — Erzeugungsmuster.
-- [ADR-030](ADR-030-entwurfsmuster-behavioral.md) — Verhaltensmuster.
-- [ADR-023](ADR-023-domain-driven-design.md) — Adapter als ACL in DDD.

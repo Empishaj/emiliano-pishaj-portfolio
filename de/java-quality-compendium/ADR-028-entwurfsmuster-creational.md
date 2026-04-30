@@ -2,7 +2,6 @@
 
 | Feld       | Wert                          |
 |------------|-------------------------------|
-| Status     | ✅ Akzeptiert                 |
 | Java       | 21                            |
 | Datum      | 2024-01-01                    |
 | Kategorie  | Design Patterns / GoF         |
@@ -34,7 +33,7 @@ public class NotificationSender {
 }
 ```
 
-### ✅ Gut — Factory Method
+### Gut — Factory Method
 
 ```java
 public interface Notification {
@@ -67,7 +66,7 @@ public class SpringNotificationFactory extends NotificationFactory {
 
 **Wann**: Ein Objekt hat viele optionale Parameter oder einen komplexen Konstruktionsprozess.
 
-### ❌ Schlecht — Teleskop-Konstruktoren
+### Schlecht — Teleskop-Konstruktoren
 
 ```java
 // Welche Parameter sind was? In welcher Reihenfolge?
@@ -76,7 +75,7 @@ new Order(userId, productId, quantity, shippingAddress,
 // 8 Parameter — unleserlich, fehleranfällig
 ```
 
-### ✅ Gut — Builder Pattern
+### Gut — Builder Pattern
 
 ```java
 // In Java 21: oft Records mit Builder-Methoden oder Lombok @Builder
@@ -138,7 +137,7 @@ var order = Order.forUser(userId)
 
 **Wann**: Genau eine Instanz einer Klasse soll existieren (z. B. Konfiguration, Registry).
 
-### ❌ Schlecht — klassisches Singleton mit statischer Methode
+### Schlecht — klassisches Singleton mit statischer Methode
 
 ```java
 // Probleme: nicht testbar, globaler Zustand, Thread-Safety fraglich
@@ -156,7 +155,7 @@ public class ConfigurationManager {
 }
 ```
 
-### ✅ Gut — Spring Bean ist das moderne Singleton
+### Gut — Spring Bean ist das moderne Singleton
 
 ```java
 // Spring verwaltet Lebenszeit — kein eigener Singleton-Code
@@ -262,16 +261,9 @@ public class PaymentService {
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **Builder in Java 21**: Für einfachere Fälle reichen Records mit `withX()`-Methoden. Builder explizit nur wenn Validierung im `build()`-Schritt nötig ist.
 - **Singleton ist nicht böse** — globaler veränderlicher Zustand ist böse. Ein zustandsloser Service als Singleton ist völlig korrekt.
 - **Factory Method vs. Abstract Factory**: Factory Method = ein Produkt, eine Entscheidung. Abstract Factory = eine Familie von Produkten, eine kohärente Gruppe.
 - **Lombok `@Builder`**: Spart Boilerplate, aber: keine Build-Zeit-Validierung, keine benannten Zwischenschritte.
-
----
-
-## Verwandte ADRs
-
-- [ADR-025](ADR-025-solid-prinzipien.md) — OCP: Erzeugungsmuster setzen OCP praktisch um.
-- [ADR-029](ADR-029-entwurfsmuster-structural.md) — Strukturmuster für die erzeugten Objekte.

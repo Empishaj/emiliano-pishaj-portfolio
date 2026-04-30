@@ -2,7 +2,6 @@
 
 | Feld       | Wert                          |
 |------------|-------------------------------|
-| Status     | ✅ Akzeptiert                 |
 | Java       | 21                            |
 | Datum      | 2024-01-01                    |
 | Kategorie  | Design Patterns / GoF         |
@@ -336,17 +335,9 @@ public class OrderTreeIterator implements Iterator<Order> {
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **Strategy mit Lambdas**: In Java 21 sind `@FunctionalInterface`-Strategien oft eleganter als Klassen.
 - **State mit Sealed Interface**: Das natürlichste Java-21-Pattern für State-Maschinen — der Compiler prüft Vollständigkeit.
 - **Chain of Responsibility in Spring**: Servlet Filter, Spring Security Filter, Interceptors — alles CoR.
 - **Template Method kritisch sehen**: Vererbung für Algorithmus-Varianten — oft besser durch Strategy ersetzbar (Komposition > Vererbung, → ADR-008).
-
----
-
-## Verwandte ADRs
-
-- [ADR-028](ADR-028-entwurfsmuster-creational.md) — Erzeugungsmuster.
-- [ADR-029](ADR-029-entwurfsmuster-structural.md) — Strukturmuster.
-- [ADR-002](ADR-002-sealed-classes-domaenentypen.md) — Sealed Interface für State Pattern.

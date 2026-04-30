@@ -2,7 +2,6 @@
 
 | Feld       | Wert                              |
 |------------|-----------------------------------|
-| Status     | ✅ Akzeptiert                     |
 | Java       | 21 · Spring Boot 3.x              |
 | Datum      | 2024-01-01                        |
 | Kategorie  | Architektur / Daten               |
@@ -60,7 +59,7 @@ public class UserService {
 
 ---
 
-## ✅ Gut — Command- und Query-Seite getrennt
+## Gut — Command- und Query-Seite getrennt
 
 ### Command-Seite: Domänenlogik, Transaktionen, Konsistenz
 
@@ -228,16 +227,8 @@ Stufe 3: Separate Datenbanken (mit Event Sourcing → ADR-033)
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **Stufe 1 immer**, Stufen 2/3 nur wenn Performance es erfordert.
 - **Command gibt minimal zurück**: Nur ID oder Confirmation — kein volles DTO. Wer das vollständige Objekt braucht, macht eine Query.
 - **CQS auf Methoden-Ebene** (Command Query Separation, Bertrand Meyer): Methoden die etwas tun (Commands) geben nichts zurück. Methoden die etwas zurückgeben (Queries) verändern keinen Zustand.
-
----
-
-## Verwandte ADRs
-
-- [ADR-031](ADR-031-hexagonal-architecture.md) — Hexagonal Architecture als strukturelle Basis.
-- [ADR-033](ADR-033-event-sourcing.md) — Event Sourcing als Ergänzung für Stufe 3.
-- [ADR-016](ADR-016-datenbank-jpa-n-plus-eins.md) — Read-Projektionen lösen N+1-Probleme.
