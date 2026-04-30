@@ -3,7 +3,7 @@
 | Feld       | Wert                          |
 |------------|-------------------------------|
 | Java       | 15 · JEP 378                  |
-| Datum      | 2024-01-01                    |
+| Datum      | 2025-07-03                    |
 | Kategorie  | Clean Code / Lesbarkeit       |
 
 ---

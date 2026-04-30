@@ -3,7 +3,7 @@
 | Feld       | Wert                              |
 |------------|-----------------------------------|
 | Java       | 21 · Spring Boot 3.2+             |
-| Datum      | 2024-01-01                        |
+| Datum      | 2025-08-22                        |
 | Kategorie  | Spring Boot / Architektur         |
 
 ---
