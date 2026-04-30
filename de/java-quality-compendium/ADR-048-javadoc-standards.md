@@ -2,7 +2,6 @@
 
 | Feld       | Wert                              |
 |------------|-----------------------------------|
-| Status     | ✅ Akzeptiert                     |
 | Java       | 21                                |
 | Datum      | 2024-01-01                        |
 | Kategorie  | Dokumentation / Clean Code        |
@@ -225,16 +224,10 @@ public void deactivateUser(Long id) {
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **`{@code}` statt `<code>`**: `{@code List<String>}` statt `<code>List&lt;String&gt;</code>`.
 - **`{@link}`** für Querverweise: `{@link UserNotFoundException}` erzeugt klickbaren Link.
 - **`{@inheritDoc}`** in Überschreibungen wenn Vertrag identisch mit Elternklasse.
 - **Nie in JavaDoc commiten mit `@author`-Tags**: Git-History ist die Autorenliste.
-
----
-
-## Verwandte ADRs
-
-- [ADR-009](ADR-009-clean-code-adrs-im-quellcode.md) — ADR-Referenzen in JavaDoc.
-- [ADR-026](ADR-026-kiss-dry-yagni-demeter.md) — KISS: Kein JavaDoc wo Code sich selbst erklärt.
+ 

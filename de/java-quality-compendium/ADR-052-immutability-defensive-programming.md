@@ -2,7 +2,6 @@
 
 | Feld       | Wert                          |
 |------------|-------------------------------|
-| Status     | ✅ Akzeptiert                 |
 | Java       | 21                            |
 | Datum      | 2024-01-01                    |
 | Kategorie  | Design-Prinzipien / Sicherheit|
@@ -213,17 +212,10 @@ public Money calculateTotal(final List<OrderItem> items) {
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **Records first**: Wenn ein Objekt Daten trägt und sich nicht ändern soll → Record. Spart alle defensiven Patterns automatisch.
 - **`List.copyOf()`** statt `Collections.unmodifiableList()` wenn echte Isolation nötig.
 - **Fail-Fast in Konstruktoren**: Validierung im Konstruktor stellt sicher dass kein invalides Objekt existieren kann — nicht erst bei Verwendung.
 - **`final` auf alle Felder** als Default — nur bei wirklicher Mutation explizit weglassen und kommentieren warum.
-
----
-
-## Verwandte ADRs
-
-- [ADR-001](ADR-001-records-statt-javabeans.md) — Records als immutable Standardtyp.
-- [ADR-033](ADR-033-thread-safety-concurrency.md) — Immutability als Thread-Safety-Garantie.
-- [ADR-008](ADR-008-falsche-objektorientierung.md) — Primitive Obsession → Value Objects → Immutability.
+ 

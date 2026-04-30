@@ -2,7 +2,6 @@
 
 | Feld       | Wert                              |
 |------------|-----------------------------------|
-| Status     | ✅ Akzeptiert                     |
 | Java       | 21 · Structurizr · PlantUML       |
 | Datum      | 2024-01-01                        |
 | Kategorie  | Dokumentation / Architektur       |
@@ -249,16 +248,10 @@ orderDomainService = component "OrderDomainService" {
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **Nicht alle Level immer zeigen**: Level 1 für Stakeholder, Level 2 für Dev-Teams, Level 3 nur für komplexe Services.
 - **"Living Architecture"**: `workspace.dsl` ins Repository, Rendering in CI → immer aktuell in GitHub Pages.
 - **Entscheidungen ≠ Beschreibung**: C4 beschreibt was ist. ADRs (→ ADR-009) erklären warum.
 - **Structurizr Lite** für lokale Entwicklung: `docker run -p 8080:8080 structurizr/lite`.
-
----
-
-## Verwandte ADRs
-
-- [ADR-009](ADR-009-clean-code-adrs-im-quellcode.md) — ADRs im Code — C4 als Übersichtsdokumentation.
-- [ADR-031](ADR-031-hexagonal-architecture.md) — Hexagonal Architecture im C4-Komponentendiagramm sichtbar.
+ 

@@ -2,7 +2,6 @@
 
 | Feld       | Wert                                              |
 |------------|---------------------------------------------------|
-| Status     | ✅ Akzeptiert                                     |
 | Java       | 21 · Prometheus · Grafana · AlertManager          |
 | Datum      | 2024-01-01                                        |
 | Kategorie  | Observability / Operations                        |
@@ -279,16 +278,10 @@ management:
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **Alert auf Symptome, nicht Ursachen**: `ErrorRateHigh` statt `DatabaseConnectionPoolFull` — ersteres ist für User sichtbar.
 - **Silence-Windows** in AlertManager für geplante Wartungsfenster.
 - **Post-Mortem ohne Schuld**: Jedes P0/P1-Incident hat ein blameless Post-Mortem — Systemproblem, nie Menschenproblem.
 - **Amixr / PagerDuty** für Eskalations-Ketten und On-Call-Rotation.
-
----
-
-## Verwandte ADRs
-
-- [ADR-017](ADR-017-observability-logging-tracing.md) — Metriken als Grundlage für SLIs.
-- [ADR-044](ADR-044-load-performance-testing.md) — Load Tests validieren SLOs vorab.
+ 

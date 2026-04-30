@@ -2,7 +2,6 @@
 
 | Feld       | Wert                              |
 |------------|-----------------------------------|
-| Status     | ✅ Akzeptiert                     |
 | Java       | 21                                |
 | Datum      | 2024-01-01                        |
 | Kategorie  | Team-Kultur / Prozess             |
@@ -196,16 +195,10 @@ restrictions:
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **Boy Scout Rule im Review**: "War es besser oder schlechter als vor diesem PR?" — das ist die Messlatte.
 - **Synchrones Code Review** für komplexe Änderungen: 30 Minuten paired Review erspart asynchrones Ping-Pong.
 - **`CODEOWNERS`-Datei**: definiert wer bei Änderungen an bestimmten Pfaden automatisch als Reviewer zugewiesen wird.
 - **Lob explizit machen**: `[praise] Elegante Lösung mit dem Strategy Pattern!` — gutes Design soll positiv verstärkt werden.
-
----
-
-## Verwandte ADRs
-
-- [ADR-009](ADR-009-clean-code-adrs-im-quellcode.md) — ADR-Referenzen sind Review-Pflicht.
-- [ADR-036](ADR-036-devops-cicd.md) — CI-Pipeline muss grün sein bevor Merge erlaubt.
+ 

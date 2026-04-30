@@ -2,7 +2,6 @@
 
 | Feld       | Wert                              |
 |------------|-----------------------------------|
-| Status     | ✅ Akzeptiert                     |
 | Java       | 21                                |
 | Datum      | 2024-01-01                        |
 | Kategorie  | Team-Kultur / Prozess             |
@@ -147,17 +146,10 @@ Große Refactorings → eigener PR mit eigenem Review.
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **DoD sichtbar machen**: Checkliste als PR-Template (→ ADR-049) — nicht im Kopf.
 - **"Definition of Ready"** ergänzt DoD: Was muss ein Ticket haben bevor es in den Sprint kommt? (Akzeptanzkriterien, Designs, ADR-Referenzen).
 - **SonarQube Quality Gate** als technischer DoD-Enforcer: PR kann nicht gemerged werden wenn Quality Gate rot.
 - **Tech Debt ist kein Fehler** — manchmal die richtige Entscheidung. Aber: bewusst, dokumentiert, mit Rückzahlungsplan.
-
----
-
-## Verwandte ADRs
-
-- [ADR-036](ADR-036-devops-cicd.md) — CI/CD als automatischer DoD-Prüfer.
-- [ADR-049](ADR-049-code-review-prozess.md) — Code Review als menschlicher DoD-Prüfer.
-- [ADR-009](ADR-009-clean-code-adrs-im-quellcode.md) — ADRs dokumentieren Schulden und Entscheidungen.
+ 

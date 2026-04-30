@@ -2,7 +2,6 @@
 
 | Feld       | Wert                                              |
 |------------|---------------------------------------------------|
-| Status     | ✅ Akzeptiert                                     |
 | Java       | 21 · Spring Boot 3.x · Spring for GraphQL         |
 | Datum      | 2024-01-01                                        |
 | Kategorie  | API Design                                        |
@@ -251,17 +250,10 @@ public class GraphQlConfig {
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **Persisted Queries**: Client sendet Query-Hash statt Query-String → kleinere Requests, besser cachebar.
 - **`@DgsComponent`** (Netflix DGS) als Alternative zu Spring for GraphQL — mehr Annotations, ähnliche Konzepte.
 - **Apollo Sandbox** für lokale Schema-Erkundung: besser als GraphiQL.
 - **Schema Stitching mit Subgraphs**: Federation (Apollo) wenn mehrere Teams eigene GraphQL-Services haben.
-
----
-
-## Verwandte ADRs
-
-- [ADR-021](ADR-021-rest-api-design.md) — REST vs. GraphQL: bewusste Entscheidung.
-- [ADR-016](ADR-016-datenbank-jpa-n-plus-eins.md) — DataLoader löst N+1 wie JOIN FETCH.
-- [ADR-019](ADR-019-contract-testing.md) — Schema als Contract.
+ 

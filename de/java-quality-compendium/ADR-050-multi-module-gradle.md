@@ -2,7 +2,6 @@
 
 | Feld       | Wert                              |
 |------------|-----------------------------------|
-| Status     | ✅ Akzeptiert                     |
 | Java       | 21 · Gradle 8.x                   |
 | Datum      | 2024-01-01                        |
 | Kategorie  | Build / Architektur               |
@@ -295,17 +294,10 @@ class ModuleDependencyTest {
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **`./gradlew dependencies --configuration runtimeClasspath`**: zeigt den vollständigen Abhängigkeitsbaum.
 - **`./gradlew :domain:test`**: Tests nur für ein einzelnes Modul ausführen — schnell.
 - **Gradle Build Scan**: `./gradlew build --scan` → interaktiver Build-Report in der Cloud.
 - **Version Catalog in der IDE**: IntelliJ 2023+ unterstützt `libs.versions.toml` mit Autocomplete.
-
----
-
-## Verwandte ADRs
-
-- [ADR-031](ADR-031-hexagonal-architecture.md) — Modulstruktur spiegelt Hexagonal Architecture.
-- [ADR-009](ADR-009-clean-code-adrs-im-quellcode.md) — ArchUnit prüft Modul-Abhängigkeiten.
-- [ADR-036](ADR-036-devops-cicd.md) — CI nutzt inkrementellen Gradle-Build.
+ 
