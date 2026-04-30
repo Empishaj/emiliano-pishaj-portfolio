@@ -2,13 +2,8 @@
 
 | Feld              | Wert                                                          |
 |-------------------|---------------------------------------------------------------|
-| Status            | ✅ Akzeptiert                                                 |
-| Entscheider       | Architektur-Board                                             |
 | Datum             | 2024-01-01                                                    |
-| Review-Datum      | 2025-01-01                                                    |
 | Kategorie         | Messaging · Schema-Management · Kompatibilität                |
-| Betroffene Teams  | Alle Teams die Kafka-Events produzieren oder konsumieren      |
-| Abhängigkeiten    | ADR-041 (Kafka), ADR-095 (AsyncAPI), ADR-097 (DLQ)           |
 
 ---
 
@@ -340,28 +335,9 @@ public void onOrderPlaced(OrderPlacedEvent event) {
 
 ---
 
-## 11. Akzeptanzkriterien
-
-- [ ] Alle Kafka-Event-Schemas als `.avsc`-Dateien im Repository
-- [ ] `AUTO_REGISTER_SCHEMAS=false`: Schemas müssen vor Deploy registriert sein
-- [ ] CI prüft Kompatibilität bevor Deploy (Schema Compatibility Check)
-- [ ] Kompatibilitätsmodus: `BACKWARD_TRANSITIVE` für alle Topics
-- [ ] Breaking-Change-Migration-Prozess dokumentiert (neues Topic, dual-write, deprecate)
-- [ ] Schema Registry in Kubernetes mit Prometheus-Monitoring
-
----
-
 ## Quellen & Referenzen
 
 - **Confluent Documentation, "Schema Registry"** — vollständige Referenz. docs.confluent.io
 - **Martin Kleppmann, "Designing Data-Intensive Applications" (2017), Kap. 4** — Avro, Thrift, Protobuf Schema-Evolution.
 - **Neha Narkhede, Gwen Shapira, Todd Palino, "Kafka: The Definitive Guide" (2022)** — Schema Registry und Avro-Integration.
-
----
-
-## Verwandte ADRs
-
-- [ADR-041](ADR-041-event-driven-kafka.md) — Kafka-Grundkonfiguration
-- [ADR-095](ADR-095-asyncapi-specification.md) — AsyncAPI als Gesamtdokumentation
-- [ADR-097](ADR-097-dead-letter-queue.md) — DLQ für Schema-Fehler
-- [ADR-110](ADR-110-api-deprecation.md) — Breaking-Change-Prozess (auch für Events)
+ 

@@ -2,13 +2,8 @@
 
 | Feld              | Wert                                                          |
 |-------------------|---------------------------------------------------------------|
-| Status            | ✅ Akzeptiert                                                 |
-| Entscheider       | CTO / Architektur-Board / Security-Team                       |
-| Datum             | 2024-01-01                                                    |
-| Review-Datum      | 2025-01-01                                                    |
+| Datum             | 2025-12-21                                                    |
 | Kategorie         | Code-Qualität · SAST · Security · Wartbarkeit                 |
-| Betroffene Teams  | Alle Engineering-Teams                                        |
-| Abhängigkeiten    | ADR-036 (CI/CD), ADR-015 (OWASP), ADR-049 (Code Review)       |
 
 ---
 
@@ -1652,7 +1647,7 @@ quality:sonarqube:
 
 ---
 
-## 10. Was SonarQube NICHT schützt — Klare Grenzen
+## 10. Was SonarQube NICHT schützt
 
 ```
 ╔══════════════════════════════════════════════════════════════════════════╗
@@ -1781,102 +1776,7 @@ Ohne die anderen Schichten hat man kein vollständiges Sicherheitsbild.
 ```
 
 ---
-
-## 11. Alternativen & Warum sie abgelehnt wurden
-
-| Alternative | Stärken | Schwächen | Ablehnungsgrund |
-|---|---|---|---|
-| Nur Checkstyle | Einfach, null Overhead | Nur Code-Stil, kein Security, kein Dashboard | Zu oberflächlich für Sicherheitsanforderungen |
-| Nur SpotBugs | Gute Bug-Erkennung | Kein Dashboard, kein Quality Gate, veraltet | Kein Trend-Tracking, kein CI-Gate als Standard |
-| PMD | Viele Regeln | Schlechtere Taint-Analyse, weniger Sprachen | SonarQube signifikant präziser und moderner |
-| Semgrep | Sehr flexibel, schnell | Kein Coverage-Tracking, kein zentrales Dashboard | Fehlende Projekt-Metriken für Managementreporting |
-| SonarCloud SaaS | Kein eigener Server | Quellcode geht zu Drittanbieter | DSGVO-Bedenken für sensiblen Produktionscode |
-| Nichts | Kein Aufwand, keine Kosten | Keine Qualitätssicherung | Technische Schulden akkumulieren unkontrolliert |
-
----
-
-## 12. Trade-off-Matrix
-
-| Qualitätsziel | SonarQube (gewählt) | Nur SpotBugs | Nur Checkstyle |
-|---|---|---|---|
-| Security-Erkennung (SAST) | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐ |
-| Code-Qualitäts-Metriken | ⭐⭐⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐ |
-| CI/CD-Integration | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
-| Custom-Rules-Fähigkeit | ⭐⭐⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐ |
-| Trend-Tracking | ⭐⭐⭐⭐⭐ | ⭐ | ⭐ |
-| Initialer Setup-Aufwand | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
-| Infrastruktur-Overhead | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
-
----
-
-## 13. Kosten-Nutzen-Analyse
-
-```
-Initiale Kosten:
-  SonarQube Community Server (Docker-Setup):          0.5 PT
-  CI/CD-Integration (pom.xml + .gitlab-ci.yml):       1 PT
-  Quality Profile konfigurieren:                      1 PT
-  Initiale Issues beheben (typisch 300–800 Issues):  10–25 PT
-  Custom-Rules-Plugin (3–5 Regeln):                   5 PT
-  Team-Schulung (½ Tag):                              1 PT
-  GESAMT:                                           18–34 PT ≈ 11.000–22.000 EUR
-
-Laufende Kosten:
-  Neue Issues in neuem Code beheben:               ~8% Entwicklungszeit
-  Quality-Profile-Pflege:                          2 PT / Jahr
-  SonarQube-Server Infrastruktur:                  ~50 EUR / Monat (Docker)
-
-Verhinderte Kosten:
-  1 verhinderte SQL-Injection (Incident + DSGVO):  50.000–500.000 EUR
-  Frühe Fehlerbeseitigung (vs. Produktion):        10× günstiger
-  Reduzierter Code-Review-Aufwand (-30%):          ~40 PT/Jahr → 25.600 EUR/Jahr
-  Weniger technische Schulden im Zeitverlauf:      schwer quantifizierbar,
-                                                    aber typisch: 2 Sprints/Jahr gespart
-
-Break-Even: nach dem ersten verhinderten Security-Incident (< 6 Monate)
-```
-
----
-
-## 14. Konsequenzen
-
-**Sofort:**
-- SonarQube-Server deployen (Docker Compose oder Kubernetes)
-- CI-Pipeline um Sonar-Stage erweitern
-- SONAR_TOKEN als Protected + Masked CI-Variable setzen
-- Eigenes Quality Profile erstellen (Kopie von "Sonar way")
-
-**Mittelfristig (3–6 Monate):**
-- Alle BLOCKER/CRITICAL Issues im Bestandscode als Jira-Tickets erfassen
-- Custom-Rules-Plugin für unternehmens-spezifische Regeln entwickeln
-- Quality Gate schrittweise verschärfen (Baseline erst großzügig, dann enger)
-
-**Langfristig:**
-- Upgrade auf Developer Edition evaluieren (wenn Branch-Analyse nötig)
-- Trend-Reports quartalsweise im Engineering-Meeting präsentieren
-- Custom Rules erweitern wenn neue Architektur-Muster eingeführt werden
-
-**Risiken:**
-- Initialer Issue-Berg demotiviert Teams: Mitigation: Quality Gate nur auf "New Code"
-- False Positives frustrieren: Mitigation: klarer Prozess für "Won't Fix"-Markierung
-- Plugin-Kompatibilität nach SonarQube-Upgrade: Mitigation: Plugin-Tests im CI
-
----
-
-## 15. Akzeptanzkriterien
-
-- [ ] SonarQube-Server läuft und ist unter HTTPS erreichbar
-- [ ] CI-Pipeline schlägt fehl wenn Quality Gate FAILED (`allow_failure: false`)
-- [ ] `sonar.qualitygate.wait=true` ist gesetzt (nicht asyncrones Gate)
-- [ ] `SONAR_TOKEN` ist Protected + Masked Variable in GitLab CI Settings
-- [ ] Eigenes Quality Profile "Company Java Rules" ist Default für alle Java-Projekte
-- [ ] `sonar.exclusions` deckt generierten Code ab (Avro, OpenAPI, JAXB-Klassen)
-- [ ] Custom-Rules-Plugin deployed: mindestens COMPANY001 (@Transactional-Regel) aktiv
-- [ ] Team kennt den Unterschied: Vulnerability vs. Hotspot vs. Bug vs. Code Smell
-- [ ] Alle BLOCKER-Issues im Bestandscode haben Jira-Ticket mit Priorität P1
-- [ ] Coverage für neuen Code ≥ 80% (Quality Gate erzwingt das)
-
----
+ 
 
 ## Quellen & Referenzen
 
@@ -1886,14 +1786,3 @@ Break-Even: nach dem ersten verhinderten Security-Incident (< 6 Monate)
 - **CWE (Common Weakness Enumeration)** — Basis-Taxonomie vieler SonarQube-Regeln. cwe.mitre.org
 - **NIST, "SAST Tools" (SP 800-218)** — NIST-Empfehlungen für statische Analyse im SSDF.
 - **Freddy Mallet & Simon Brandhof, "Continuous Inspection" (2009)** — Konzept-Artikel der SonarQube-Gründer. SonarSource Blog.
-
----
-
-## Verwandte ADRs
-
-- [ADR-015](ADR-015-sicherheit-owasp.md) — OWASP (SonarQube deckt SAST-Anteil ab)
-- [ADR-036](ADR-036-devops-cicd.md) — CI/CD-Pipeline (Sonar als Quality-Stage)
-- [ADR-049](ADR-049-code-review-prozess.md) — Code Review (Sonar ergänzt, nicht ersetzt)
-- [ADR-057](ADR-057-sbom-dependency-auditing.md) — SCA (OWASP DC für Library-CVEs)
-- [ADR-080](ADR-080-gitlab-pipeline-devsecops.md) — DevSecOps (Sonar als SAST-Stufe)
-- [ADR-106](ADR-106-data-masking-pseudonymisierung.md) — PII (Custom Rule COMPANY002)
