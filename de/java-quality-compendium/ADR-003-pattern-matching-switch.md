@@ -3,7 +3,7 @@
 | Feld       | Wert                          |
 |------------|-------------------------------|
 | Java       | 21 · JEP 441 (finalisiert)    |
-| Datum      | 2024-01-01                    |
+| Datum      | 2025-05-22                    |
 | Kategorie  | Language Pattern              |
 
 ---

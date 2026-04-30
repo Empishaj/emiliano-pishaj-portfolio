@@ -2,7 +2,6 @@
 
 | Feld       | Wert                          |
 |------------|-------------------------------|
-| Status     | ✅ Akzeptiert                 |
 | Java       | 17+ · JEP 409                 |
 | Datum      | 2024-01-01                    |
 | Kategorie  | Domain Design                 |
