@@ -2,7 +2,6 @@
 
 | Feld       | Wert                              |
 |------------|-----------------------------------|
-| Status     | ✅ Akzeptiert                     |
 | Java       | 21 · Spring Boot 3.x              |
 | Datum      | 2024-01-01                        |
 | Kategorie  | Performance / Operations          |
@@ -167,15 +166,9 @@ jcmd <PID> JFR.start duration=60s filename=/tmp/recording.jfr
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **`MaxRAMPercentage` statt `-Xmx`** in Containern: passt sich automatisch an Container-Limits an.
 - **`max-lifetime` < DB-Connection-Timeout**: wenn HikariCP länger als DB-Timeout hält, sind Connections beim nächsten Versuch tot.
 - **Metriken überwachen**: `hikaricp.connections.pending` > 0 → Pool zu klein. `hikaricp.connections.idle` > 80% → Pool zu groß.
-
----
-
-## Verwandte ADRs
-
-- [ADR-017](ADR-017-observability-logging-tracing.md) — HikariCP-Metriken in Micrometer.
-- [ADR-038](ADR-038-kubernetes.md) — Container-Limits als Basis für JVM-Sizing.
+ 

@@ -2,7 +2,6 @@
 
 | Feld       | Wert                              |
 |------------|-----------------------------------|
-| Status     | ✅ Akzeptiert                     |
 | Java       | 21 · GitHub Actions / GitLab CI   |
 | Datum      | 2024-01-01                        |
 | Kategorie  | DevOps / CI/CD                    |
@@ -266,17 +265,10 @@ dependencyCheck {
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **Fail Fast**: Schnelle Tests (Unit, Lint) zuerst — teure Tests (Integration, Security) nur wenn schnelle bestanden.
 - **Pipeline as Code**: `pipeline.yml` im Repository — versioniert, reviewbar, reproduzierbar.
 - **Branch Protection**: `main` darf nur via PR mit bestandener Pipeline merged werden. Kein direkter Push auf `main`.
 - **Secrets nie in Pipeline-Dateien**: `${{ secrets.NAME }}` aus GitHub Secrets / GitLab CI Variables.
-
----
-
-## Verwandte ADRs
-
-- [ADR-009](ADR-009-clean-code-adrs-im-quellcode.md) — ArchUnit in der Pipeline.
-- [ADR-037](ADR-037-docker-container.md) — Docker-Images die die Pipeline baut.
-- [ADR-038](ADR-038-kubernetes.md) — Kubernetes als Deploy-Ziel.
+ 

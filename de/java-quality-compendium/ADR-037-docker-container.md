@@ -2,7 +2,6 @@
 
 | Feld       | Wert                              |
 |------------|-----------------------------------|
-| Status     | ✅ Akzeptiert                     |
 | Java       | 21 · Spring Boot 3.x · Docker     |
 | Datum      | 2024-01-01                        |
 | Kategorie  | DevOps / Container                |
@@ -151,15 +150,9 @@ tasks.named<BootBuildImage>("bootBuildImage") {
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **Trivy** für Image-Vulnerability-Scanning in der CI-Pipeline: `trivy image my-image:latest`.
 - **Distroless Images** (gcr.io/distroless/java21) für minimale Angriffsfläche — kein Shell, kein Package-Manager.
 - **Image-Tag = Git-SHA** (→ ADR-036): niemals `latest` in Produktion.
-
----
-
-## Verwandte ADRs
-
-- [ADR-036](ADR-036-devops-cicd.md) — CI/CD baut und pusht das Image.
-- [ADR-038](ADR-038-kubernetes.md) — Kubernetes betreibt den Container.
+ 

@@ -2,7 +2,6 @@
 
 | Feld       | Wert                                              |
 |------------|---------------------------------------------------|
-| Status     | ✅ Akzeptiert                                     |
 | Java       | 21 · Spring Security 6.x · Spring Boot 3.x        |
 | Datum      | 2024-01-01                                        |
 | Kategorie  | Security / Authentication                         |
@@ -230,16 +229,10 @@ public class OrderSecurityService {
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **Audience-Claim pflichtweise prüfen** (`aud`): verhindert Token-Leakage zwischen Services.
 - **`@AuthenticationPrincipal Jwt`** in Controllern statt `SecurityContextHolder.getContext()` — typensicher und testbar.
 - **Key-Rotation**: Authorization Server rotiert JWKs regelmäßig — Spring Security aktualisiert JWK-Set automatisch.
 - **Nie JWT im LocalStorage** (XSS-Angriff). Bevorzugt: HttpOnly Cookie mit Secure-Flag.
-
----
-
-## Verwandte ADRs
-
-- [ADR-015](ADR-015-sicherheit-owasp.md) — OWASP-Prinzipien für die gesamte Security-Schicht.
-- [ADR-009](ADR-009-clean-code-adrs-im-quellcode.md) — ArchUnit: Controller dürfen JWT direkt lesen.
+ 

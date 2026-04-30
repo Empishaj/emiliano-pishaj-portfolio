@@ -2,9 +2,8 @@
 
 | Feld       | Wert                              |
 |------------|-----------------------------------|
-| Status     | ✅ Akzeptiert                     |
 | Java       | 21 · Spring Boot 3.x · Unleash/FF4J|
-| Datum      | 2024-01-01                        |
+| Datum      | 2023-02-23                        |
 | Kategorie  | DevOps / Release Management       |
 
 ---
@@ -180,15 +179,9 @@ public class CheckoutService {
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **Maximale Flags gleichzeitig**: 5–10 aktive Flags pro Service. Mehr → Komplexität explodiert.
 - **Flag-Typen trennen**: Release-Flags (temporär) von Ops-Flags (permanent, z. B. Kill-Switch) trennen.
 - **Monitoring**: Welche Flags sind aktiv? Unleash-Dashboard oder eigene Metrik.
-
----
-
-## Verwandte ADRs
-
-- [ADR-036](ADR-036-devops-cicd.md) — CI/CD + Feature Flags = sicheres Deployment.
-- [ADR-022](ADR-022-resilience-circuit-breaker.md) — Feature Flag als Software-Circuit-Breaker.
+ 

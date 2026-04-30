@@ -2,9 +2,8 @@
 
 | Feld       | Wert                              |
 |------------|-----------------------------------|
-| Status     | ✅ Akzeptiert                     |
 | Java       | 21 · Spring Boot 3.x              |
-| Datum      | 2024-01-01                        |
+| Datum      | 2026-02-25                        |
 | Kategorie  | Security / Compliance (EU)        |
 
 ---
@@ -258,17 +257,9 @@ public UserProfile getProfile(UserId userId) { ... }
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **Data Protection Impact Assessment (DPIA)** vor dem Verarbeiten neuer sensibler Datenkategorien.
 - **Consent Management**: Einwilligungen mit Zeitstempel und Zweck speichern — nicht nur boolean.
 - **Aufbewahrungspflichten** beachten: §§ 147 AO, 257 HGB schreiben 10 Jahre für bestimmte Geschäftsdaten vor — DSGVO-Löschpflicht hat Ausnahmen.
 - **Datenschutzfolgenabschätzung** bei Profiling, Tracking, biometrischen Daten — Pflicht nach Art. 35 DSGVO.
-
----
-
-## Verwandte ADRs
-
-- [ADR-015](ADR-015-sicherheit-owasp.md) — Technische Sicherheitsmaßnahmen.
-- [ADR-017](ADR-017-observability-logging-tracing.md) — Kein PII im Log.
-- [ADR-034](ADR-034-db-migrations-flyway.md) — Schema-Änderungen für Anonymisierung.

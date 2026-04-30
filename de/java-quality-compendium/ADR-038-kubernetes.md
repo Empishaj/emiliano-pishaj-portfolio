@@ -2,9 +2,8 @@
 
 | Feld       | Wert                              |
 |------------|-----------------------------------|
-| Status     | ✅ Akzeptiert                     |
 | Java       | 21 · Spring Boot 3.x · K8s 1.28+ |
-| Datum      | 2024-01-01                        |
+| Datum      | 2026-03-15                        |
 | Kategorie  | DevOps / Kubernetes               |
 
 ---
@@ -249,17 +248,10 @@ spec:
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **Limits ≠ Requests**: Requests sind das Minimum (Scheduling). Limits sind das Maximum (OOM). Limits sollte ~2× Requests sein.
 - **Nie `latest` als Image-Tag** in Kubernetes — erzeugt nicht-deterministische Deployments.
 - **`kubectl rollout undo deployment/order-service`** für sofortigen Rollback.
 - **PodDisruptionBudget**: `minAvailable: 1` verhindert dass Kubernetes zu viele Pods gleichzeitig beendet.
-
----
-
-## Verwandte ADRs
-
-- [ADR-037](ADR-037-docker-container.md) — Container-Image das deployed wird.
-- [ADR-017](ADR-017-observability-logging-tracing.md) — Prometheus-Metriken aus Kubernetes.
-- [ADR-022](ADR-022-resilience-circuit-breaker.md) — Liveness vs. Readiness bei Circuit Breaker.
+ 

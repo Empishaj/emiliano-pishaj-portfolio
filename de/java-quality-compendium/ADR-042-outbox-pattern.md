@@ -2,7 +2,6 @@
 
 | Feld       | Wert                              |
 |------------|-----------------------------------|
-| Status     | ✅ Akzeptiert                     |
 | Java       | 21 · Spring Boot 3.x · Debezium   |
 | Datum      | 2024-01-01                        |
 | Kategorie  | Architektur / Daten               |
@@ -138,15 +137,9 @@ public class OutboxPublisher {
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **Outbox + Idempotenz**: Outbox garantiert At-Least-Once → Consumer muss Duplikate erkennen (→ ADR-041).
 - **Debezium bevorzugen** gegenüber Polling: CDC ist reaktiv, kein Polling-Delay, kein DB-Lock.
 - **Outbox-Bereinigung**: `DELETE FROM outbox_events WHERE published_at < NOW() - INTERVAL '7 days'` — regelmäßig ausführen.
-
----
-
-## Verwandte ADRs
-
-- [ADR-041](ADR-041-event-driven-kafka.md) — Kafka als Transport.
-- [ADR-034](ADR-034-db-migrations-flyway.md) — Flyway für Outbox-Tabelle.
+ 

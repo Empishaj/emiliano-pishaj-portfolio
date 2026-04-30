@@ -2,7 +2,6 @@
 
 | Feld       | Wert                                        |
 |------------|---------------------------------------------|
-| Status     | ✅ Akzeptiert                               |
 | Java       | 21 · Virtual Threads · java.util.concurrent |
 | Datum      | 2024-01-01                                  |
 | Kategorie  | Concurrency / Korrektheit                   |
@@ -17,7 +16,7 @@ Concurrency-Bugs sind die schwierigsten Bugs: sie treten nicht-deterministisch a
 
 ## Regel 1 — Shared Mutable State ist der Feind
 
-### ❌ Schlecht — nicht thread-sicherer Zähler
+### Schlecht — nicht thread-sicherer Zähler
 
 ```java
 @Service
@@ -37,7 +36,7 @@ public class OrderStatisticsService {
 // Unter Last: orderCount hat falschen Wert. Unsichtbar im Entwickler-Test.
 ```
 
-### ✅ Gut — threadsichere Alternativen
+### Gut — threadsichere Alternativen
 
 ```java
 @Service
@@ -68,7 +67,7 @@ public class OrderStatisticsService {
 
 ## Regel 2 — Deadlock: zirkuläres Warten verhindern
 
-### ❌ Schlecht — Deadlock durch inkonsequente Lock-Reihenfolge
+### Schlecht — Deadlock durch inkonsequente Lock-Reihenfolge
 
 ```java
 // Thread A: sperrt accountA, wartet auf accountB
@@ -85,7 +84,7 @@ public class BankTransferService {
 }
 ```
 
-### ✅ Gut — konsistente Lock-Reihenfolge
+### Gut — konsistente Lock-Reihenfolge
 
 ```java
 public class BankTransferService {
@@ -130,7 +129,7 @@ public void transfer(Account from, Account to, Money amount)
 
 ## Regel 3 — Race Condition: Check-then-Act atomar machen
 
-### ❌ Schlecht — nicht-atomares Check-then-Act
+### Schlecht — nicht-atomares Check-then-Act
 
 ```java
 @Service
@@ -151,7 +150,7 @@ public class InventoryService {
 }
 ```
 
-### ✅ Gut — atomares Update oder Optimistic Locking
+### Gut — atomares Update oder Optimistic Locking
 
 ```java
 // Option A: Atomares SQL-Update (kein Read-Modify-Write)
@@ -285,16 +284,10 @@ jcmd <PID> JFR.stop filename=recording.jfr
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **Immutability first**: Wenn ein Objekt nach Erzeugung nicht geändert werden muss — Record verwenden. Thread-safety für lau.
 - **Prefer higher-level concurrency**: `ExecutorService`, `CompletableFuture`, `StructuredTaskScope` statt manuellem `Thread`-Handling.
 - **ConcurrentHashMap statt synchronized HashMap**: `Collections.synchronizedMap()` ist grob-granular. `ConcurrentHashMap` ist fein-granular und performanter.
 - **`synchronized` auf `this` vermeiden**: Interne Methoden können Lock von außen sehen. Privates Lock-Objekt verwenden: `private final Object lock = new Object();`
-
----
-
-## Verwandte ADRs
-
-- [ADR-004](ADR-004-virtual-threads-loom.md) — Virtual Threads und Pinning.
-- [ADR-016](ADR-016-datenbank-jpa-n-plus-eins.md) — Optimistic Locking mit JPA `@Version`.
+ 

@@ -2,9 +2,8 @@
 
 | Feld       | Wert                                              |
 |------------|---------------------------------------------------|
-| Status     | ✅ Akzeptiert                                     |
 | Java       | 21 · Spring Boot 3.x · Spring Kafka · Avro        |
-| Datum      | 2024-01-01                                        |
+| Datum      | 2024-09-29                                        |
 | Kategorie  | Architektur / Messaging                           |
 
 ---
@@ -232,16 +231,9 @@ public DefaultErrorHandler errorHandler(KafkaTemplate<String, Object> template) 
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **Partition Key = Aggregat-ID**: Selbe Order immer in dieselbe Partition → Reihenfolge garantiert.
 - **`enable-auto-commit: false`** immer — automatischer Commit riskiert Datenverlust bei Fehler.
 - **Outbox Pattern** (→ ADR-042) für transaktionale Konsistenz zwischen DB und Kafka.
 - **Consumer-Group-ID** ist das "wer hat diesen Event schon gesehen" — jeder Service hat seine eigene.
-
----
-
-## Verwandte ADRs
-
-- [ADR-023](ADR-023-domain-driven-design.md) — Domain Events als Grundlage.
-- [ADR-042](ADR-042-outbox-pattern.md) — Transaktionale Konsistenz zwischen DB und Kafka.

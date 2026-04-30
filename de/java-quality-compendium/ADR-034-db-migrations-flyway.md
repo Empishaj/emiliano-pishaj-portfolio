@@ -2,7 +2,6 @@
 
 | Feld       | Wert                              |
 |------------|-----------------------------------|
-| Status     | ✅ Akzeptiert                     |
 | Java       | 21 · Spring Boot 3.x · Flyway 9+  |
 | Datum      | 2024-01-01                        |
 | Kategorie  | Persistenz / DevOps               |
@@ -193,16 +192,10 @@ class UserRepositoryTest {
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **Migrationen reviewen** wie Code: zwei Augenpaare auf jede `.sql`-Datei.
 - **Nie `flyway_schema_history` manuell ändern** — außer in absoluten Notfällen.
 - **Separate Migrations-Datei für Daten** (V{n}__seed_reference_data.sql) statt Daten in Schema-Migrationen mischen.
 - **PostgreSQL `CONCURRENTLY`** für Indexes: `CREATE INDEX CONCURRENTLY idx_name ON table(col)` — kein Table Lock.
-
----
-
-## Verwandte ADRs
-
-- [ADR-016](ADR-016-datenbank-jpa-n-plus-eins.md) — JPA-Schema muss mit Flyway-Migrationen übereinstimmen.
-- [ADR-018](ADR-018-integrationstests-testcontainers.md) — Testcontainers führt Flyway-Migrationen aus.
+ 
