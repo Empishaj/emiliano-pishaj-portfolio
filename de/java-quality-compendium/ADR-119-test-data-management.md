@@ -2,13 +2,9 @@
 
 | Feld              | Wert                                                          |
 |-------------------|---------------------------------------------------------------|
-| Status            | ✅ Akzeptiert                                                 |
-| Entscheider       | Architektur-Board / alle Entwickler                           |
-| Datum             | 2024-01-01                                                    |
-| Review-Datum      | 2025-01-01                                                    |
+| Datum             | 2026-03-24                                                    |
 | Kategorie         | Testing · Test-Qualität · Wartbarkeit                         |
-| Betroffene Teams  | Alle Engineering-Teams                                        |
-| Abhängigkeiten    | ADR-096 (Test-Strategie), ADR-010-014 (JUnit/Testing)         |
+ 
 
 ---
 
@@ -311,27 +307,10 @@ WICHTIG:
 ```
 
 ---
-
-## 8. Akzeptanzkriterien
-
-- [ ] Kein Test erstellt Domain-Objekte ohne Builder oder Fixture (ArchUnit-Regel möglich)
-- [ ] Alle Builder haben Defaults für alle Pflichtfelder
-- [ ] Object-Mother-Methoden beschreiben ein fachliches Szenario (nicht technisch)
-- [ ] Integrationstests nutzen SQL-Fixtures statt `save()` in `@BeforeEach`
-- [ ] Test-Code-Coverage: Testdaten-Klassen müssen NICHT gecovered sein (Exclusion konfiguriert)
-
----
-
+ 
 ## Quellen & Referenzen
 
 - **Joshua Kerievsky, "Refactoring to Patterns" (2004)** — Object Mother als Test-Pattern.
 - **Gerard Meszaros, "xUnit Test Patterns" (2007), Kap. 26** — Test Data Builder; vollständige Klassifizierung von Test-Daten-Patterns.
 - **Vladimir Khorikov, "Unit Testing" (2020), Kap. 4** — Wie Testdaten die Lesbarkeit von Tests beeinflussen.
-
----
-
-## Verwandte ADRs
-
-- [ADR-096](ADR-096-test-strategie-gesamtbild.md) — Test-Strategie-Gesamtbild
-- [ADR-010](ADR-010-junit-grundlagen-struktur.md) — JUnit 5 Grundlagen
-- [ADR-046](ADR-046-property-based-testing.md) — Property-Based Testing (Faker komplementär)
+ 

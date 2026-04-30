@@ -2,14 +2,9 @@
 
 | Feld              | Wert                                                          |
 |-------------------|---------------------------------------------------------------|
-| Status            | ✅ Akzeptiert                                                 |
-| Entscheider       | Architektur-Board                                             |
 | Datum             | 2024-01-01                                                    |
-| Review-Datum      | 2025-01-01                                                    |
 | Kategorie         | Observability · Performance · JVM                             |
-| Betroffene Teams  | Alle Backend-Teams, SRE                                       |
-| Abhängigkeiten    | ADR-043 (JVM-Tuning), ADR-102 (OTel), ADR-054 (SLO)          |
-
+ 
 ---
 
 ## 1. Wann Profiling nötig ist
@@ -233,26 +228,10 @@ SCHRITT 5: Ergebnis messen
 
 ---
 
-## 8. Akzeptanzkriterien
-
-- [ ] JFR mit `maxage=1h` in allen Produktions-Pods aktiv (JVM-Flags in Dockerfile)
-- [ ] Async-Profiler-Binaries in Standard-Container-Image vorhanden
-- [ ] Flame-Graph-Analyse ist im Incident-Runbook dokumentiert
-- [ ] Performance-Regressions-Test: Profiling-Ergebnisse vor/nach Releases verglichen
-
----
-
 ## Quellen & Referenzen
 
 - **Erik Duveblad, "Continuous Profiling of Java" (2021)** — JFR in Produktion.
 - **Brendan Gregg, "Systems Performance" (2020), Kap. 6** — Flame-Graphs: Interpretation und Erstellung.
 - **Aleksey Shipilev, JVM Performance Resources** — Tiefe JVM-Optimierung.
 - **async-profiler GitHub** — github.com/async-profiler/async-profiler
-
----
-
-## Verwandte ADRs
-
-- [ADR-043](ADR-043-jvm-tuning-hikaricp.md) — JVM-Grundkonfiguration
-- [ADR-102](ADR-102-opentelemetry-vollstaendig.md) — OTel: Traces zeigen WAS langsam ist
-- [ADR-054](ADR-054-slo-sla-alerting.md) — SLO: Performance-Schwellwerte
+ 

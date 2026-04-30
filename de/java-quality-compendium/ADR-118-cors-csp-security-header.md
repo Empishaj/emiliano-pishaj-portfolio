@@ -2,13 +2,8 @@
 
 | Feld              | Wert                                                          |
 |-------------------|---------------------------------------------------------------|
-| Status            | ✅ Akzeptiert                                                 |
-| Entscheider       | Architektur-Board / Security-Team                             |
 | Datum             | 2024-01-01                                                    |
-| Review-Datum      | 2025-01-01                                                    |
 | Kategorie         | Security · HTTP-Headers · Browser-Security                    |
-| Betroffene Teams  | Alle Teams mit HTTP-APIs die vom Browser aufgerufen werden    |
-| Abhängigkeiten    | ADR-015 (OWASP), ADR-101 (Spring Security)                   |
 
 ---
 
@@ -251,27 +246,9 @@ curl -I https://api.example.com/api/v2/orders | grep -E \
 
 ---
 
-## 7. Akzeptanzkriterien
-
-- [ ] CORS-Whitelist: keine `*`-Origin in Produktion
-- [ ] CSP konfiguriert: kein `unsafe-inline` für Scripts, kein `unsafe-eval`
-- [ ] HSTS: `max-age=31536000; includeSubDomains` gesetzt
-- [ ] `X-Frame-Options: DENY` und `frame-ancestors 'none'` in CSP
-- [ ] SecurityHeaders.com gibt Grade A für alle Produktions-URLs
-- [ ] CSP-Report-Endpoint aktiv und überwacht
-
----
-
 ## Quellen & Referenzen
 
 - **OWASP, "HTTP Security Response Headers Cheat Sheet"** — vollständiger Header-Katalog.
 - **MDN Web Docs, "Content Security Policy"** — CSP-Direktiven-Referenz.
 - **RFC 6454, "The Web Origin Concept"** — Same-Origin-Policy-Grundlage.
 - **Scott Helme, "securityheaders.com"** — Security-Header-Rating-Tool.
-
----
-
-## Verwandte ADRs
-
-- [ADR-015](ADR-015-sicherheit-owasp.md) — OWASP-Sicherheits-Grundlagen
-- [ADR-101](ADR-101-spring-security-oauth2.md) — Spring Security (Basis)

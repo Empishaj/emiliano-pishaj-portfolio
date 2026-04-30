@@ -2,13 +2,9 @@
 
 | Feld              | Wert                                                          |
 |-------------------|---------------------------------------------------------------|
-| Status            | ✅ Akzeptiert                                                 |
-| Entscheider       | CTO / VP Engineering                                          |
 | Datum             | 2024-01-01                                                    |
-| Review-Datum      | 2025-01-01                                                    |
 | Kategorie         | Betrieb · Incident Management · Lernkultur                    |
-| Betroffene Teams  | Alle Engineering-Teams, On-Call-Rotation                      |
-| Abhängigkeiten    | ADR-054 (SLO/Alerting), ADR-102 (OTel), ADR-063 (Backup/DR)  |
+
 
 ---
 
@@ -272,16 +268,6 @@ INCIDENT COMMANDER (IC):
 
 ---
 
-## 9. Akzeptanzkriterien
-
-- [ ] Alle SEV-1/2-Incidents haben Post-Mortem innerhalb 5 Werktagen
-- [ ] Post-Mortems sind im Engineering-Wiki öffentlich (kein Zugriffs-Versteck)
-- [ ] Action-Items haben Owner + Deadline + Jira-Ticket (Template erzwingt das)
-- [ ] Action-Item-Completion-Rate > 90% (gemessen monatlich)
-- [ ] Recurring-Root-Cause-Rate sinkt über 6 Monate (Baseline in Woche 1 messen)
-- [ ] Incident-Commander-Training für alle Senior-Engineers absolviert
-
----
 
 ## Quellen & Referenzen
 
@@ -289,11 +275,4 @@ INCIDENT COMMANDER (IC):
 - **John Allspaw, "Blameless PostMortems and a Just Culture" (2012), Etsy Blog** — Seminal Blog Post der Blameless-Post-Mortem-Bewegung.
 - **Gene Kim, Patrick Debois, "The DevOps Handbook" (2016), Teil IV** — Feedback-Loops und kontinuierliches Lernen.
 - **Sidney Dekker, "The Field Guide to Understanding Human Error" (2014)** — Systemisches Denken statt Schuldzuweisung.
-
----
-
-## Verwandte ADRs
-
-- [ADR-054](ADR-054-slo-sla-alerting.md) — SLOs und Alerting (Alert → Incident)
-- [ADR-063](ADR-063-backup-disaster-recovery.md) — Recovery-Prozeduren
-- [ADR-102](ADR-102-opentelemetry-vollstaendig.md) — OTel für Diagnose im Incident
+ 
