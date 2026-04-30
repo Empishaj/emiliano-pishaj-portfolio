@@ -2,14 +2,9 @@
 
 | Feld              | Wert                                                          |
 |-------------------|---------------------------------------------------------------|
-| Status            | ✅ Akzeptiert                                                 |
-| Entscheider       | Architektur-Board                                             |
-| Datum             | 2024-01-01                                                    |
-| Review-Datum      | 2025-01-01                                                    |
+| Datum             | 2026-02-24                                                    |
 | Kategorie         | KI/ML · Spring AI · LLM                                       |
-| Betroffene Teams  | Teams die KI-Funktionen integrieren                           |
-| Abhängigkeiten    | ADR-069 (Config/Secrets), ADR-106 (Data Masking/PII)          |
-
+ 
 ---
 
 ## 1. Kontext & Treiber

@@ -2,13 +2,8 @@
 
 | Feld              | Wert                                                          |
 |-------------------|---------------------------------------------------------------|
-| Status            | ✅ Akzeptiert                                                 |
-| Entscheider       | Architektur-Board                                             |
 | Datum             | 2024-01-01                                                    |
-| Review-Datum      | 2025-01-01                                                    |
 | Kategorie         | Concurrency · Verteilte Systeme · Scheduled Jobs              |
-| Betroffene Teams  | Alle Teams mit Scheduled Jobs oder kritischen Singleton-Operationen |
-| Abhängigkeiten    | ADR-074 (Scheduled Jobs), ADR-033 (Thread Safety)             |
 
 ---
 
@@ -262,16 +257,7 @@ public void monitorStaleLocks() {
         log.warn("Möglicher staler Lock: {}", lock));
 }
 ```
-
----
-
-## 8. Akzeptanzkriterien
-
-- [ ] Alle `@Scheduled`-Jobs haben `@SchedulerLock` mit sinnvollem `lockAtMostFor`
-- [ ] ShedLock-Tabelle via Flyway erstellt und in allen Umgebungen vorhanden
-- [ ] Test: Job wird bei 3 laufenden Instanzen genau einmal ausgeführt (Integrations-Test mit Testcontainers)
-- [ ] Redisson-Locks immer in try/finally (ArchUnit-Regel prüfbar)
-- [ ] Monitoring: Alert wenn Lock > 2× erwartete Job-Dauer gehalten wird
+ 
 
 ---
 
@@ -281,11 +267,4 @@ public void monitorStaleLocks() {
 - **Redisson Documentation** — redisson.org
 - **Martin Kleppmann, "Designing Data-Intensive Applications" (2017), Kap. 8** — Verteilte Locks, Fencing Tokens, Probleme mit Clock-Drift.
 - **Mike Acton, "CppCon" (2014)** — Grundprinzipien für Concurrency in verteilten Systemen.
-
----
-
-## Verwandte ADRs
-
-- [ADR-074](ADR-074-scheduled-jobs.md) — Scheduled Jobs (ShedLock dort bereits erwähnt)
-- [ADR-033](ADR-033-thread-safety-concurrency.md) — Thread Safety in einer Instanz
-- [ADR-022](ADR-022-resilience-circuit-breaker.md) — Timeout für Lock-Wartezeiten
+ 
