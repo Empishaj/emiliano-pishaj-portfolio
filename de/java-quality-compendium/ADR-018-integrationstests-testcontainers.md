@@ -2,9 +2,8 @@
 
 | Feld       | Wert                                              |
 |------------|---------------------------------------------------|
-| Status     | ✅ Akzeptiert                                     |
 | Java       | 21 · JUnit 5.10+ · Testcontainers 1.19+           |
-| Datum      | 2024-01-01                                        |
+| Datum      | 2024-11-23                                        |
 | Kategorie  | Testing / Integration                             |
 
 ---
@@ -17,7 +16,7 @@ Unit-Tests prüfen Klassen isoliert. Integrationstests prüfen ob die Teile zusa
 
 ## Regel 1 — Kein H2, echte Datenbank mit Testcontainers
 
-### ❌ Schlecht — H2 als "Test-Datenbank"
+### Schlecht — H2 als "Test-Datenbank"
 
 ```java
 // application-test.yml mit H2:
@@ -35,7 +34,7 @@ Unit-Tests prüfen Klassen isoliert. Integrationstests prüfen ob die Teile zusa
 class OrderRepositoryTest { ... } // Testet gegen falsche Datenbank
 ```
 
-### ✅ Gut — Testcontainers mit echter PostgreSQL
+### Gut — Testcontainers mit echter PostgreSQL
 
 ```java
 // Einmalige Basis-Konfiguration — alle Tests erben davon
@@ -120,7 +119,7 @@ public abstract class FullIntegrationTestBase {
 
 ## Regel 3 — Testdaten: SQL-Fixtures statt @BeforeEach-Setup-Code
 
-### ❌ Schlecht — Testdaten in Java aufgebaut
+### Schlecht — Testdaten in Java aufgebaut
 
 ```java
 @BeforeEach
@@ -144,7 +143,7 @@ void setUp() {
 }
 ```
 
-### ✅ Gut — SQL-Fixtures mit `@Sql`
+### Gut — SQL-Fixtures mit `@Sql`
 
 ```sql
 -- src/test/resources/test-data/order-with-items.sql
@@ -212,16 +211,10 @@ class OrderRepositoryIntegrationTest extends IntegrationTestBase {
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **Ryuk deaktivieren** in CI-Umgebungen ohne Docker-Socket: `TESTCONTAINERS_RYUK_DISABLED=true`.
 - **Testcontainers Reuse**: `.withReuse(true)` behält Container zwischen Test-Runs — drastisch schnellere lokale Entwicklung.
 - **`@Sql` mit `executionPhase = BEFORE_TEST_CLASS`** für Referenzdaten die alle Tests brauchen.
 - **WireMock als Container**: `WireMockContainer` für HTTP-Mocks externer APIs im Integrationstest.
-
----
-
-## Verwandte ADRs
-
-- [ADR-025](ADR-025-spring-boot-slice-tests.md) — `@DataJpaTest` für schlanke Repository-Tests ohne Testcontainers.
-- [ADR-010](ADR-010-junit-grundlagen-struktur.md) — Testisolation ist Grundprinzip.
+ 

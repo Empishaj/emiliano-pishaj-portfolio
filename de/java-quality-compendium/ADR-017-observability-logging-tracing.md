@@ -2,9 +2,8 @@
 
 | Feld       | Wert                                              |
 |------------|---------------------------------------------------|
-| Status     | ✅ Akzeptiert                                     |
 | Java       | 21 · Spring Boot 3.x · Micrometer · OpenTelemetry|
-| Datum      | 2024-01-01                                        |
+| Datum      | 2024-10-13                                        |
 | Kategorie  | Observability / Operations                        |
 
 ---
@@ -17,7 +16,7 @@ Ein System das man nicht beobachten kann, kann man nicht betreiben. Observabilit
 
 ## Säule 1 — Strukturiertes Logging: JSON statt Freitext
 
-### ❌ Schlecht — Freitext-Logging
+### Schlecht — Freitext-Logging
 
 ```java
 // Nicht durchsuchbar, nicht parsebar, keine Struktur
@@ -33,7 +32,7 @@ try {
 }
 ```
 
-### ✅ Gut — strukturiertes Logging mit SLF4J + MDC
+### Gut — strukturiertes Logging mit SLF4J + MDC
 
 ```java
 // Immer: SLF4J-Interface, niemals konkrete Logger-Implementierung
@@ -247,16 +246,10 @@ public class PaymentGatewayHealthIndicator implements HealthIndicator {
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **Logging-Format in Tests**: In Tests `logback-test.xml` mit einfachem Format — JSON ist nur für Produktion.
 - **Nie `System.out.println()`** — immer SLF4J. `println` erscheint in keinem Log-Aggregator.
 - **Sensitive Daten im Log**: Passwörter, Tokens, Kreditkartennummern dürfen nie geloggt werden — `@ToString.Exclude` (Lombok) oder manuelles `toString()`.
 - **Metriken-Namenskonvention**: `substantiv.verb.einheit` — z. B. `http.requests.duration`, `db.queries.count`, `cache.hits.ratio`.
-
----
-
-## Verwandte ADRs
-
-- [ADR-015](ADR-015-sicherheit-owasp.md) — Keine Secrets im Log.
-- [ADR-006](ADR-006-spring-boot-serviceschicht.md) — MDC-Kontext in der Service-Schicht.
+ 

@@ -2,9 +2,8 @@
 
 | Feld       | Wert                                              |
 |------------|---------------------------------------------------|
-| Status     | ✅ Akzeptiert                                     |
 | Java       | 21 · Spring Boot 3.x · JUnit 5.10+               |
-| Datum      | 2024-01-01                                        |
+| Datum      | 2025-08-17                                        |
 | Kategorie  | Testing / Spring                                  |
 
 ---
@@ -36,7 +35,7 @@
 
 ## Slice 1 — `@WebMvcTest`: Controller isoliert testen
 
-### ❌ Schlecht — voller Spring-Kontext für Controller-Test
+### Schlecht — voller Spring-Kontext für Controller-Test
 
 ```java
 @SpringBootTest  // Lädt ALLES — JPA, Kafka, Security, alle Services...
@@ -47,7 +46,7 @@ class OrderControllerTest {
 }
 ```
 
-### ✅ Gut — `@WebMvcTest` lädt nur den Web-Layer
+### Gut — `@WebMvcTest` lädt nur den Web-Layer
 
 ```java
 // Lädt NUR: Controller, Filter, Security, Jackson, Validation
@@ -264,17 +263,10 @@ class TestB extends SpringBootTestBase { ... }
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **`@WebMvcTest` testet Security** — `@SpringBootTest` für Controller ist fast nie nötig.
 - **`@DataJpaTest` ist transaktional by default** — Rollback nach jedem Test ohne Konfiguration.
 - **`@TestConfiguration`** für Test-spezifische Beans die nicht gemockt werden sollen.
 - **`spring.jpa.show-sql=true` in `application-test.yml`**: SQL in Tests sichtbar machen — N+1 sofort erkennen.
-
----
-
-## Verwandte ADRs
-
-- [ADR-011](ADR-011-mocking-mit-mockito.md) — `@MockBean` vs. `@Mock`.
-- [ADR-016](ADR-016-datenbank-jpa-n-plus-eins.md) — N+1 in `@DataJpaTest` nachweisen.
-- [ADR-018](ADR-018-integrationstests-testcontainers.md) — Testcontainers als Datenbankbasis für `@DataJpaTest`.
+ 

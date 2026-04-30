@@ -2,9 +2,8 @@
 
 | Feld       | Wert                                              |
 |------------|---------------------------------------------------|
-| Status     | ✅ Akzeptiert                                     |
 | Java       | 21 · Spring Boot 3.x · Pact JVM 4.x              |
-| Datum      | 2024-01-01                                        |
+| Datum      | 2026-02-23                                       |
 | Kategorie  | Testing / Microservices                           |
 
 ---
@@ -33,7 +32,7 @@ Ablauf:
 
 ## Consumer-Seite: Contract definieren
 
-### ❌ Schlecht — Consumer testet gegen echten Provider oder WireMock ohne Contract
+### Schlecht — Consumer testet gegen echten Provider oder WireMock ohne Contract
 
 ```java
 // WireMock ohne Contract — beide Seiten können sich unabgestimmt ändern
@@ -51,7 +50,7 @@ void getUser_returnsUserDto() {
 }
 ```
 
-### ✅ Gut — Consumer definiert Contract mit Pact
+### Gut — Consumer definiert Contract mit Pact
 
 ```java
 @ExtendWith(PactConsumerTestExt.class)
@@ -198,16 +197,10 @@ class OrderServiceContractTest {
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **Contracts minimal halten**: Consumer testet nur die Felder die er wirklich nutzt — kein `assertThat(response).isEqualTo(fullDto)`.
 - **`can-i-deploy`** im CI-Gate: Pact CLI prüft ob alle Contracts erfüllt sind bevor Deployment erlaubt wird.
 - **Provider States sauber halten**: Ein Provider State pro Testfall — keine Kombinations-States.
 - **Versionierung**: Contracts sind semantisch versioniert — breaking changes erfordern eine neue Contract-Version.
-
----
-
-## Verwandte ADRs
-
-- [ADR-018](ADR-018-integrationstests-testcontainers.md) — Integrationstests für die eigene Datenbankschicht.
-- [ADR-021](ADR-021-rest-api-design.md) — REST-Konventionen die Contracts stabil halten.
+ 

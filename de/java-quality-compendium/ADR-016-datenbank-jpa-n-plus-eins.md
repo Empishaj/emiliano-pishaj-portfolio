@@ -2,9 +2,8 @@
 
 | Feld       | Wert                                              |
 |------------|---------------------------------------------------|
-| Status     | ✅ Akzeptiert                                     |
 | Java       | 21 · Spring Boot 3.x · Spring Data JPA / Hibernate 6 |
-| Datum      | 2024-01-01                                        |
+| Datum      | 2025-09-09                                        |
 | Kategorie  | Persistenz / Performance                          |
 
 ---
@@ -17,7 +16,7 @@ JPA abstrahiert SQL — aber falsch eingesetzt produziert es hunderte von SQL-Qu
 
 ## Regel 1 — Das N+1-Problem: erkennen und verhindern
 
-### ❌ Schlecht — N+1 durch Lazy Loading
+### Schlecht — N+1 durch Lazy Loading
 
 ```java
 // Entity mit Lazy-Collection (JPA-Standard)
@@ -42,7 +41,7 @@ public List<OrderSummaryDto> findAll() {
 // Ergebnis: 1 + N SQL-Queries. Bei 1000 Orders = 1001 Queries. Katastrophe.
 ```
 
-### ✅ Gut — JOIN FETCH oder Projection
+### Gut — JOIN FETCH oder Projection
 
 ```java
 // Option A: JOIN FETCH — lädt alles in einer Query
@@ -102,7 +101,7 @@ private User user;
 
 ## Regel 3 — Transaktionsgrenzen: klar, minimal, korrekt
 
-### ❌ Schlecht — zu breite oder fehlende Transaktionsgrenzen
+### Schlecht — zu breite oder fehlende Transaktionsgrenzen
 
 ```java
 // ❌ @Transactional auf dem Controller — viel zu breit
@@ -128,7 +127,7 @@ public void cancelOrder(Long id) { // Vergessenes @Transactional!
 }
 ```
 
-### ✅ Gut — Transaktionen in der Service-Schicht, korrekt dimensioniert
+### Gut — Transaktionen in der Service-Schicht, korrekt dimensioniert
 
 ```java
 @Service
@@ -163,7 +162,7 @@ public class OrderService {
 
 ## Regel 4 — Bulk-Operationen: niemals in Schleifen
 
-### ❌ Schlecht — Update in Schleife
+### Schlecht — Update in Schleife
 
 ```java
 // N Updates statt einem — bei 10.000 Zeilen = 10.000 Queries
@@ -176,7 +175,7 @@ public void deactivateInactiveUsers(List<Long> userIds) {
 }
 ```
 
-### ✅ Gut — Bulk-Operation mit einer Query
+### Gut — Bulk-Operation mit einer Query
 
 ```java
 // Eine Query für alles
@@ -239,16 +238,10 @@ class OrderRepositoryTest {
 
 ---
 
-## 💡 Guru-Tipps
+## Tipps
 
 - **Hibernate `show_sql`** in Entwicklung aktivieren: sofort sehen was JPA tut.
 - **`@BatchSize(size = 25)`** als pragmatische Zwischenlösung für Lazy-Collections.
 - **`@Transactional` auf `private` Methoden**: wirkungslos! Spring AOP kann private Methoden nicht intercepten.
 - **Optimistic Locking** mit `@Version` für konkurrente Schreibzugriffe — verhindert Lost-Update-Anomalien.
-
----
-
-## Verwandte ADRs
-
-- [ADR-006](ADR-006-spring-boot-serviceschicht.md) — Transaktionsgrenzen in der Service-Schicht.
-- [ADR-025](ADR-025-spring-boot-slice-tests.md) — `@DataJpaTest` für Repository-Tests.
+ 
