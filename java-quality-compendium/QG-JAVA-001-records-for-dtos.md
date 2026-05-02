@@ -1528,22 +1528,13 @@ Diese Richtlinie wurde gegen folgende Sachverhalte validiert:
 
 ---
 
-## 38. Bezug zu ADR-001
 
-Der zugehörige ADR dokumentiert die Architekturentscheidung:
-
-> Wir verwenden Java Records als Standard für einfache, unveränderliche Datentransferobjekte, sofern keine technischen oder fachlichen Gründe dagegen sprechen.
-
-Diese Guideline operationalisiert die Entscheidung. Sie beschreibt, wie Entwickler Records korrekt einsetzen, welche Fehlerbilder zu vermeiden sind und wie die Entscheidung im Review überprüft wird.
-
----
-
-## 39. Kurzfassung für Team-Onboarding
+## 38. Kurzfassung für Team-Onboarding
 
 Records sind unsere Standardwahl für einfache DTOs. Sie reduzieren Boilerplate und machen Datenstrukturen klarer. Sie sind aber nur shallow immutable. Deshalb müssen Collections defensiv kopiert werden. Arrays sind zu vermeiden. JPA-Entities sind keine Records. Sensitive Felder wie Passwörter oder Tokens dürfen nicht durch automatisch erzeugtes `toString()` in Logs landen. Externe Request-Daten bleiben nicht vertrauenswürdig und müssen validiert werden. In Wicket muss Serialisierung beachtet werden. Jede Abweichung vom Record-Standard braucht eine kurze technische Begründung im Pull Request.
 
 ---
 
-## 40. Merksatz
+## 39. Merksatz
 
 Ein Record ist richtig, wenn er Daten klar und unveränderlich repräsentiert. Ein Record ist falsch, wenn er Framework-Anforderungen ignoriert, sensible Daten offenlegt, mutable Inhalte versteckt oder ein echtes Domain-Modell ersetzt.
