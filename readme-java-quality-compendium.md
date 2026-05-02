@@ -29,9 +29,9 @@ Diese Struktur ist mir wichtig, weil reines „Best Practice" ohne Begründung s
 
 Dieses Compendium steht nicht für sich. Es ergänzt:
 
-- die [Code Quality ADRs](../de/code-quality-adrs/) — dort dokumentiere ich die größeren Entscheidungen *zwischen* Mustern
-- die [Working Principles](../de/working-principles.md) — dort beschreibe ich, wie ich grundsätzlich auf Engineering-Arbeit schaue
-- die [Working Papers](../de/working-papers/) — dort denke ich systemisch über Engineering-Organisationen nach
+- die [Code Quality ADRs](../java-quality-compendium/) — dort dokumentiere ich die größeren Entscheidungen *zwischen* Mustern
+- die [Working Principles](../working-principles.md) — dort beschreibe ich, wie ich grundsätzlich auf Engineering-Arbeit schaue
+- die [Working Papers](../working-papers/) — dort denke ich systemisch über Engineering-Organisationen nach
 
 Die Reihenfolge ist bewusst: hier geht es um *Code*, in den ADRs um *Entscheidungen*, in den Principles um *Haltung*, in den Papers um *Systeme*. Vier Ebenen, die im Alltag zusammenwirken.
 
