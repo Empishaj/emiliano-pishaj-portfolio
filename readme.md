@@ -24,13 +24,11 @@ Wenn du verstehen willst, wie ich technische und organisatorische Themen in real
 [`working-principles.md`](./working-principles.md) — Grundsätze, an denen sich meine Arbeit orientiert.
 
 ### 🛠 Code Quality ADRs
-[`./java-quality-compendium/readme.md`](./java-quality-compendium/) — Architecture Decision Records zum Thema Code-Qualität: dokumentierte Entscheidungen mit Kontext, Trade-offs und Folgewirkungen.
+[`readme-java-quality-compendium.md`](./readme-java-quality-compendium.md) — Architecture Decision Records zum Thema Code-Qualität: dokumentierte Entscheidungen mit Kontext, Trade-offs und Folgewirkungen.
 
 ### 📚 Working Papers
 [`./working-papers/`](./working-papers/) — Eigenständige theoretische Schriften auf wissenschaftlichem Niveau zu systemischen Fragestellungen rund um Engineering, Organisation und KI-Integration.
 
-### 📖 Wiki
-[Zum Wiki](https://github.com/Empishaj/emiliano-pishaj-portfolio/wiki) — Vertiefende Notizen, Reflexionen und ergänzende Materialien.
 
 ## Was dich hier erwartet
 
