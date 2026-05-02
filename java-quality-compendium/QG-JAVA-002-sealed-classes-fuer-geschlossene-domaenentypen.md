@@ -1,13 +1,22 @@
 # QG-JAVA-002 — Sealed Classes für geschlossene Domänentypen
 
-> **Java-Qualitätsrichtlinie für Java-21+-Codebasen**  
-> **Kategorie:** Domain Design, Typensicherheit, Wartbarkeit, sicherer Kontrollfluss  
-> **Primäres Java-Feature:** Sealed Classes und Sealed Interfaces  
-> **Verwandte Java-Features:** Records, Pattern Matching for `switch`, Guarded Patterns  
-> **Empfohlene Baseline:** Java 21+  
-> **Letzte technische Validierung:** 2026-05-02  
-> **Validierte Quellenbasis:** OpenJDK JEP 409, OpenJDK JEP 441, Oracle Java 21 Language Documentation, OWASP Logging Cheat Sheet, OWASP Deserialization Cheat Sheet, OWASP Mass Assignment Cheat Sheet, OWASP Secure Code Review Cheat Sheet, Jackson-Dokumentation, Apache Wicket 10 User Guide  
-> **Technische Beispielvalidierung:** Die zentralen Java-Beispiele ohne externe Framework-Abhängigkeiten wurden mit `javac --release 21` syntaktisch geprüft.
+## Dokumentstatus
+
+| Aspekt | Details/Erklärung |
+|---|---|
+| Dokumenttyp | Java Quality Guideline |
+| ID | QG-JAVA-002 |
+| Titel | Sealed Classes für geschlossene Domänentypen |
+| Status | Accepted / verbindlicher Standard für geschlossene Domänentypen in neuen Java-21+-Codebasen |
+| Zielgruppe | Java-Entwickler, Tech Leads, Reviewer, QA, Security, Architektur |
+| Primärer Kontext | Java 21+, SaaS-Plattformen, Domain Design, Typensicherheit, sicherer Kontrollfluss, State Machines, API- und Service-Ergebnisvarianten |
+| Java-Baseline | Java 21+ als empfohlener Standard, weil Sealed Classes seit Java 17 final sind, Pattern Matching for `switch` aber erst seit Java 21 final ist |
+| Primäres Java-Feature | Sealed Classes und Sealed Interfaces |
+| Verwandte Java-Features | Records, Pattern Matching for `switch`, Guarded Patterns |
+| Letzte Validierung | 2026-05-02 |
+| Validierte Quellenbasis | OpenJDK JEP 409, OpenJDK JEP 441, Oracle Java 21 Language Documentation, OWASP Logging Cheat Sheet, OWASP Deserialization Cheat Sheet, OWASP Mass Assignment Cheat Sheet, OWASP Secure Code Review Cheat Sheet, Jackson-Dokumentation, Apache Wicket 10 User Guide |
+| Technische Beispielvalidierung | Die zentralen Java-Beispiele ohne externe Framework-Abhängigkeiten wurden mit `javac --release 21` syntaktisch geprüft. |
+| Verbindlichkeit | Diese Richtlinie gilt für neue geschlossene Domänentypen verbindlich. Abweichungen sind zulässig, wenn ein technischer oder fachlicher Grund im Pull Request nachvollziehbar dokumentiert wird. |
 
 ---
 
