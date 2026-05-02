@@ -1,6 +1,3 @@
-<!-- Sprache / Language -->
-**🇩🇪 Deutsch** · [🇬🇧 English](./readme-en.md)
-
 ---
 
 # Emiliano Pishaj – Engineering Leadership Portfolio
@@ -15,8 +12,7 @@ Du findest hier echte Arbeitsproben aus meinem Alltag: wie ich als People Leader
 
 Such dir die Sprache aus, die dir lieber ist. Beide Versionen sind vollständig.
 
-- 🇩🇪 **[Zum deutschen Portfolio →](./de/readme.md)**
-- 🇬🇧 **[Continue in English →](./en/readme.md)**
+- 🇩🇪 **[Zum Portfolio →](./de/readme.md)**
 
 ## Wenn du tiefer einsteigen willst
 
