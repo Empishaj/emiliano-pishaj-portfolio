@@ -1,27 +1,27 @@
 <!-- Sprache / Language -->
-**🇩🇪 Deutsch** · [🇬🇧 English](./en/readme.md)
+**🇩🇪 Deutsch** · [🇬🇧 English](./readme-en.md)
 
 ---
 
 # Emiliano Pishaj – Engineering Leadership Portfolio
 
-Willkommen.
+Schön, dass du hier bist.
 
-Dieses Repository macht meine Arbeitsweise jenseits eines klassischen Lebenslaufs sichtbar — anonymisierte, abstrahierte und bewusst kuratierte Arbeitsproben aus dem Umfeld von Engineering Leadership, Delivery, Architektur, Governance und Capability Building.
+Ich baue Engineering-Organisationen, in denen Menschen gerne arbeiten und in denen Lieferung tatsächlich passiert. Das hier ist nicht mein Lebenslauf, sondern mein Portfolio — also der Teil meiner Arbeit, den man in einem CV nicht sehen kann.
 
-Der Fokus liegt nicht auf Selbstdarstellung, sondern auf praktischer Umsetzungslogik: Wie führe ich Themen ein? Wie strukturiere ich Arbeit? Wie mache ich Verantwortungen, Entscheidungswege und Qualitätsanforderungen explizit?
+Du findest hier echte Arbeitsproben aus meinem Alltag: wie ich als People Leader Teams aufbaue und entwickle, wie ich mit einer agilen Grundhaltung Komplexität ordne, und wie ich am Engineering Operating Model arbeite, damit Verantwortung, Entscheidungen und Lieferung zusammenpassen. Alles anonymisiert und abstrahiert — aber aus realer Erfahrung.
 
-## Einstieg
+## Wo möchtest du anfangen?
 
-Das Portfolio liegt vollständig in zwei Sprachen vor:
+Such dir die Sprache aus, die dir lieber ist. Beide Versionen sind vollständig.
 
 - 🇩🇪 **[Zum deutschen Portfolio →](./de/readme.md)**
 - 🇬🇧 **[Continue in English →](./en/readme.md)**
 
-## Schriften & Working Papers
+## Wenn du tiefer einsteigen willst
 
-Eigenständige theoretische Arbeiten auf wissenschaftlichem Niveau zu systemischen Fragestellungen rund um Engineering, Organisation und KI-Integration findest du im [Wiki](https://github.com/Empishaj/emiliano-pishaj-portfolio/wiki) sowie in den jeweiligen Sprachordnern unter `working-papers/`.
+Im [Wiki](https://github.com/Empishaj/emiliano-pishaj-portfolio/wiki) und unter `working-papers/` findest du eigenständige Schriften auf wissenschaftlichem Niveau — zu systemischen Fragen rund um Engineering, Organisation und KI-Integration. Das ist der Ort, an dem ich nicht nur über Praxis schreibe, sondern wirklich denke.
 
-## Vertraulichkeit
+## Eine kurze Anmerkung zur Vertraulichkeit
 
-Alle Inhalte in diesem Repository sind bewusst anonymisiert, abstrahiert oder aus realer Erfahrung in verallgemeinerter Form rekonstruiert. Es geht hier nicht um interne Unterlagen, sondern um Denkweise, Umsetzungslogik und belastbare Arbeitsmuster.
+Alles hier ist anonymisiert oder bewusst verallgemeinert. Keine Firmeninterna, keine echten Namen, keine geschützten Inhalte. Was du liest, ist meine Denkweise und Umsetzungslogik — keine Insider-Einblicke.
