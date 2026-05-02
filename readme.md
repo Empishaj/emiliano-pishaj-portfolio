@@ -1,5 +1,3 @@
-[← Zur Startseite](../readme.md) · [🇬🇧 English version](../en/readme.md)
-
 ---
 
 # Emiliano Pishaj – Engineering Leadership Portfolio
@@ -26,10 +24,10 @@ Wenn du verstehen willst, wie ich technische und organisatorische Themen in real
 [`working-principles.md`](./working-principles.md) — Grundsätze, an denen sich meine Arbeit orientiert.
 
 ### 🛠 Code Quality ADRs
-[`code-quality-adrs/`](./code-quality-adrs/) — Architecture Decision Records zum Thema Code-Qualität: dokumentierte Entscheidungen mit Kontext, Trade-offs und Folgewirkungen.
+[`./java-quality-compendium/readme.md`](./java-quality-compendium/) — Architecture Decision Records zum Thema Code-Qualität: dokumentierte Entscheidungen mit Kontext, Trade-offs und Folgewirkungen.
 
 ### 📚 Working Papers
-[`working-papers/`](./working-papers/) — Eigenständige theoretische Schriften auf wissenschaftlichem Niveau zu systemischen Fragestellungen rund um Engineering, Organisation und KI-Integration.
+[`./working-papers/`](./working-papers/) — Eigenständige theoretische Schriften auf wissenschaftlichem Niveau zu systemischen Fragestellungen rund um Engineering, Organisation und KI-Integration.
 
 ### 📖 Wiki
 [Zum Wiki](https://github.com/Empishaj/emiliano-pishaj-portfolio/wiki) — Vertiefende Notizen, Reflexionen und ergänzende Materialien.
