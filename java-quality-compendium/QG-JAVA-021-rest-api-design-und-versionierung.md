@@ -15,7 +15,7 @@
 | Zielgruppe | Java-Entwickler, Backend-Entwickler, Tech Leads, API-Reviewer, QA, Security, Architektur, Product Owner mit API-Verantwortung |
 | Verbindlichkeit | Diese Richtlinie gilt für alle neuen REST-/HTTP-APIs und für Breaking Changes an bestehenden APIs. Abweichungen müssen im Pull Request fachlich begründet und im API-Review akzeptiert werden. |
 | Prüfstatus | Fachlich validiert gegen RFC 9110, RFC 9457, Spring Framework `ProblemDetail`, OpenAPI 3.1, OWASP API Security 2023 und Spring Data Pagination-Konzepte. |
-| Letzte fachliche Prüfung | 2026-05-03 |
+| Letzte fachliche Prüfung | 2025-12-03 |
 | Review-Zyklus | Mindestens jährlich oder bei größeren Änderungen an Spring Boot, OpenAPI, Security-Vorgaben oder API-Governance. |
 
 ---
