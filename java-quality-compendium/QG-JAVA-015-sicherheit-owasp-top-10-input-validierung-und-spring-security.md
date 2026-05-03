@@ -16,7 +16,7 @@
 | Gültigkeit | Gilt für REST APIs, Webanwendungen, Backend-Services, SaaS-Plattformen, interne APIs, Batch-Schnittstellen mit externen Eingaben und Integrationsadapter |
 | Nicht-Ziel | Diese Richtlinie ersetzt keine Bedrohungsmodellierung, kein Penetration Testing, keine Datenschutz-Folgenabschätzung, kein vollständiges IAM-Konzept und keine organisationsweite Security Policy |
 | Verbindlichkeit | Neue Java-/Spring-Boot-Funktionalität MUSS diese Richtlinie erfüllen. Abweichungen MÜSSEN im Pull Request begründet, risikobewertet und von Tech Lead oder Security Review akzeptiert werden. |
-| Letzte fachliche Prüfung | 2026-05-03 |
+| Letzte fachliche Prüfung | 2026-04-09 |
 | Quellenbasis | OWASP Top 10:2021, OWASP API Security Top 10:2023, OWASP Cheat Sheet Series, Spring Security Reference, Spring Framework ProblemDetail, Spring Boot Validation/Test-Dokumentation |
 
 ---
