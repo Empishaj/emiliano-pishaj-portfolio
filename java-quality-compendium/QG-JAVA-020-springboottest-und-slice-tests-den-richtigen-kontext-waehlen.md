@@ -10,7 +10,6 @@
 | Status | Accepted / verbindlicher Standard für Spring-Boot-Testdesign |
 | Version | 1.0.0 |
 | Datum | 2023-09-28 |
-| Review-Datum | 2026-05-01 |
 | Kategorie | Testing / Spring Boot / Testarchitektur |
 | Zielgruppe | Java-Entwickler, Tech Leads, QA, Reviewer, Architektur |
 | Java-Baseline | Java 21 |

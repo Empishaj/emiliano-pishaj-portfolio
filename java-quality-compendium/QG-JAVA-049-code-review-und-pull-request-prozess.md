@@ -10,7 +10,6 @@
 | Status | Accepted / verbindlicher Standard für Pull Requests und Code Reviews |
 | Version | 1.0.0 |
 | Datum | 2024-04-23 |
-| Review-Datum | 2026-05-01 |
 | Kategorie | Engineering-Prozess / Qualitätssicherung / Teamarbeit |
 | Zielgruppe | Java-Entwickler, Tech Leads, Reviewer, QA, Security, Architektur, Engineering Management |
 | Java-Baseline | Java 21 |

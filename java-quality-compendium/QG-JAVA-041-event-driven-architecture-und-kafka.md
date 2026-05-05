@@ -10,7 +10,6 @@
 | Status | Accepted / verbindlicher Standard für neue eventbasierte Integrationen |
 | Version | 1.0.0 |
 | Datum | 2024-02-16 |
-| Review-Datum | 2026-05-01 |
 | Kategorie | Architektur / Messaging / Integration / Resilienz |
 | Zielgruppe | Java-Entwickler, Tech Leads, Architektur, QA, Security, DevOps, Plattform-Team |
 | Java-Baseline | Java 21 |

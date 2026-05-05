@@ -10,7 +10,6 @@
 | Status | Accepted / verbindlicher Standard für neue und wesentlich geänderte Java-/Spring-Boot-Services |
 | Version | 1.0.0 |
 | Datum | 2023-02-04 |
-| Review-Datum | 2026-05-01 |
 | Kategorie | Observability / Operations / DevSecOps |
 | Zielgruppe | Java-Entwickler, Tech Leads, SRE/Operations, QA, Security, Architektur, Plattform-Team |
 | Java-Baseline | Java 21 |

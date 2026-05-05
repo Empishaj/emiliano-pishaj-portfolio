@@ -10,7 +10,6 @@
 | Status | Accepted / verbindlicher Standard für Design- und Code-Reviews |
 | Version | 1.0.0 |
 | Datum | 2022-03-14 |
-| Review-Datum | 2026-05-01 |
 | Kategorie | Design-Prinzipien / Clean Code / Wartbarkeit |
 | Zielgruppe | Java-Entwickler, Tech Leads, Reviewer, Architektur, QA |
 | Java-Baseline | Java 21 |

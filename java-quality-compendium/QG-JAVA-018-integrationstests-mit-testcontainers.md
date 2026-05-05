@@ -10,7 +10,6 @@
 | Status | Accepted / verbindlicher Standard für neue und wesentlich geänderte Integrationstests |
 | Version | 1.0.0 |
 | Datum | 2025-04-07 |
-| Review-Datum | 2026-05-01 |
 | Kategorie | Testing / Integration / Persistenz / DevOps |
 | Zielgruppe | Java-Entwickler, Tech Leads, QA, DevOps, Architektur, Plattform-Team |
 | Java-Baseline | Java 21 |

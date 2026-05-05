@@ -10,7 +10,6 @@
 | Status | Accepted / verbindlicher Standard für Build-, Test-, Security- und Deployment-Pipelines |
 | Version | 1.0.0 |
 | Datum | 2025-03-27 |
-| Review-Datum | 2026-05-01 |
 | Kategorie | DevOps / CI/CD / Software Supply Chain / Delivery Governance |
 | Zielgruppe | Java-Entwickler, Tech Leads, DevOps, SRE, Security, QA, Plattform-Team, Engineering Management |
 | Java-Baseline | Java 21 |
