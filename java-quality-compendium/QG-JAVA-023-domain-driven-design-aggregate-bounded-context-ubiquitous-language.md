@@ -10,7 +10,6 @@
 | Status | Accepted / verbindlicher Standard für domänenkritische Java-Systeme |
 | Version | 1.0.0 |
 | Datum | 2026-02-21 |
-| Review-Datum | 2026-11-30 |
 | Kategorie | Architektur / Domain Design / Modellierung |
 | Zielgruppe | Java-Entwickler, Tech Leads, Architektur, Product Owner, QA, Security, Plattform-Team |
 | Java-Baseline | Java 21 |
