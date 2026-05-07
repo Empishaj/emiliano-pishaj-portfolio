@@ -9,7 +9,7 @@
 | Titel | Statische Feature Flags über Konfiguration mit `application.yml` |
 | Status | Accepted / verbindlicher Standard für statische Konfigurations-Flags in Java-/Spring-Boot-Services |
 | Version | 2.0 |
-| Datum | 2026-05-03 (überarbeitet von 1.0 vom 2026-05-02) |
+| Datum | 2026-05-03  |
 | Sprache | Deutsch |
 | Java-Baseline | Java 21+ |
 | Spring-Baseline | Spring Boot 3.4+, Spring Framework 6.x, Hibernate Validator 8 |
@@ -56,7 +56,7 @@
 
 ### Wie liest du dieses Dokument
 
-Dieses Dokument ist mit ca. 95 KB ein Nachschlagewerk, kein Lesebuch. Drei Lesepfade werden empfohlen:
+Dieses Dokument ist ein Nachschlagewerk. Drei Lesepfade werden empfohlen:
 
 **Wenn du neu im Team bist:** Starte mit Sektion 2 (Kurzregel), lies dann Sektion 1 (Zweck), Sektion 4 (Geltungsbereich) und Sektion 8–11 (gute Anwendung mit Beispielen). Damit hast du die mentale Karte für 80 % aller Flag-Reviews.
 
