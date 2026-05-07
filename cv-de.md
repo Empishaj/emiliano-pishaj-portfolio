@@ -68,7 +68,7 @@ Java engineering and system ownership for mission-critical telecommunications bi
 
 ### New Energy Neftenbach AG
 
-_Technical Business Consultant / Interim CTO Mandate · Switzerland · Remote · Part-time · 04/2021 – 03/2023_
+_Technical Business Consultant / Interim CTO Mandate · Switzerland · Remote · Part-time · 03/2021 – 10/2022_
 
 Interim CTO mandate reporting directly to the executive board, covering strategic and operational technical leadership across IT infrastructure, software delivery, cloud modernisation, IT security and API platform development. Part-time, fully remote, in an international setup with four development teams based in Brazil.
 
@@ -94,7 +94,7 @@ Part-time remote consulting engagement combining CRM system design, workflow dig
 
 ### Salberie Dernbach
 
-_Technical Business Consultant · Germany · Remote · Part-time · 01/2018 – 02/2020_
+_Technical Business Consultant · Germany · Remote · Part-time · 01/2018 – 08/2020_
 
 Part-time remote consulting engagement with end-to-end responsibility for a small e-commerce and digital operations setup, including online shop implementation, hosting/server administration, customer journey improvement, vendor coordination and operational support.
 
