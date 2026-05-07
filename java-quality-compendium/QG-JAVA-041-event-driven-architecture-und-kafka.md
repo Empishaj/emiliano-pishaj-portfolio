@@ -8,7 +8,6 @@
 | ID | QG-JAVA-041 |
 | Titel | Event-Driven Architecture und Kafka |
 | Status | Accepted / verbindlicher Standard für neue eventbasierte Integrationen |
-| Version | 2.0 |
 | Datum | 2026-05-01|
 | Java-Baseline | Java 21 |
 | Framework-Baseline | Spring Boot 3.4+, Spring Kafka 3.3+, Micrometer 1.13+, OpenTelemetry, Jakarta Validation 3.0 |
