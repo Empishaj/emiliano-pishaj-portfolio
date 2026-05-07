@@ -1,4 +1,4 @@
-# QG-JAVA-039-01 — Statische Feature Flags über Konfiguration mit `application.yml`
+# QG-JAVA-039 — Statische Feature Flags über Konfiguration mit `application.yml`
 
 ## Dokumentstatus
 
