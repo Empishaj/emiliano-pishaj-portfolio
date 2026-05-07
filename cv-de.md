@@ -1,186 +1,140 @@
 # Emiliano Pishaj
 
-**Engineering Leader · Treiber für KI & moderne Softwareentwicklung · Team-Entwickler & Kulturgestalter**
+**Engineering Manager** · Hands-on Line Manager
 
-📍 Leer, Deutschland
-📧 pishaj.emiliano@gmail.com
-📱 +49 1525 340 2518
-🔗 [LinkedIn](https://www.linkedin.com/in/emiliano-pishaj-41525b68/) · [GitHub-Portfolio](https://github.com/Empishaj/emiliano-pishaj-portfolio)
+Germany · +49 152 53402518 · pishaj.emiliano@gmail.com  
+[github.com/Empishaj/emiliano-pishaj-portfolio](https://github.com/Empishaj/emiliano-pishaj-portfolio)
 
 ---
 
-## Profil
+## Summary
 
-Engineering Manager mit über 6 Jahren Führungserfahrung, aktuell verantwortlich für ein Java-Engineering-Chapter von ca. 22 Entwicklerinnen und Entwicklern in Deutschland und in Nearshore-Teams in Portugal und Polen im Bereich öffentlicher Personenverkehr und Mobilität. Belastbare Erfahrung im Aufbau leistungsstarker Engineering-Organisationen: Performance-Management, Kapazitätsplanung, Headcount-Entscheidungen und fachliche Entwicklung über verteilte internationale Teams hinweg. Ausgeprägte technische Glaubwürdigkeit in Java 21+, Spring Boot, Kubernetes-/Docker-basierten Microservice-Architekturen, GitLab CI/CD und AWS-Cloud-Umgebungen. Etablierung einer DORA-basierten Delivery-Governance, von DevSecOps-Praktiken und OWASP-konformen sicheren Engineering-Standards in ISO 27001-konformen Kontexten. Klarer Fokus auf Engineering-Kultur, OKR-orientierte Lieferung und praxisnahe KI-Befähigung von Entwicklungsteams.
+Engineering leader with a Java and platform engineering background, currently leading a chapter of approximately 22 engineers across Germany and nearshore teams in Portugal and Poland. Experienced in software engineering management, hiring, performance reviews, coaching, engineering standards and stakeholder alignment in complex platform environments.
 
----
-
-## Berufserfahrung
-
-### 02/2025 – heute | Java Chapter Lead · Disziplinarische Führungskraft
-
-**Branche:** Mobilität / Öffentlicher Personenverkehr (Ticketing-Plattformen) — Deutschland
-
-Leitung des Java-Engineering-Chapters für eine Ticketing-Suite-Plattform im Bereich öffentlicher Personenverkehr und Mobilität, mit voller disziplinarischer Verantwortung für ca. 22 Entwicklerinnen und Entwickler in Deutschland und in Nearshore-Teams in Portugal und Polen.
-
-- Disziplinarische Führung von 22 Engineers (14 intern + 8 Nearshore Portugal/Polen): Performance-Reviews, Entwicklungspläne, Kapazitätsplanung und Headcount-Entscheidungen.
-- Verantwortung für das Weiterbildungsbudget des Chapters: Identifikation von Kompetenzlücken, Auswahl gezielter Entwicklungsmaßnahmen und Allokation der Lernressourcen über das gesamte Engineering-Team hinweg.
-- Coaching der Engineers zu Karriereentwicklung, technischer Weiterentwicklung und Ownership-Mindset innerhalb des Chapters.
-- Mitwirkung an der technischen Roadmap des Java-Chapters: Priorisierung von Plattform-Modernisierungsinitiativen, Adressierung technischer Schulden und Ausrichtung der Engineering-Investitionen an Produktzielen.
-- Gestaltung der technischen Weiterentwicklung der Java-basierten Plattform-Services auf Basis von Java 21, Spring Boot, Quarkus und skalierbaren Kubernetes-/Docker-basierten Microservice-Architekturen.
-- Gemeinsame Konzeption des Engineering-Betriebsmodells mit dem Head of Development: Chapter-Rollen, Team-Topologien, Nearshore-Kollaborationsschnittstellen und Governance-Routinen.
-- Sparringspartner des Head of Development zu Themen rund um Engineering-Organisation, Priorisierung und teamübergreifende Liefereffektivität.
-- Etablierung einer DORA-orientierten Delivery-Transparenz, von CI/CD-Quality-Gates und GitLab-Pipeline-Standards, um Lieferrisiken früher sichtbar zu machen und die Release-Sicherheit zu erhöhen.
-- Einführung von DevSecOps-Praktiken und OWASP-konformen Secure-Coding-Richtlinien in einem ISO 27001-konformen Engineering-Kontext; automatisiertes SAST über SonarQube in allen CI-Pipelines.
-- Entwicklung von KI-Enablement-Formaten und Einführung unternehmensweiter KI-Nutzungsrichtlinien zur Förderung einer praxisnahen und konsistenten KI-Adoption in den Entwicklungsteams.
-- Strukturierung des Chapter-Onboardings für neue und Nearshore-Engineers; Reduktion der Time-to-First-Productive-Commit und beschleunigte Integration neuer Teammitglieder in den Lieferprozess.
-
-**Tech / Umfeld:** Java 21 · Spring Boot · Quarkus · Microservices · GitLab CI/CD · Docker · Kubernetes · SQL-Datenbanken · OWASP · DevSecOps · SonarQube · ISO 27001
+Strong focus on delivery governance, CI/CD quality gates, DORA-based transparency, Secure SDLC, DevSecOps and OWASP-aligned engineering practices in an ISO 27001-aligned context. Technical credibility across Java 21+, Spring Boot, APIs, microservices, SQL databases, Docker, Kubernetes, GitLab CI and AWS, with additional focus on practical AI enablement for engineering teams.
 
 ---
 
-### 11/2022 – 01/2025 | Engineering Manager (Java Tech Lead)
+## Professional Experience
 
-**Branche:** Bildung / EdTech (Hochschulwesen) — Deutschland
+### eos.uptrade GmbH — Siemens Mobility Group
 
-Aufbau und Leitung eines internationalen Plattformteams; disziplinarische Führung von 8 Engineers und vollständige Verantwortung für eine komplexe technische Plattform auf Basis von Java, MarkLogic und Camunda.
+_Java Chapter Lead | Line Manager · Germany · 02/2025 – Present_
 
-- Vollständige disziplinarische Führung von 8 Engineers: Performance-Reviews, Karriere- und Entwicklungspläne, Hiring-Entscheidungen und tägliche People-Leadership-Arbeit in einem internationalen Team-Setup; OKR-Ausrichtung.
-- Aufbau des Teams von 1 auf 8 Engineers durch strukturierte Hiring-Kampagnen und Integration von Nearshore-Teams.
-- Etablierung von CI/CD-Governance, DORA-orientierten Delivery-Metriken und Quality-Gates; messbare Verbesserung der Release-Planbarkeit und Reduktion manueller Deployment-Aufwände.
-- Einführung von DevSecOps-Praktiken und OWASP-konformen Secure-Coding-Richtlinien in einem ISO 27001-konformen Engineering-Kontext; Implementierung automatisierter Security-Scans in GitLab-CI-Pipelines.
-- Erstellung von Architektur- und Systemdesigns für hoch komplexe fachliche Anforderungen auf einer Plattform, die Java, MarkLogic und die Camunda-Workflow-Engine kombiniert.
-- Stärkung der cross-funktionalen Zusammenarbeit zwischen Product, QA, DevOps und Architektur; Reduktion von Liefersilos und Verbesserung der teamübergreifenden Koordination und OKR-Ausrichtung.
-- Unterstützung im Recruiting-Prozess: Definition von Rollenprofilen, Durchführung technischer Interviews und Hiring-Empfehlungen für Engineering-Positionen.
-- Definition und Pflege der technischen Roadmap der Plattform: Übersetzung fachlicher Anforderungen in priorisierte Engineering-Initiativen sowie Kommunikation von Fortschritt und Trade-offs an Senior-Stakeholder.
-- Reduktion der Frequenz ungeplanter Hotfixes durch strukturierte CI/CD-Quality-Gates, automatisierte Test-Anforderungen und Release-Readiness-Checks — messbare Verbesserung der Plattformstabilität und Release-Sicherheit über die Laufzeit des Teams.
+People leadership for the Java engineering chapter behind eos.uptrade's TS4 — the Java-based ticketing suite for online distribution and ticketing in public transport (ÖPV). Combined responsibility for chapter leadership of approximately 22 engineers, technical evolution of the platform's Java landscape, engineering operating model design and company-wide AI enablement.
 
-**Tech / Umfeld:** Java 21 · Spring Boot · MarkLogic · Camunda · GitLab CI/CD · Docker · Kubernetes · Architekturdesign · Code-Reviews · DevSecOps
+- Lead a Java engineering chapter of approximately 22 developers across internal teams and nearshore locations in Portugal and Poland — covering coaching, mentoring, knowledge transfer, development plans, performance reviews, hiring and onboarding.
+- Shape the technical evolution and quality of the Java-based TS4 ticketing platform using Java 21, Spring Boot and Quarkus, with a focus on secure and scalable microservice architectures.
+- Co-designed the engineering operating model with the Head of Development — chapter roles, team structures, collaboration interfaces and governance routines — and contribute to its ongoing evolution.
+- Introduced and evolved DevSecOps practices alongside Clean Code and OWASP-aligned secure coding guidelines within the ISO 27001 certification scope.
+- Acting as company-wide AI Key User: develop AI enablement formats and support the rollout of AI usage guidelines for engineering teams.
+- Initiated engineering culture formats — Hackathons, Service Deep Dives, Chapter surveys and code quality formats — to strengthen open communication, codebase quality and cross-team efficiency.
 
----
-
-### 10/2012 – 03/2022 | Spezialist für Abrechnungssysteme
-
-**Branche:** Telekommunikation (regionaler Telekommunikationsanbieter) — Deutschland
-
-Verantwortung und Weiterentwicklung geschäftskritischer Telekommunikations-Billing-Umgebungen (Interconnection-Billing, Offline-Billing, Partner-Billing). Zentrale technische Schnittstelle zwischen IT-Betrieb, Carrier-Management, Finanzen und Rechnungswesen.
-
-- Betrieb und Weiterentwicklung eigenständiger Billing-Umgebungen mit klarem Fokus auf Zuverlässigkeit, Effizienz und Kontinuität unter Spitzenlast.
-- Entwurf und Umsetzung von Lösungen für komplexe Billing-, Datenverarbeitungs- und Systemintegrationsprobleme; eigenverantwortliche Weiterentwicklung der Billing-Umgebungen entsprechend sich verändernder fachlicher Anforderungen.
-- Koordination der cross-funktionalen Schnittstellen zwischen IT-Systemen, Carrier-Management, Finanzen/Rechnungswesen und operativen Stakeholdern.
-- Aufbau eines belastbaren Fundaments für die Verantwortung geschäftskritischer Systeme, operatives Risikobewusstsein und Qualitätsdisziplin — später eingebracht in Engineering-Leadership und Delivery-Governance.
-
-**Tech / Umfeld:** Java 8 · Linux · Bash · Oracle DB · Apache Wicket · DevOps · GitLab
+> _Tech / Environment_ — Java 21, Spring Boot, Quarkus, TS4 platform services, microservices, GitLab CI/CD, Docker/Kubernetes-based delivery environments, SQL databases, OWASP, DevSecOps.
 
 ---
 
-## Selbstständige Beratungstätigkeit (Teilzeit, parallel zur Festanstellung)
+### IU Group
 
-*Alle nachstehenden Engagements wurden als Teilzeit- und Remote-Beratungsmandate parallel zu einer Festanstellung durchgeführt.*
+_Engineering Manager (Java Tech Lead) · Germany · 11/2022 – 01/2025_
 
-### 05/2022 – 10/2022 | Senior Java Developer — Legacy-Modernisierung & Refactoring
+Built and led the TEAQ platform team — 8 engineers in an international setup across multiple locations, time zones and cultures — with end-to-end responsibility for an AI translation platform that became a strategic enabler for IU's international expansion into new market countries.
 
-**Branche:** IT-Beratung mit Schwerpunkt öffentlicher Sektor — Deutschland · Remote · Teilzeit
+- End-to-end ownership of the AI platform's conception, architecture and implementation — automated translation of German-language study scripts as the technological foundation for the company's international scale-out.
+- Owned the build and operation of a complex platform on SiteFusion (Java, MarkLogic, Camunda), one of the most complex systems in the company — including architecture, system design and code reviews to safeguard maintainability and delivery quality.
+- Conducted hiring, interviews and team development across an international engineering team.
 
-Projektbasiertes Java-Modernisierungsmandat für Kunden im öffentlichen Sektor. Engagement nach Lieferung des vereinbarten Projektumfangs regulär abgeschlossen.
-
-- Analyse und Refactoring von Java-Legacy-Codebasen zur Verbesserung der Wartbarkeit, Reduktion technischer Schulden und Schaffung einer Grundlage für die weitere Modernisierung.
-- Lieferung gezielter Java-Entwicklungspakete unter den für den öffentlichen Sektor typischen Anforderungen an Betriebsstabilität und Compliance.
-- Unterstützung bei der Stabilisierung der Delivery-Praktiken in DevOps-orientierten Projektumgebungen durch strukturierte Übergaben und Dokumentation.
-
-**Tech / Umfeld:** Java · Legacy-Modernisierung · Refactoring · DevOps-orientierte Lieferung · GitLab
+> _Tech / Environment_ — Java 21, Spring Boot, SiteFusion, MarkLogic, Camunda, AI/ML platform development, workflow engine, architecture and system design, code reviews.
 
 ---
 
-### 03/2021 – 10/2022 | Technischer Business-Consultant / Interim-CTO-Mandat
+### EWE TEL GmbH
 
-**Branche:** Energie / Erneuerbare Energien — Schweiz · Remote · Teilzeit
+_Billing Systems Specialist · Germany · 10/2012 – 03/2022_
 
-CTO-orientiertes technisches Führungsmandat mit Verantwortung für IT-Infrastruktur, Software-Delivery, Cloud-Modernisierung, Sicherheit und API-Plattform-Entwicklung in einem verteilten Setup.
+Java engineering and system ownership for mission-critical telecommunications billing environments over 9.5 years — covering interconnection, offline and partner billing in a 24/7 high-reliability operational context. Combined day-to-day software development, systems integration and operational problem-solving with cross-functional coordination.
 
-- Führung und Unterstützung von vier Entwicklungsteams mit jeweils fünf Engineers; Stärkung von Lieferleistung, Zusammenarbeit und technischer Entscheidungsfindung.
-- Steuerung von Cloud-Migrationsinitiativen zur Verbesserung der Skalierbarkeit und Reduktion der Betriebskosten um 30 %.
-- Einführung von Scrum- und Kanban-Praktiken; Steigerung der Entwicklungs-Effizienz um 45 % und der Projektabschlussquote um 40 %.
-- Stärkung der IT-Sicherheit durch verbesserte Protokolle, Audits und operative Kontrollen; Reduktion der Sicherheitsvorfälle um 50 %.
-- Aufbau einer API-Plattform für Drittanbieter-Integrationen; Reduktion der Time-to-Market für neue Funktionen um 25 %.
+- Designed and implemented Java solutions for complex billing logic, data processing and system integration challenges — using Java 8 and Apache Wicket for internal billing applications and tooling.
+- Owned and continuously evolved a self-managed billing environment, independently extending and adapting the application landscape to meet changing business and operational requirements over multiple years.
+- Built and tuned data processing routines against Oracle databases to support high-volume billing runs, reconciliation and audit trails under tight operational constraints.
+- Developed Linux/Bash automation for operational reliability, monitoring and recurring billing-process tasks; contributed to DevOps adoption through GitLab-based CI/CD pipelines for build, test and deployment.
+- Coordinated cross-functional interfaces between IT systems, carrier management, finance/accounting and operational stakeholders — building the foundation in business-critical system ownership and quality discipline later applied in engineering leadership.
 
-**Tech / Umfeld:** Java · Spring Boot · Docker · Kubernetes · AWS · MySQL · GitLab CI/CD · REST APIs · Microservices · Scrum/Kanban
-
----
-
-### 06/2021 – 05/2022 | Technischer Business-Consultant
-
-**Branche:** Versicherungswesen (Versicherungspool) — Schweiz · Remote · Teilzeit
-
-- Konzeption und Umsetzung einer Workflow-Management-Lösung im Kontext eines Versicherungspools — Übersetzung fachlicher Anforderungen in skalierbare Workflows und ein wartbares Systemdesign.
-- Durchgängige Stakeholder-Abstimmung über die Lieferphase; Steigerung der operativen Effizienz um 35 % durch optimierte Workflows und Systemunterstützung.
-
-**Tech / Umfeld:** Java · Spring Boot · MySQL · GitLab · Workflow-Design · Lösungsarchitektur
+> _Tech / Environment_ — Java 8, Apache Wicket, Oracle DB, Linux, Bash, GitLab CI/CD, DevOps, billing systems integration, high-volume data processing, telecommunications domain.
 
 ---
 
-### 01/2020 – 03/2022 | Technischer Business-Consultant
+## Independent Consulting
 
-**Branche:** Private Equity / Investment — Schweiz · Remote · Teilzeit
+### New Energy Neftenbach AG
 
-- CRM-Systemdesign, Workflow-Digitalisierung und Delivery-Leitung im Private-Equity-Kontext.
-- Führung eines kleinen Lieferteams von drei Entwicklern; Koordination der Stakeholder-Abstimmung und Sicherstellung der Lieferqualität. Vom Kunden berichtete Wirkung: Steigerung des Investitionsvolumens um 57 % (~34 Mio. €) durch Prozessdigitalisierung.
+_Technical Business Consultant / Interim CTO Mandate · Switzerland · Remote · Part-time · 04/2021 – 03/2023_
 
-**Tech / Umfeld:** Java · MySQL · GitLab · CRM-Systemdesign · Workflow-Digitalisierung · Delivery-Koordination
+Interim CTO mandate reporting directly to the executive board, covering strategic and operational technical leadership across IT infrastructure, software delivery, cloud modernisation, IT security and API platform development. Part-time, fully remote, in an international setup with four development teams based in Brazil.
 
----
+- Led four development teams of five engineers each — approximately 20 engineers in total — across time zones, languages and cultures; advised the executive board on technology, architecture, security and delivery decisions throughout the mandate.
+- Steered cloud migration initiatives, reducing operational cost by approximately 30% while significantly improving system scalability.
+- Introduced Scrum and Kanban delivery practices, increasing development efficiency by approximately 45% and project completion rate by approximately 40%.
+- Strengthened IT security through improved protocols, recurring audits and operational controls — reducing security-relevant incidents by approximately 50%.
+- Built a third-party API platform that cut time-to-market for new features by approximately 25%.
 
-### 01/2018 – 08/2020 | Technischer Business-Consultant
-
-**Branche:** E-Commerce / Einzelhandel — Deutschland · Remote · Teilzeit
-
-- Ende-zu-Ende-Verantwortung für ein kleines E-Commerce- und Digitalbetriebs-Setup: Online-Shop-Implementierung, Server-Administration, Optimierung der Customer Journey und Lieferanten-Koordination.
-
-**Tech / Umfeld:** PHP · Java · MySQL · Linux · Apache Wicket · NGINX · Tomcat · Plesk · Server-Administration
+> _Tech / Environment_ — Java, Spring Boot, Docker, Kubernetes, AWS, MySQL, GitLab CI/CD, REST APIs, microservices, Scrum/Kanban, cloud modernisation, IT security protocols.
 
 ---
 
-### 09/2006 – 09/2012 | Geschäftsinhaber / Gründer — Softwareentwicklung & Managed Hosting
+### Royal Business Club GmbH
 
-**Branche:** IT-Dienstleistungen / Softwareentwicklung & Hosting — Deutschland
+_Technical Business Consultant · Switzerland · Remote · Part-time · 01/2020 – 03/2022_
 
-- Gründung und Betrieb einer Agentur für Softwareentwicklung und Managed Hosting: Lieferung von Business-Portalen, Vereinssoftware und White-Label-Lösungen, einschließlich eines Mandanten aus dem Bankenumfeld.
-- Verantwortung für die Ende-zu-Ende-Software-Lieferung von der Kundenakquise über die Entwicklung (Java, PHP, JSF) bis zu Deployment und operativem Hosting auf Linux-basierter Server-Infrastruktur.
-- Aufbau und Koordination von Freelance-Entwicklungsteams für ausgewählte Projekte; Steuerung von Scope, Lieferzusagen und Umsetzungsqualität.
+Part-time remote consulting engagement combining CRM system design, workflow digitisation and delivery leadership in a private equity context. Led a small delivery team of three developers and coordinated stakeholder alignment, priorities and delivery quality.
 
-**Tech / Umfeld:** Java · JSF · Apache Wicket · MySQL · Linux · Apache · NGINX · Tomcat · Plesk · Managed Hosting
+> _Tech / Environment_ — Java, MySQL, GitLab, CRM system design, workflow digitisation, delivery coordination.
 
 ---
 
-## Ausbildung
+### Salberie Dernbach
 
-### 09/2006 – 09/2011 | Bachelor of Science (B.Sc.) Informatik
+_Technical Business Consultant · Germany · Remote · Part-time · 01/2018 – 02/2020_
 
-**Hochschule für Angewandte Wissenschaften, Niedersachsen, Deutschland**
+Part-time remote consulting engagement with end-to-end responsibility for a small e-commerce and digital operations setup, including online shop implementation, hosting/server administration, customer journey improvement, vendor coordination and operational support.
 
-Abschlussarbeit: *Evaluation des Apache Wicket Frameworks*
-
----
-
-## Zertifikate & ausgewählte Weiterbildungen
-
-| Datum | Zertifikat / Weiterbildung |
-|-------|----------------------------|
-| 04/2026 | Scrum Master: Online Specialization — Coursera / LearnQuest |
-| 01/2026 | Digital Product Management — University of Virginia, Darden School of Business |
-| 01/2026 | Cybersecurity-Schulung 2026 (OT-Security, KI & sensible Daten, MFA) — internes Unternehmensprogramm |
-| 10/2025 | Arbeitsrecht für Führungskräfte |
-| 10/2024 | Amazon Web Services: Architecture (AWS Cloud Practitioner) — LinkedIn Learning |
-| 07/2024 | License to Lead — internes Führungsprogramm |
-| 05/2024 | Delegation & Verantwortlichkeit — LinkedIn Learning |
-| 05/2024 | Konfliktmanagement & schwierige Gespräche — LinkedIn Learning |
-| 03/2023 | AGG für Führungskräfte — Haufe Akademie |
-| 11/2022 | Agile Project Leadership — LinkedIn Learning |
+> _Tech / Environment_ — PHP, Java, MySQL, Linux, Apache Wicket, NGINX, Tomcat, Plesk, server administration.
 
 ---
 
-## GitHub-Portfolio
+### EMPICE-IT
 
-**Engineering Leadership Portfolio** — praxisnahe Working Papers zu Themen wie Operating-Model-Design, Delivery-Governance, DevSecOps, KI-Enablement und Java/JVM-Plattform-Leadership.
+_Business Owner / Founder — Software Delivery, Managed Hosting · Germany · 09/2006 – 09/2012_
 
-🔗 [github.com/Empishaj/emiliano-pishaj-portfolio](https://github.com/Empishaj/emiliano-pishaj-portfolio)
+Founded and operated a small software development and managed hosting business for local companies. Combined client acquisition, software delivery, Linux server operations, managed hosting and coordination of freelance delivery teams. Delivered business portals, association software and white-label software solutions, including a banking-related client context.
+
+> _Tech / Environment_ — Java, JSF, Apache Wicket, MySQL, Linux, Apache, NGINX, Tomcat, Plesk, managed hosting.
+
+---
+
+## Education
+
+**Bachelor of Science (B.Sc.) in Computer Science**  
+University of Applied Sciences Emden / Leer · 09/2006 – 09/2011  
+Thesis: _Evaluation of the Apache Wicket Framework_
+
+---
+
+## Certifications
+
+- **04/2026** — Scrum Master: Online Specialization · Coursera / LearnQuest
+- **01/2026** — Digital Product Management · University of Virginia Darden / Coursera
+- **01/2026** — Siemens Cybersecurity Training 2026
+- **10/2025** — Arbeitsrecht für Führungskräfte · Tannenfelde
+- **10/2024** — Amazon Web Services: Architecture · LinkedIn Learning
+- **07/2024** — License to Lead · IU Group
+- **05/2024** — Delegation & Accountability · LinkedIn Learning
+- **05/2024** — Conflict Management & Difficult Conversations · LinkedIn Learning
+- **03/2023** — AGG für Führungskräfte · Haufe Akademie
+- **11/2022** — Agile Project Leadership · LinkedIn Learning
+
+---
+
+## Portfolio
+
+This CV is part of my [Engineering Leadership Portfolio](https://github.com/Empishaj/emiliano-pishaj-portfolio) on GitHub. The repository documents how I think and work as an engineering leader beyond what a CV alone can show — including working principles, decision-making approaches and reflections on engineering operating models, delivery governance and team development.
