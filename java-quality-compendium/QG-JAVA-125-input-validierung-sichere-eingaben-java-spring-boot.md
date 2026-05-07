@@ -10,7 +10,6 @@
 | Status | Accepted / verbindlicher Standard für Eingabevalidierung |
 | Version | 1.0.0 |
 | Datum | 2025-11-12 |
-| Review-Datum | 2026-05-01 |
 | Kategorie | Security / OWASP / API Design / Bean Validation |
 | Zielgruppe | Java-Entwickler, Tech Leads, Reviewer, QA, Security, Architektur |
 | Java-Baseline | Java 21 |
