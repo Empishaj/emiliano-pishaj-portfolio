@@ -3525,9 +3525,6 @@ DEINE LERNSTRATEGIE — ZUSAMMENFASSUNG
    → LinkedIn TOGAF-Gruppen
    → Study Groups mit anderen Lernenden
 
-VIEL ERFOLG! 🎯
-Du hast jetzt das Fundament für eine erfolgreiche
-TOGAF 10 Zertifizierung und praktische Anwendung.
 ```
 
 ---
