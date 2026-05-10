@@ -1,49 +1,9 @@
-# 🏛️ TOGAF® 10 — Die vollständige Lernanleitung
+# TOGAF® 10 — Die vollständige Lernanleitung
 ## Vom Anfänger zum Profi: Alles was du wissen musst, um TOGAF 10 konkret anzuwenden
 
 ---
 
-> **Für wen ist diese Anleitung?**
-> Für alle, die TOGAF 10 wirklich verstehen und anwenden wollen —
-> nicht nur für die Prüfung, sondern im echten Projektalltag.
-> Fachbegriffe werden immer sofort erklärt.
-> Jedes Konzept wird mit einem konkreten Beispiel illustriert.
-
----
-
-# 📋 INHALTSVERZEICHNIS
-
-1. [Was ist TOGAF 10 — und warum brauche ich es?](#kapitel-1)
-2. [Die Grundbegriffe — das Vokabular eines Architekten](#kapitel-2)
-3. [Die vier Architekturdomänen](#kapitel-3)
-4. [Der ADM — das Herzstück von TOGAF 10](#kapitel-4)
-5. [Preliminary Phase — Vorbereitung ist alles](#kapitel-5)
-6. [Phase A — Architecture Vision](#kapitel-6)
-7. [Phase B — Business Architecture](#kapitel-7)
-8. [Phase C — Information Systems Architecture](#kapitel-8)
-9. [Phase D — Technology Architecture](#kapitel-9)
-10. [Phase E — Opportunities & Solutions](#kapitel-10)
-11. [Phase F — Migration Planning](#kapitel-11)
-12. [Phase G — Implementation Governance](#kapitel-12)
-13. [Phase H — Architecture Change Management](#kapitel-13)
-14. [Requirements Management](#kapitel-14)
-15. [Architecture Principles](#kapitel-15)
-16. [Deliverables, Artifacts & Building Blocks](#kapitel-16)
-17. [Enterprise Continuum & Architecture Repository](#kapitel-17)
-18. [Architecture Views & Viewpoints](#kapitel-18)
-19. [Stakeholder Management](#kapitel-19)
-20. [Gap Analysis — Lücken finden und schließen](#kapitel-20)
-21. [Business Capabilities & Value Streams](#kapitel-21)
-22. [Business Scenarios](#kapitel-22)
-23. [TOGAF mit anderen Frameworks kombinieren](#kapitel-23)
-24. [Vollständiges Fallbeispiel: Digitale Transformation einer Behörde](#kapitel-24)
-25. [Vollständiges Fallbeispiel: E-Commerce Unternehmen](#kapitel-25)
-26. [Häufige Fehler und wie du sie vermeidest](#kapitel-26)
-27. [Prüfungsvorbereitung & Lernstrategie](#kapitel-27)
-
----
-
-# 📌 KAPITEL 1 — Was ist TOGAF 10 und warum brauche ich es? {#kapitel-1}
+# KAPITEL 1 — Was ist TOGAF 10 und warum brauche ich es?
 
 ---
 
@@ -182,7 +142,7 @@ Wichtig zu verstehen — TOGAF ist:
 
 ---
 
-# 📌 KAPITEL 2 — Die Grundbegriffe {#kapitel-2}
+# KAPITEL 2 — Die Grundbegriffe 
 
 ---
 
@@ -395,7 +355,7 @@ Implications:  Was das Prinzip für die Praxis bedeutet
 
 ---
 
-# 📌 KAPITEL 3 — Die vier Architekturdomänen {#kapitel-3}
+# KAPITEL 3 — Die vier Architekturdomänen {#kapitel-3}
 
 ---
 
@@ -667,7 +627,7 @@ TECHNOLOGY ARCHITECTURE
 
 ---
 
-# 📌 KAPITEL 4 — Der ADM: Das Herzstück von TOGAF 10 {#kapitel-4}
+# KAPITEL 4 — Der ADM: Das Herzstück von TOGAF 10
 
 ---
 
@@ -801,7 +761,7 @@ ITERATION 3: ZWISCHEN ADM-ZYKLEN
 
 ---
 
-# 📌 KAPITEL 5 — Preliminary Phase {#kapitel-5}
+# KAPITEL 5 — Preliminary Phase 
 
 ---
 
@@ -924,7 +884,7 @@ SCHRITT 4: GOVERNANCE
 
 ---
 
-# 📌 KAPITEL 6 — Phase A: Architecture Vision {#kapitel-6}
+# KAPITEL 6 — Phase A: Architecture Vision
 
 ---
 
@@ -1094,7 +1054,7 @@ SCOPE-DIMENSIONEN
 
 ---
 
-# 📌 KAPITEL 7 — Phase B: Business Architecture {#kapitel-7}
+# KAPITEL 7 — Phase B: Business Architecture
 
 ---
 
@@ -1378,7 +1338,7 @@ CEO                             Vertrieb ──Leads──► Marketing
 
 ---
 
-# 📌 KAPITEL 8 — Phase C: Information Systems Architecture {#kapitel-8}
+# 📌 KAPITEL 8 — Phase C: Information Systems Architecture
 
 ---
 
@@ -1545,7 +1505,7 @@ FMS 2.0 ──ETL──► BI-System
 
 ---
 
-# 📌 KAPITEL 9 — Phase D: Technology Architecture {#kapitel-9}
+# KAPITEL 9 — Phase D: Technology Architecture {#kapitel-9}
 
 ---
 
@@ -1624,7 +1584,7 @@ TECHNOLOGIESTANDARDS:
 
 ---
 
-# 📌 KAPITEL 10 — Phase E: Opportunities & Solutions {#kapitel-10}
+# KAPITEL 10 — Phase E: Opportunities & Solutions
 
 ---
 
@@ -1742,7 +1702,7 @@ GESAMTDAUER: 3 Jahre
 
 ---
 
-# 📌 KAPITEL 11 — Phase F: Migration Planning {#kapitel-11}
+# KAPITEL 11 — Phase F: Migration Planning
 
 ---
 
@@ -1824,7 +1784,7 @@ Maßnahme: DSGVO-Folgenabschätzung,
 
 ---
 
-# 📌 KAPITEL 12 — Phase G: Implementation Governance {#kapitel-12}
+# 📌 KAPITEL 12 — Phase G: Implementation Governance
 
 ---
 
@@ -1904,7 +1864,7 @@ COMPLIANCE REVIEW PROZESS
 
 ---
 
-# 📌 KAPITEL 13 — Phase H: Architecture Change Management {#kapitel-13}
+# KAPITEL 13 — Phase H: Architecture Change Management
 
 ---
 
@@ -1964,7 +1924,7 @@ EXTERN:
 
 ---
 
-# 📌 KAPITEL 14 — Requirements Management {#kapitel-14}
+# KAPITEL 14 — Requirements Management
 
 ---
 
@@ -2010,7 +1970,7 @@ CONSTRAINTS:
 
 ---
 
-# 📌 KAPITEL 15 — Architecture Principles {#kapitel-15}
+# KAPITEL 15 — Architecture Principles
 
 ---
 
@@ -2107,7 +2067,7 @@ Implications: Data Governance, Datenqualitätsprogramm.
 
 ---
 
-# 📌 KAPITEL 16 — Deliverables, Artifacts & Building Blocks {#kapitel-16}
+# KAPITEL 16 — Deliverables, Artifacts & Building Blocks
 
 ---
 
@@ -2270,7 +2230,7 @@ ABB "Authentifizierungsservice"
 
 ---
 
-# 📌 KAPITEL 17 — Enterprise Continuum & Architecture Repository {#kapitel-17}
+# KAPITEL 17 — Enterprise Continuum & Architecture Repository 
 
 ---
 
@@ -2352,7 +2312,7 @@ ARCHITECTURE REPOSITORY — STRUKTUR
 
 ---
 
-# 📌 KAPITEL 18 — Architecture Views & Viewpoints {#kapitel-18}
+# KAPITEL 18 — Architecture Views & Viewpoints 
 
 ---
 
@@ -2412,7 +2372,7 @@ VIEWPOINT DEFINITION
 
 ---
 
-# 📌 KAPITEL 19 — Stakeholder Management {#kapitel-19}
+# KAPITEL 19 — Stakeholder Management 
 
 ---
 
@@ -2479,7 +2439,7 @@ Medium: Intranet, Schulungen, Townhall
 
 ---
 
-# 📌 KAPITEL 20 — Gap Analysis {#kapitel-20}
+# KAPITEL 20 — Gap Analysis 
 
 ---
 
@@ -2540,7 +2500,7 @@ E-Mail-System       MS Exchange     MS Exchange     KEIN GAP
 
 ---
 
-# 📌 KAPITEL 21 — Business Capabilities & Value Streams {#kapitel-21}
+# KAPITEL 21 — Business Capabilities & Value Streams 
 
 ---
 
@@ -2613,7 +2573,7 @@ Statistik/Reporting      3/5    2/5     ⚪ Optimieren/Auslagern
 
 ---
 
-# 📌 KAPITEL 22 — Business Scenarios {#kapitel-22}
+# KAPITEL 22 — Business Scenarios 
 
 ---
 
@@ -2728,7 +2688,7 @@ Umsetzung: IT-Projekte + externe Systemintegratoren
 
 ---
 
-# 📌 KAPITEL 23 — TOGAF mit anderen Frameworks {#kapitel-23}
+# KAPITEL 23 — TOGAF mit anderen Frameworks 
 
 ---
 
@@ -2824,7 +2784,7 @@ ArchiMate SCHICHTEN:
 
 ---
 
-# 📌 KAPITEL 24 — Vollständiges Fallbeispiel: Digitale Transformation einer Behörde {#kapitel-24}
+# KAPITEL 24 — Vollständiges Fallbeispiel: Digitale Transformation einer Behörde
 
 ---
 
@@ -3085,7 +3045,7 @@ ERWARTETER ROI:
 
 ---
 
-# 📌 KAPITEL 25 — Vollständiges Fallbeispiel: E-Commerce {#kapitel-25}
+# KAPITEL 25 — Vollständiges Fallbeispiel: E-Commerce 
 
 ---
 
@@ -3176,7 +3136,7 @@ PHASE E:
 
 ---
 
-# 📌 KAPITEL 26 — Häufige Fehler und wie du sie vermeidest {#kapitel-26}
+# KAPITEL 26 — Häufige Fehler und wie du sie vermeidest 
 
 ---
 
@@ -3272,7 +3232,7 @@ Lösung: Architecture Principles zuerst,
 
 ---
 
-# 📌 KAPITEL 27 — Prüfungsvorbereitung & Lernstrategie {#kapitel-27}
+# KAPITEL 27 — Prüfungsvorbereitung & Lernstrategie 
 
 ---
 
@@ -3535,7 +3495,4 @@ DEINE LERNSTRATEGIE — ZUSAMMENFASSUNG
 > TOGAF® Business Architecture Foundation Study Guide.
 > TOGAF® ist ein eingetragenes Warenzeichen von The Open Group.
 
----
 
-*Ende der Anleitung — Version 1.0*
-*Erstellt als Lernhilfe für TOGAF 10 Kandidaten*
