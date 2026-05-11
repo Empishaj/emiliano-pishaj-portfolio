@@ -1,4 +1,4 @@
-# TOGAF Coach-Playbook: Supply Chain Security, OT/ICS, Awareness, Compliance und Security KPIs
+# TOGAF: Supply Chain Security, OT/ICS, Awareness, Compliance und Security KPIs
 
  
 
@@ -36,7 +36,7 @@ Die Sprache bleibt bewusst einfach. Komplexität wird nicht versteckt, sondern s
 | Grenze | Dieses Playbook ersetzt keine Rechtsberatung und kein Audit durch eine akkreditierte Stelle. | Für Verträge, DSGVO, NIS2, DORA, CRA oder ISO-Zertifizierung müssen zuständige Fachrollen einbezogen werden. |
 | Grenze | Tools werden als Beispiele genannt, nicht als Kaufempfehlung. | Die richtige Tool-Auswahl hängt von Bestand, Budget, Cloud-Strategie, Reifegrad und regulatorischem Kontext ab. |
 
-## Executive Summary in einfacher Sprache
+## Executive Summary
 
 Supply Chain Security bedeutet: Du schützt nicht nur deinen eigenen Code, deine eigenen Systeme und deine eigenen Mitarbeitenden. Du schützt auch alles, was von außen in dein Unternehmen hineinkommt oder Einfluss auf deine Systeme hat.
 
@@ -202,7 +202,7 @@ Ein guter Bewertungsprozess ist risikobasiert. Er prüft kritische Lieferanten s
 | Incident-Reife | Wie gut meldet und behandelt der Lieferant Vorfälle? | 0 = klare SLAs und Nachweise, 5 = unklare Prozesse. |
 | Exit-Fähigkeit | Wie leicht kann das Unternehmen den Lieferanten wechseln? | 0 = leicht, 5 = hoher Lock-in. |
 
-### Coach-Fragen für Lieferantenbewertung
+### Fragen für Lieferantenbewertung
 
 - Welche konkrete Leistung erbringt der Lieferant?
 - Welcher interne Owner ist fachlich verantwortlich?
