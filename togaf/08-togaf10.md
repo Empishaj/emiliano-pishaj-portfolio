@@ -4557,6 +4557,7 @@ Die folgenden Coach-Karten sind bewusst kurz. Sie eignen sich für Workshops, Da
 498. **Cutover:** Entscheide: Wer informiert Nutzer?
 499. **Cutover:** Entscheide: Wer informiert Management?
 500. **Cutover:** Entscheide: Was passiert nach Go-Live?
+
 ## 33. Abschluss
 
 Migration Planning ist ein Führungsinstrument für Veränderung. Es bringt Architektur, Umsetzung, Risiken, Finanzen, Betrieb und Menschen in eine gemeinsame Ordnung. Ein guter Migrationsplan ersetzt nicht die Realität, aber er macht sie steuerbar.
