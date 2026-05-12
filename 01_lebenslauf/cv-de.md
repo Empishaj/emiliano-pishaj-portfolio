@@ -104,7 +104,7 @@ Java Engineering und Systemverantwortung für geschäftskritische Telekommunikat
 
 ## AUSGEWÄHLTE PROJEKTMANDATE
 
-### Public-Sector Java Modernisation Project  
+### Public-Sector Java Modernisation (Projekt)
 **Senior Java Developer · IT Consultant**  
 Deutschland · Remote · Teilzeit · 05/2022 – 10/2022
 
