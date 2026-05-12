@@ -3,10 +3,10 @@
 **Engineering Manager · Hands-on Line Manager · Java Chapter Lead**  
 Engineering Leadership · DevSecOps · AI Enablement · CI/CD · Delivery Governance
 
-Germany · +49 152 53402518 · pishaj.emiliano@gmail.com <br/>
+Deutschland · +49 152 53402518 · pishaj.emiliano@gmail.com <br/>
 GitHub: https://github.com/Empishaj/emiliano-pishaj-portfolio <br/>
 LinkedIn: https://www.linkedin.com/in/emiliano-pishaj-41525b68/ <br/>
-Languages: German (C2), English (C1)	
+Sprache: deutsch (C2), englisch (C1), albanisch (C1) 	
 
 ---
 
@@ -194,69 +194,54 @@ Gründung und Betrieb einer kleinen Softwareentwicklungs- und Managed-Hosting-Ag
 
 ---
 
-## FÄHIGKEITEN
+## KOMPETENZPROFIL
 
-### Leadership & Organisation
+### Führung & Organisation
 
-- Disciplinary People Leadership
-- Engineering Management
-- Hiring & Onboarding
-- Performance Reviews
-- Development Plans
-- Coaching & Mentoring
-- Stakeholder Alignment
-- Cross-functional Collaboration
-- Distributed Teams
-- Nearshore Collaboration
-- Engineering Operating Model
-- Team Development
+- Disziplinarische Führung von Engineering-Teams
+- Hiring, Onboarding, Coaching und Entwicklung von Engineers
+- Performance Reviews, Feedbackgespräche und Entwicklungspläne
+- Stakeholder-Management mit Product, QA, DevOps, Architektur und Management
+- Führung verteilter Teams und Nearshore-Zusammenarbeit
+- Aufbau von Engineering Operating Models, Rollen und Governance-Routinen
 
-### Delivery & Governance
+### Delivery & Engineering Governance
 
-- Delivery Governance
-- DORA-based Transparency
-- CI/CD Quality Gates
-- Release Confidence
-- Engineering Standards
-- Quality Ownership
-- Service Deep Dives
-- Technical Roadmaps
-- Capacity Planning
-- Prioritisation
+- Delivery-Governance und DORA-basierte Transparenz
+- CI/CD-Qualitätsleitplanken und Release Readiness
+- Agile Delivery mit Scrum und Kanban
+- Priorisierung, Kapazitätsplanung und technische Roadmaps
+- Service Deep Dives, Code-Quality-Formate und kontinuierliche Verbesserung
 
-### Security & Quality
+### Software Engineering & Architektur
 
-- Secure SDLC
-- DevSecOps
-- OWASP-aligned Engineering Practices
-- ISO 27001-aligned Context
-- Secure Coding Guidelines
-- Static Analysis
-- Code Reviews
-- Quality Guardrails
+- Java 21+, Java 8, Spring Boot, Quarkus
+- REST/API-Design, Microservices und Systemintegration
+- SOLID, Clean Code, Refactoring und wartbare Softwarearchitektur
+- Testautomatisierung mit JUnit und Mockito
+- TDD-Grundlagen und qualitätsorientierte Entwicklung
+- Apache Wicket, Camunda, MarkLogic, Hibernate
 
-### Architecture & Technology
+### DevSecOps, Betrieb & Plattform
 
-- Java 21+
-- Spring Boot
-- Quarkus
-- REST APIs
-- Microservices
-- SQL Databases
-- Oracle / MySQL / PostgreSQL
-- Docker
-- Kubernetes
-- GitLab CI/CD
-- Linux / Bash
-- AWS
+- Secure SDLC, DevSecOps und OWASP-orientierte Engineering-Praktiken
+- GitLab CI/CD, Maven, Git
+- Docker, Kubernetes und AWS in Projektumfeldern
+- Linux, Bash, Tomcat, NGINX, Apache HTTP Server
+- Betrieb geschäftskritischer Systeme und Automatisierung wiederkehrender Betriebsprozesse
 
-### AI Enablement
+### Datenbanken & Datenverarbeitung
 
-- AI Enablement
-- AI Usage Guidelines
-- AI-assisted Development
-- Practical AI Adoption
-- Engineering Productivity
+- SQL, MySQL, Oracle, PostgreSQL
+- Datenmodellierung, Abfragen und datenintensive Verarbeitung
+- Billing-, Reconciliation- und Audit-Trail-nahe Datenprozesse
+
+### KI, Wissensvermittlung & Business
+
+- KI-Befähigung und Nutzungsleitlinien für Engineering-Teams
+- KI-Automation und Prozessverbesserung
+- Nebenberufliche Lehre zu Java und KI-Automation
+- Technische Beratung, Zielgruppenverständnis und Business-Kommunikation
 
 ---
 
