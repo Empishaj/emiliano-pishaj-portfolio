@@ -187,9 +187,10 @@ Gründung und Betrieb einer kleinen Softwareentwicklungs- und Managed-Hosting-Ag
 ### Öffentliche Bildungseinrichtung in Ostfriesland
 **Dozent für Java und KI-Automation** · nebenberuflich · seit 08/2024
 
-- Vermittlung von Java-Programmierung und KI-gestützter Automation in praxisnahen Kursformaten.
-- Didaktische Aufbereitung technischer Inhalte für unterschiedliche Erfahrungsniveaus.
-- Fokus auf verständliche Beispiele, praktische Übungen und verantwortungsvollen Einsatz moderner Werkzeuge.
+- Vermittlung praxisnaher Grundlagen und Anwendungsfälle in Java-Programmierung und KI-gestützter Automation.
+- Durchführung von Seminaren zur Verbesserung von Unternehmensprozessen durch KI-Werkzeuge.
+- Aufbereitung komplexer technischer Themen für unterschiedliche Erfahrungsstände und Lerngruppen.
+- Fokus auf verständliche Beispiele, praktische Übungen und verantwortungsvollen Einsatz moderner Entwicklungs- und KI-Werkzeuge.
 
 ---
 
