@@ -6,8 +6,9 @@ Dieses Dokument beschreibt, was Agilität für mich bedeutet.
 
 Agilität ist keine Methode, sondern eine Arbeitsweise unter Unsicherheit..
 In Softwareentwicklung ist selten alles von Anfang an klar. 
-Anforderungen ändern sich. Technologien verändern sich. Teams wachsen. Systeme altern. Produktziele verschieben sich. Betriebserfahrungen zeigen neue Risiken. Politische Einflüsse wirken..
-Sie bedeutet für mich::
+Anforderungen ändern sich. Technologien verändern sich. Teams wachsen. Systeme altern. Produktziele verschieben sich. Betriebserfahrungen zeigen neue Risiken. Politische Einflüsse wirken.
+
+Sie bedeutet für mich:
 
 - in kleinen Schritten lernen
 - früh Feedback holen
@@ -20,34 +21,34 @@ Sie bedeutet für mich::
 ---
 
 ## Mein Grundsatz
-
-Agilität ist für mich kein Ritual.
-
-Ein Daily macht ein Team nicht automatisch agil. Ein Sprint macht ein Team nicht automatisch lernfähig. Ein Board macht Arbeit nicht automatisch klar.
+ 
+Ein Daily macht ein Team nicht automatisch agil. 
+Ein Sprint macht ein Team nicht automatisch lernfähig. 
+Ein Board macht Arbeit nicht automatisch klar.
 
 Agilität zeigt sich im Alltag daran, ob ein Team besser mit Unsicherheit umgehen kann.
 
-Ich frage deshalb nicht zuerst:
+Es ist daher, nicht wirklich wichtig ob ein Team Scrum, KANBAN oder SCRUMBAN nutzt.
+Sondern, ob wir schnell genug lernen, um bessere Entscheidungen zu treffen.
 
-> Nutzen wir Scrum richtig?
-
-Sondern:
-
-> Lernen wir schnell genug, um bessere Entscheidungen zu treffen?
-
-Das ist für mich der Kern.
+Das wichtigste Ziel von Angiliät ist, dafür zu sorgen, dass der Kunde den größt möglichen Mehrwert erhält.
 
 ---
 
 ## Was agile Grundhaltung für mich bedeutet
 
-Agilität bedeutet für mich, Arbeit so zu organisieren, dass Teams früher lernen und sicherer entscheiden können.
+Agilität bedeutet für mich, Arbeit so zu organisieren, 
+dass Teams früher lernen und sicherer entscheiden können.
 
 Dafür braucht es kleine Schritte, kurze Feedbackschleifen, klare Verantwortung und ein Betriebsmodell, das Veränderung zulässt.
 
 Eine agile Organisation erkennt an, dass Planung wichtig ist. Sie verwechselt Planung aber nicht mit Realität.
 
 Ein Plan ist gut, wenn er Orientierung gibt. Ein Plan wird gefährlich, wenn er neue Informationen ignoriert.
+
+Wenn ein Team, 5 Sprints im Vorraus bereits schon fest geplant hat, damit die Roadmap gesichert ist, dann hat
+dies nichts mit Agilität zu tun. Sprints müssen zwar geplannt werden aber eben mit der Bedingung, dass die aller neuesten
+Erkenntnisse darin einfließen können. 
 
 ---
 
@@ -158,8 +159,7 @@ Deshalb gehören für mich diese Dinge zur agilen Grundhaltung:
 - Observability
 - Playbooks für kritische Use Cases
 
-Das passt auch zum *DevOps Handbook* von Gene Kim, Jez Humble, Patrick Debois und John Willis: Flow, Feedback und kontinuierliches Lernen funktionieren nur, wenn technische und organisatorische Arbeit zusammenpassen.
-
+ 
 ---
 
 ### 6. Agilität bedeutet nicht Beliebigkeit
@@ -280,28 +280,8 @@ Eine Routine ist gut, wenn sie:
 
 Wenn eine Routine nur Zeit kostet, aber nichts verbessert, muss sie angepasst oder beendet werden.
 
----
-
-## Was ich bewusst vermeide
-
-Ich vermeide Agilität als Schlagwort.
-
-Wenn jemand sagt, „wir sind agil“, frage ich: Woran merken wir das im Alltag?
-
-Ich vermeide auch Methodenstreit. Scrum oder Kanban sind für mich Werkzeuge. Entscheidend ist, ob sie zum Team, zum Produkt, zur Plattform und zum Betriebsmodell passen.
-
-Ich vermeide außerdem blinden Aktionismus. Schnelligkeit ohne Richtung hilft nicht. Veränderung ohne Lernen hilft nicht. Viele Meetings ohne bessere Entscheidungen helfen nicht.
-
-Für mich zählt:
-
-- Lernen wir schneller?
-- Entscheiden wir besser?
-- Liefern wir verlässlicher?
-- Reduzieren wir Risiko?
-- Verstehen Teams ihren Entscheidungsraum?
-- Wird Qualität im Alltag leichter?
-
----
+--- 
+ 
 
 ## Typische Warnsignale für falsch verstandene Agilität
 
@@ -319,61 +299,9 @@ Diese Muster nehme ich ernst:
 - Kennzahlen werden gesammelt, aber nicht genutzt.
 
 Wenn ich solche Muster sehe, frage ich nicht, welches Framework fehlt. Ich frage, welche Klarheit, Verantwortung oder technische Grundlage fehlt.
-
----
-
-## Methoden und Bücher, die mein Denken beeinflussen
-
-### Accelerate
-
-*Accelerate* von Nicole Forsgren, Jez Humble und Gene Kim prägt mein Verständnis von Delivery-Performance. Geschwindigkeit und Stabilität gehören zusammen. DORA-Metriken helfen, beides sichtbar zu machen.
-
-### The DevOps Handbook
-
-Das *DevOps Handbook* zeigt für mich sehr gut, dass moderne Softwareentwicklung Flow, Feedback und kontinuierliches Lernen braucht. Das passt direkt zu meiner agilen Grundhaltung.
-
-### The Manager’s Path
-
-Camille Fournier beschreibt in *The Manager’s Path*, wie sich Führung mit wachsender Verantwortung verändert. Für mich ist das wichtig, weil agile Teams je nach Reifegrad unterschiedliche Führung brauchen.
-
-### High Output Management
-
-Andy Grove zeigt in *High Output Management*, wie wichtig wirksame Routinen und Management-Hebel sind. Agile Arbeit braucht genau solche Routinen, wenn sie nicht zufällig bleiben soll.
-
-### Team Topologies
-
-*Team Topologies* hilft mir zu verstehen, wie Teamstrukturen agile Arbeit fördern oder behindern. Agilität funktioniert besser, wenn Teamgrenzen und Schnittstellen bewusst gestaltet sind.
-
----
-
-## Meine Prinzipien für agile Grundhaltung
-
-### Kleine Schritte vor großen Wetten
-
-Ich bevorzuge kleine, prüfbare Schritte. Sie reduzieren Risiko und erzeugen früher Feedback.
-
-### Lernen vor Recht behalten
-
-Wenn neue Informationen zeigen, dass eine Annahme falsch war, muss die Entscheidung angepasst werden.
-
-### Verantwortung braucht Klarheit
-
-Teams können nur dann eigenständig handeln, wenn Ziele, Grenzen und Entscheidungsräume klar sind.
-
-### Qualität ist Teil der Lieferung
-
-Qualität ist kein späterer Zusatz. Sie gehört in Entwicklung, Review, Test, Deployment und Betrieb.
-
-### Feedback muss früh kommen
-
-Feedback ist am wertvollsten, wenn es die Arbeit noch verändern kann.
-
-### Agilität braucht Disziplin
-
-Agilität bedeutet nicht weniger Struktur. Sie bedeutet bessere Struktur für Arbeit unter Unsicherheit.
-
+ 
 ---
 
 ## Kurzprinzip
 
-Agile Grundhaltung bedeutet für mich: in kleinen Schritten lernen, Verantwortung klären, Qualität sichern und Entscheidungen an der Realität ausrichten.
+Agile Grundhaltung bedeutet für mich: in kleinen Schritten lernen, Verantwortung klären, Qualität sichern und Entscheidungen an der Realität ausrichten. Das Ziel ist den maximalen Wert für den Kunden zu schaffen. 
