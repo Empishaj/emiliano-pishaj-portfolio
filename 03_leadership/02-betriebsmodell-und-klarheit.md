@@ -1,10 +1,10 @@
-# 02 – Betriebsmodell und Klarheit
+# Betriebsmodell und Navigationsfähigkeit
 
 ## Einordnung
 
 Dieses Dokument beschreibt, warum ich in Engineering-Organisationen zuerst auf das Betriebsmodell schaue.
 
-Mit Betriebsmodell meine ich nicht ein Organigramm und auch keine PowerPoint-Folie. Ich meine die Art und Weise, wie Arbeit im Alltag tatsächlich funktioniert.
+Mit Betriebsmodell meine ich nicht ein Organigramm und auch keine PowerPoint-Folie. Ich meine die Art und Weise, wie Arbeit im Alltag tatsächlich erledigt wird.
 
 Mich interessieren dabei einfache, aber entscheidende Fragen:
 
@@ -42,9 +42,15 @@ Mir ist wichtig, bei Herausforderungen mehrere Perspektiven zu verstehen. Manchm
 
 ---
 
-## Was ein Betriebsmodell für mich bedeutet
+## Was Navigationsfähigkeit für mich bedeutet
 
-Ein gutes Betriebsmodell beschreibt, wie Engineering-Arbeit wirklich funktioniert.
+Navigationsfähigkeit ist für mich angewandte Klarheit im Arbeitsalltag.
+
+Ein Team ist navigationsfähig, wenn Menschen verstehen, wie sie sich im System bewegen können. Sie wissen, wer zuständig ist, welche Entscheidung wo getroffen wird, welche Information wo zu finden ist und wann sie andere einbeziehen müssen.
+
+Navigationsfähigkeit bedeutet nicht, dass alles perfekt dokumentiert ist. Es bedeutet, dass Menschen im Alltag nicht raten müssen.
+
+Ein gutes Betriebsmodell schafft genau diese Navigationsfähigkeit.
 
 Es beantwortet einfache, aber wichtige Fragen:
 
@@ -62,7 +68,7 @@ Es beantwortet einfache, aber wichtige Fragen:
 
 Wenn diese Fragen nicht klar beantwortet sind, entsteht im Alltag Reibung.
 
-Diese Reibung zeigt sich oft daran, dass selbst erfahrene Senior Engineers Fragen stellen müssen, die eigentlich einfach über eine saubere Dokumentation beantwortbar wären. Sie fragen nicht, weil sie sich nicht interessieren. Sie fragen, weil die Information in ihrem Arbeitskontext nicht verfügbar ist.
+Diese Reibung zeigt sich oft daran, dass selbst erfahrene Senior Engineers Fragen stellen müssen, die eigentlich über eine saubere Dokumentation beantwortbar wären. Sie fragen nicht, weil sie sich nicht interessieren. Sie fragen, weil die Information in ihrem Arbeitskontext nicht verfügbar ist.
 
 Ein Beispiel: Ein Senior Engineer fragt nach einer fachlichen Zuständigkeit, einer technischen Abhängigkeit oder einer Entscheidungshistorie. Eigentlich müsste diese Information auf einer gepflegten Confluence-Seite, in einem Service Deep Dive oder in einer ADR stehen. Wenn sie dort nicht steht, entsteht Wartezeit. Oder noch schlimmer: Der Engineer beginnt, auf Basis von Vermutungen zu bauen.
 
@@ -86,11 +92,9 @@ Für mich ist das kein kleines Komfortthema. Es entscheidet darüber, ob Teams s
 
 ---
 
-## Warum Klarheit so wichtig ist
+## Warum Navigationsfähigkeit so wichtig ist
 
-Klarheit ist für mich eine Führungsaufgabe.
-
-Klarheit bedeutet, dass Menschen sich im System orientieren können. Sie wissen, was wichtig ist, was von ihnen erwartet wird und wie sie im Alltag gute Entscheidungen treffen können.
+Navigationsfähigkeit ist für mich eine Führungsaufgabe.
 
 Menschen können nur dann gut und effizient arbeiten, wenn sie verstehen:
 
@@ -104,15 +108,17 @@ Menschen können nur dann gut und effizient arbeiten, wenn sie verstehen:
 - wie Probleme eskaliert werden
 - wie Arbeit priorisiert wird
 
-Wenn Klarheit fehlt, werden Menschen vorsichtig. Sie sichern sich stärker ab. Sie fragen mehr nach. Sie eskalieren früher. Sie warten länger auf Entscheidungen.
+Wenn Navigationsfähigkeit fehlt, werden Menschen vorsichtig. Sie sichern sich stärker ab. Sie fragen mehr nach. Sie eskalieren früher. Sie warten länger auf Entscheidungen.
 
 Das ist selten fehlende Motivation. Es ist oft eine normale Reaktion auf ein unklar aufgebautes System, in dem man sich schwer orientieren kann.
+
+Ein gutes Betriebsmodell reduziert diese Unsicherheit. Es macht nicht jede Entscheidung einfach. Aber es macht klarer, wie eine Entscheidung zustande kommt.
 
 ---
 
 ## Was mich in meiner Praxis geprägt hat
 
-### 1. Verteilte Engineering-Teams brauchen mehr explizite Klarheit
+### 1. Verteilte Engineering-Teams brauchen mehr explizite Navigationsfähigkeit
 
 In meiner aktuellen Rolle führe ich ein Java-Engineering-Chapter mit rund 22 Engineers über Deutschland sowie Nearshore-Teams in Portugal und Polen.
 
@@ -130,7 +136,7 @@ Nearshore-Zusammenarbeit braucht klare Strukturen:
 
 Wenn diese Dinge fehlen, entstehen Missverständnisse. Nicht, weil Menschen nicht wollen. Sondern weil Kontext fehlt.
 
-Darum ist Klarheit in verteilten Teams kein Zusatz. Sie ist eine Voraussetzung für gute Zusammenarbeit.
+Darum ist Navigationsfähigkeit in verteilten Teams kein Zusatz. Sie ist eine Voraussetzung für gute Zusammenarbeit.
 
 ---
 
@@ -160,7 +166,9 @@ Das ist einer der Gründe, warum mir der Ansatz aus *Team Topologies* von Matthe
 
 DORA-Kennzahlen, CI/CD-Quality-Gates und Delivery-Transparenz funktionieren nur dann gut, wenn klar ist, wie Entscheidungen getroffen werden.
 
-Kennzahlen allein verbessern nichts. Im besten Fall zeigen sie, dass etwas nicht gut läuft. Wertvoll werden sie erst, wenn Teams gemeinsam verstehen:
+Kennzahlen allein verbessern nichts. Im besten Fall zeigen sie nur, dass etwas nicht gut läuft.
+
+Wertvoll werden sie erst, wenn Teams gemeinsam verstehen:
 
 - Was zeigt diese Kennzahl?
 - Welche Ursache vermuten wir?
@@ -192,7 +200,7 @@ Für den Betrieb braucht es klare Antworten:
 - Wo steht das Playbook?
 - Wer entscheidet über Rollback oder Hotfix?
 
-Ohne diese Klarheit wird Betrieb unnötig riskant.
+Ohne diese Navigationsfähigkeit wird Betrieb unnötig riskant.
 
 Deshalb halte ich Playbooks, Service Deep Dives und ADRs für sehr wichtig. Sie machen Wissen nicht nur sichtbar, sondern nutzbar.
 
@@ -200,9 +208,9 @@ Ein Service sollte nicht nur deploybar sein. Er sollte auch betreibbar, erklärb
 
 ---
 
-## Wie ich Klarheit herstelle
+## Wie ich Navigationsfähigkeit herstelle
 
-Ich versuche Klarheit nicht durch lange Prozesse zu erzwingen. Ich arbeite lieber mit einfachen, wiederholbaren Mechanismen.
+Ich versuche Navigationsfähigkeit nicht durch lange Prozesse zu erzwingen. Ich arbeite lieber mit einfachen, wiederholbaren Mechanismen.
 
 ---
 
@@ -283,9 +291,9 @@ Ein guter Standard entlastet. Ein schlechter Standard erzeugt nur zusätzliche A
 
 ### Routinen schaffen
 
-Klarheit entsteht nicht durch ein einmaliges Dokument.
+Navigationsfähigkeit entsteht nicht durch ein einmaliges Dokument.
 
-Klarheit entsteht durch wiederholte Routinen.
+Navigationsfähigkeit entsteht durch wiederholte Routinen.
 
 Beispiele:
 
@@ -323,7 +331,7 @@ Für mich zählt:
 
 ---
 
-## Typische Warnsignale für fehlende Klarheit
+## Typische Warnsignale für fehlende Navigationsfähigkeit
 
 Diese Muster nehme ich ernst:
 
@@ -340,10 +348,9 @@ Diese Muster nehme ich ernst:
 - Senior Engineers müssen Informationen erfragen, die im System verfügbar sein sollten.
 - Teams bauen Lösungen auf Basis von Annahmen, weil fachlicher Kontext fehlt.
 
-Wenn ich solche Muster sehe, suche ich nicht nach Schuld. Ich suche nach der Unklarheit im System.
+Wenn ich solche Muster sehe, suche ich nicht nach Schuld. Ich suche nach mangelnder Navigationsfähigkeit im System.
 
 ---
- 
 
 ## Kurzprinzip
 
