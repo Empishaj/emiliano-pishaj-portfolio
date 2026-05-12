@@ -86,7 +86,7 @@ Aufbau und Führung eines internationalen Plattformteams mit 8 Engineers. Verant
 
 ### Telekommunikationsanbieter  
 **Billing Systems Specialist**  
-Germany · 10/2012 – 03/2022
+Deutschland · 10/2012 – 03/2022
 
 Java Engineering und Systemverantwortung für geschäftskritische Telekommunikations-Billing-Umgebungen über 9,5 Jahre. Fokus auf Interconnection Billing, Offline Billing und Partner Billing in einem hochverfügbaren Betriebsumfeld.
 
@@ -106,7 +106,7 @@ Java Engineering und Systemverantwortung für geschäftskritische Telekommunikat
 
 ### Public-Sector Java Modernisation Project  
 **Senior Java Developer · IT Consultant**  
-Germany · Remote · 05/2022 – 10/2022
+Deutschland · Remote · Teilzeit · 05/2022 – 10/2022
 
 Projektmandat zur Modernisierung und Weiterentwicklung von Java-Anwendungen im Public-Sector-Umfeld. Dieses Mandat war ein befristetes Projekt und wird daher bewusst nicht als klassische Arbeitgeberstation positioniert.
 
@@ -114,13 +114,13 @@ Projektmandat zur Modernisierung und Weiterentwicklung von Java-Anwendungen im P
 - Umsetzung technischer Arbeitspakete unter Betriebs-, Compliance- und Zuverlässigkeitsanforderungen.
 - Unterstützung DevOps-orientierter Delivery-Praktiken durch strukturierte Übergabe und Dokumentation.
 
-**Tech / Environment:** Java, Legacy Modernisation, Refactoring, DevOps-oriented Delivery, GitLab.
+**Tech / Environment:** Java 8+, Legacy Modernisation, Refactoring, DevOps-oriented Delivery, GitLab.
 
 ---
 
-### Schweizer Energie-/Infrastrukturunternehmen  
+### Schweizer Energie-/Infrastrukturunternehmen (Projekt)
 **Technical Business Consultant · Interim CTO Mandate**  
-Switzerland · Remote · Part-time · 03/2021 – 10/2022
+Schweiz · Remote · Teilzeit · 03/2021 – 10/2022
 
 Interim-CTO-Mandat mit Berichtslinie an das Executive Board. Technische Führung über IT-Infrastruktur, Software Delivery, Cloud-Modernisierung, Security und API-Plattformentwicklung in einem internationalen Setup mit vier Entwicklungsteams in Brasilien.
 
@@ -133,13 +133,13 @@ Interim-CTO-Mandat mit Berichtslinie an das Executive Board. Technische Führung
 
 **Client-reported outcomes:** ca. 30% geringere Betriebskosten, ca. 45% Effizienzsteigerung, ca. 40% höhere Projektabschlussrate, ca. 50% weniger sicherheitsrelevante Incidents, ca. 25% kürzere Time-to-Market.
 
-**Tech / Environment:** Java, Spring Boot, Docker, Kubernetes, AWS, MySQL, GitLab CI/CD, REST APIs, Microservices, Scrum/Kanban.
+**Tech / Environment:** Java 8+, Spring Boot, Docker, Kubernetes, AWS, MySQL, GitLab CI/CD, REST APIs, Microservices, Scrum/Kanban.
 
 ---
 
-### Schweizer Investment-/Private-Equity-Umfeld  
+### Schweizer Investment-/Private-Equity-Umfeld (Projekt)
 **Technical Business Consultant**  
-Switzerland · Remote · Part-time · 01/2020 – 03/2022
+Schweiz · Remote · Teilzeit · 01/2020 – 03/2022
 
 Teilzeit-Remote-Mandat mit Fokus auf CRM-Systemdesign, Workflow-Digitalisierung und Delivery Leadership in einem Investment-/Private-Equity-Kontext.
 
@@ -147,13 +147,13 @@ Teilzeit-Remote-Mandat mit Fokus auf CRM-Systemdesign, Workflow-Digitalisierung 
 - Führung eines kleinen Delivery-Teams mit drei Entwicklern.
 - Koordination von Stakeholder Alignment, Prioritäten und Delivery-Qualität.
 
-**Tech / Environment:** Java, MySQL, GitLab, CRM System Design, Workflow Digitisation, Delivery Coordination.
+**Tech / Environment:** Java 8+, MySQL, GitLab, CRM System Design, Workflow Digitisation, Delivery Coordination.
 
 ---
 
-### E-Commerce-/Digital-Operations-Mandat  
+### E-Commerce-/Digital-Operations-Mandat (Projekt)  
 **Technical Business Consultant**  
-Germany · Remote · Part-time · 01/2018 – 08/2020
+Deutschland · Remote · Teilzeit · 01/2018 – 08/2020
 
 Teilzeit-Remote-Mandat mit End-to-End-Verantwortung für ein kleines E-Commerce- und Digital-Operations-Setup.
 
@@ -167,10 +167,10 @@ Teilzeit-Remote-Mandat mit End-to-End-Verantwortung für ein kleines E-Commerce-
 
 ---
 
-### EMPICEIT
+### EMPICE-IT
 ### Softwareentwicklungs- und Managed-Hosting-Agentur  
 **Founder · Business Owner**  
-Germany · 09/2006 – 09/2012
+Deutschland · 09/2006 – 09/2012
 
 Gründung und Betrieb einer kleinen Softwareentwicklungs- und Managed-Hosting-Agentur für lokale Unternehmen.
 
@@ -183,7 +183,7 @@ Gründung und Betrieb einer kleinen Softwareentwicklungs- und Managed-Hosting-Ag
 
 ---
 
-## LEHRE / WISSENSTRANSFER
+## LEHRE
 ### Öffentliche Bildungseinrichtung in Ostfriesland
 **Dozent für Java und KI-Automation** · nebenberuflich · seit 08/2024
 
