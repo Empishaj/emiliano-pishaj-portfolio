@@ -1,29 +1,12 @@
 # QG-JAVA-010 — JUnit 5: Grundlagen, Struktur und Testbenennung
-
-## Dokumentstatus
-
-| Aspekt | Details/Erklärung | Beispiel | Literatur/Quelle |
-|---|---|---|---|
-| Dokumenttyp | Java Quality Guideline | Verbindliche Qualitätsrichtlinie für Tests | JUnit User Guide, Spring Boot Testing Reference |
-| ID | QG-JAVA-010 | Fortlaufende Nummer im Java-Qualitätskompendium | Interne Kompendiumsstruktur |
-| Titel | JUnit 5: Grundlagen, Struktur und Testbenennung | Standard für lesbare, wartbare und aussagekräftige Unit- und Komponententests | JUnit Jupiter Programming Model |
-| Status | Akzeptiert | Für neue Tests verbindlicher Standard | Interner Qualitätsstandard |
-| Sprache | Deutsch | Englische Fachbegriffe bleiben dort erhalten, wo sie API- oder Framework-Begriffe sind | Projektvorgabe |
-| Java-Baseline | Java 21 | Produktions- und Testcode werden mit Java 21 gedacht | Oracle/OpenJDK Java 21 |
-| Test-Baseline | JUnit Jupiter / JUnit 5.10+ als Projektstandard; Regeln sind weitgehend auf neuere JUnit-Jupiter-Versionen übertragbar | `@Test`, `@BeforeEach`, `@Nested`, `@DisplayName`, `@ParameterizedTest` | https://docs.junit.org/5.10.5/user-guide/ |
-| Spring-Baseline | Spring Boot Test 3.x | `spring-boot-starter-test`, Test Slices, `@SpringBootTest` | https://docs.spring.io/spring-boot/reference/testing/index.html |
-| Kategorie | Testing / Clean Code / Wartbarkeit | Teststruktur, Testnamen, Testisolation, Assertions | JUnit, AssertJ, Mockito, Spring Boot Test |
-| Zielgruppe | Java-Entwickler, Tech Leads, Reviewer, QA Engineers, Test Automation Engineers | Personen, die Tests schreiben, reviewen oder Teststandards verantworten | Interner Qualitätsstandard |
-| Verbindlichkeit | Neue Tests MÜSSEN diese Richtlinie einhalten. Bestehende Tests SOLLTEN bei fachlicher Änderung schrittweise angepasst werden. | Refactoring alter Tests bei Änderung desselben Codes | Interner Qualitätsstandard |
-| Prüfstatus | Fachlich gegen JUnit- und Spring-Boot-Dokumentation validiert. JUnit-/AssertJ-/Mockito-Beispiele sind Musterbeispiele und benötigen die jeweiligen Testabhängigkeiten im Projekt. | `spring-boot-starter-test` bringt JUnit Jupiter, AssertJ, Hamcrest und weitere Testbibliotheken mit. | https://docs.spring.io/spring-boot/reference/testing/index.html |
-| Letzte fachliche Prüfung | 2026-05-02 | Prüfung gegen verfügbare JUnit-5.10.5- und Spring-Boot-Testdokumentation | Aktueller Kompendiumsstand |
+---
 
 ## 1. Zweck
 
 Diese Richtlinie definiert den verbindlichen Grundstandard für JUnit-Tests in Java-21- und Spring-Boot-3.x-Projekten. Ein guter Test dokumentiert das erwartete Verhalten, prüft die Korrektheit und zeigt beim Scheitern möglichst direkt, welches Verhalten gebrochen wurde. Schlechte Tests sind nicht nur lästig; sie erzeugen falsche Sicherheit, verlängern Reviews, verschleiern Designprobleme und machen Refactoring riskant.
 
 Der Zweck dieser Richtlinie ist nicht, jede fortgeschrittene JUnit-Funktion zu erklären. Der Zweck ist, eine gemeinsame Test-Grammatik festzulegen: klare Struktur, klare Namen, ein Szenario pro Test, keine versteckte Testlogik, keine Reihenfolge-Abhängigkeiten und verständliche Assertions.
-
+---
 ## 2. Kurzregel für Entwickler
 
 Jeder JUnit-Test MUSS ein klar benanntes Verhalten prüfen, nach Arrange–Act–Assert strukturiert sein und unabhängig von allen anderen Tests laufen. Ein Test SOLL beim Lesen erklären, welches Verhalten unter welcher Bedingung erwartet wird. Ein Test DARF keine versteckte Geschäftslogik, keine Reihenfolge-Abhängigkeit, keinen geteilten veränderlichen Zustand und keine unklare Assertion enthalten.
