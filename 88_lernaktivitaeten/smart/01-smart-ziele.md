@@ -1,319 +1,264 @@
-# 01 — Bevor wir anfangen
+# Mit SMART arbeiten, ohne mechanisch zu werden
 
-> Dies ist Teil I des SMART-Workbooks. Voriges Kapitel: `00-README.md`. Nächstes Kapitel: `02-verstehen.md`.
-
----
-
-## 1.1 Was du wirklich in der Hand hältst
-
-Stell dir vor, du sitzt mit mir an einem Tisch in einem ruhigen Raum. Vor uns liegt ein Blatt Papier. Auf diesem Blatt soll am Ende dieser Sitzung etwas stehen, das dein Verhalten in den nächsten Wochen oder Monaten verändert.
-
-Nicht ein Wunsch. Nicht eine Idee. Nicht ein Vorsatz. Ein Ziel.
-
-Der Unterschied zwischen einem Wunsch und einem Ziel ist nicht groß auf den ersten Blick. Aber er ist entscheidend.
-
-```
-WUNSCH:  "Ich wäre gern fitter."
-ZIEL:    "Ich werde bis zum 31. Juli dreimal pro Woche
-          45 Minuten laufen, sodass ich ohne Pause
-          10 Kilometer schaffe."
-```
-
-Liest sich anders. Fühlt sich anders an. Wirkt anders.
-
-Dieses Workbook bringt dich von der linken zur rechten Spalte. Es nimmt einen vagen Wunsch und macht etwas daraus, mit dem du am Montag morgen anfangen kannst.
+*Eine Praxis-Anleitung*
 
 ---
 
-## 1.2 Warum ich nicht mit der Definition anfange
+## Worum es in dieser Anleitung geht
 
-Die meisten Bücher über SMART beginnen mit: *S steht für spezifisch, M für messbar, A für erreichbar...*
+Die meisten Texte über SMART erklären fünf Buchstaben und sind danach zu Ende. Das ist zu wenig.
 
-Ich mache das anders. Bevor wir auch nur einen Buchstaben anschauen, möchte ich, dass du dir über drei Dinge klar bist:
+SMART ist ein Stück Werkzeug, nicht das Werkstück. Ein Hammer hilft dir, einen Nagel einzuschlagen — er sagt dir nicht, ob du eine Wand brauchst, wo sie stehen soll, und ob das Fundament dafür tragfähig ist. Genauso macht SMART aus einer Idee ein präzise formuliertes Ziel — aber es klärt nicht, ob die Idee gut ist, ob sie in dein Leben passt, und wie du nach der Formulierung tatsächlich ins Tun kommst.
 
-```
-1. Warum du dieses Workbook gerade aufschlägst.
-2. Was bisher nicht funktioniert hat.
-3. Was du im Erfolgsfall sehen willst.
-```
+Diese Anleitung legt das Werkzeug in seinen Arbeitsablauf zurück. Sie behandelt:
 
-Diese drei Dinge sind wichtiger als das Akronym. Weil SMART ohne sie nur eine technische Übung ist. Mit ihnen wird SMART zu etwas, das dein Leben verändern kann.
+- was *vor* einem Ziel geklärt sein sollte
+- wie die fünf Eigenschaften in der Praxis wirken — und woran man dabei stolpert
+- wie aus einem formulierten Ziel tatsächlich Handlung wird
+- wie man Ziele am Leben hält, ohne sie zur Pflicht zu machen
+- wo SMART nicht das richtige Werkzeug ist und was stattdessen passt
 
----
-
-## 1.3 Übung 1: Warum bist du hier?
-
-Nimm einen Stift. Schreibe in vollständigen Sätzen.
-
-**Erste Frage:**
-
-```
-Was ist passiert, das mich dazu gebracht hat, jetzt mit
-diesem Workbook anzufangen?
-```
-
-___________________________________________________________
-
-___________________________________________________________
-
-___________________________________________________________
-
-___________________________________________________________
-
-**Zweite Frage:**
-
-```
-Wenn ich in sechs Monaten zurückblicke und sage "es hat
-geklappt" — was hat sich dann verändert?
-```
-
-___________________________________________________________
-
-___________________________________________________________
-
-___________________________________________________________
-
-___________________________________________________________
-
-**Dritte Frage:**
-
-```
-Welches Gefühl will ich dann haben, das ich jetzt nicht habe?
-```
-
-___________________________________________________________
-
-___________________________________________________________
-
-___________________________________________________________
+Sie ist keine Einführung. Sie setzt voraus, dass du grob weißt, was die fünf Buchstaben bedeuten. Wenn nicht, lies erst Kapitel 01 und 02 dieses Workbooks.
 
 ---
 
-## 1.4 Eine kurze Bemerkung zu deinen Antworten
+## Teil 1: Was vor dem Ziel geklärt sein sollte
 
-Schau dir das Geschriebene noch einmal an. Wahrscheinlich hast du etwas gesagt wie *ich will mich besser fühlen* oder *ich will weiterkommen im Job* oder *ich will gesünder leben.*
+### Die Reihenfolge, die fast immer vergessen wird
 
-Das ist okay. Das ist sogar normal. So fangen alle an.
+Ich habe in der Praxis selten erlebt, dass jemand an der SMART-Formulierung gescheitert ist. Viel öfter scheitern Ziele an einer Stufe, die *vor* der Formulierung liegt: Es war nie wirklich das Ziel der Person, die es formuliert hat.
 
-Aber wir bleiben da nicht stehen. Was du gerade aufgeschrieben hast, ist der Rohstoff. Aus diesem Rohstoff bauen wir in den nächsten Kapiteln etwas, mit dem du arbeiten kannst.
+Bevor du ein Ziel formulierst, sind drei Fragen wert, dass du dir Zeit für sie nimmst:
 
-Behalte das Blatt. Wir kommen darauf zurück.
+```
+1. Aus welchem Bedürfnis kommt das Ziel?
+2. Welcher meiner Werte wird dadurch bedient?
+3. Was steht dem Ziel im eigenen Leben entgegen?
+```
+
+Die erste Frage trennt echte Ziele von übernommenen. Wenn du auf *„ich will mehr Sport machen"* keine Antwort findest außer *„weil man das halt sollte"*, dann ist das kein Ziel. Das ist eine gesellschaftliche Erwartung, die du dir umgehängt hast. Sie wird nicht halten.
+
+Die zweite Frage prüft die Tiefe. Ein Ziel, das einen deiner Werte bedient, hat im Konfliktfall — und Konflikte kommen — eine Chance, sich gegen andere Anforderungen durchzusetzen. Ein Ziel ohne Wertebezug verliert jeden Mittwochabend gegen das Sofa.
+
+Die dritte Frage ist die unbequemste. Wenn du sechs Monate lang erfolglos versucht hast, früher aufzustehen, dann gibt es einen Grund. Den herauszufinden ist wichtiger, als noch einmal denselben Vorsatz in SMART-Sprache zu kleiden. Vielleicht ist es schlechter Schlaf. Vielleicht ist es eine Beziehung zur Arbeit, in der du abends nicht abschalten kannst. Vielleicht ist es Sinn. Diese Hintergründe lassen sich nicht mit Strukturierung lösen.
+
+### Übung: Drei Sätze, bevor du ein Ziel formulierst
+
+Bevor du in die SMART-Formulierung gehst, schreib drei Sätze:
+
+```
+1. Was passiert in mir, wenn ich an dieses Vorhaben denke?
+2. Wessen Stimme höre ich in meinem Kopf, wenn ich das Ziel
+   nicht erreiche?
+3. Wer wäre erleichtert, wenn ich es schaffe?
+```
+
+Wenn die erste Antwort *„nichts"* ist, hast du kein Ziel — du hast eine Idee.
+
+Wenn die zweite Antwort die Stimme einer anderen Person ist (Eltern, Chef, Partner), arbeite zuerst an dieser Stimme, nicht am Ziel.
+
+Wenn auf die dritte Antwort niemand kommt — auch nicht du selbst —, dann ist das Vorhaben nicht wichtig genug, um an ihm zu arbeiten. Setz es ab und such ein Vorhaben, das deine Aufmerksamkeit wirklich verdient.
 
 ---
 
-## 1.5 Wie du dieses Workbook nutzt
+## Teil 2: Die fünf Eigenschaften in der Praxis
 
-Es gibt zwei vernünftige Wege.
+Die fünf Buchstaben sehen in jedem Buch gleich aus. Was sie schwierig macht, ist nicht das Verständnis, sondern die Anwendung. An jeder Stelle gibt es ein typisches Stolpern. Dieses Stolpern beschreibe ich hier.
 
-**Weg A — Linear durchgehen.**
+### S — Spezifisch
 
-Du arbeitest Kapitel für Kapitel. Du machst alle Übungen. Du füllst alle Arbeitsblätter aus. Du brauchst dafür etwa sechs bis zwölf Stunden, verteilt auf zwei bis fünf Sitzungen.
+**Was funktioniert.** Ein spezifisches Ziel beschreibt einen konkreten Zustand, den du am Ende beobachten kannst. „Ich habe meinen Lebenslauf bei drei Headhuntern hinterlegt" ist spezifisch. „Ich kümmere mich um meine Karriere" ist es nicht.
 
-Dieser Weg passt zu dir, wenn:
+**Wo es stolpert.** Spezifität wird oft mit Detailtreue verwechselt. Ein gutes spezifisches Ziel ist nicht möglichst detailliert, sondern möglichst klar. Wenn du beim Lesen weißt, was du tun musst, ist es spezifisch genug.
 
-- Du SMART noch nie systematisch durchgearbeitet hast.
-- Du dir Zeit nehmen willst, das Thema gründlich zu verstehen.
-- Du mehrere Ziele in verschiedenen Lebensbereichen formulieren willst.
-- Du dieses Wissen später an andere weitergeben willst (Team, Coaching, Workshop).
+**Anti-Muster.** *„Ich will meine Kommunikation verbessern, indem ich aktiver zuhöre, mehr Pausen mache, weniger unterbreche und in jedem Gespräch mindestens eine offene Frage stelle."* Das wirkt detailliert, ist aber überladen. Vier Verhaltensänderungen gleichzeitig sind nicht ein Ziel, sondern vier. Eines davon wird zuerst untergehen, dann das nächste.
 
-**Weg B — Gezielt durch Kapitel 08.**
+**Bessere Formulierung.** *„Ich stelle in meinen wöchentlichen 1:1s mit dem Team mindestens drei offene Fragen, bevor ich selbst etwas vorschlage."* Ein Verhalten, eine Situation, prüfbar.
 
-Du hast bereits eine konkrete Sache, an der du arbeiten willst. Du gehst direkt zu Kapitel 08 (`08-erstes-ziel.md`) und baust dort dein Ziel auf. Die anderen Kapitel öffnest du, wenn du an einer Stelle hängst.
+### M — Messbar
 
-Dieser Weg passt zu dir, wenn:
+**Was funktioniert.** Messbarkeit heißt: du kannst zweifelsfrei feststellen, ob das Ziel erreicht ist. Das schließt Zahlen ein, aber nicht nur. „Buch im Druck: ja / nein" ist eine vollständige Messung.
 
-- Du SMART grob kennst.
-- Du wenig Zeit hast, aber bald loslegen willst.
-- Du dich nicht mit Theorie aufhalten willst.
+**Wo es stolpert.** Die häufigste Falle ist, dass Menschen *Aktivität* messen, weil sie leichter zählbar ist, und glauben, sie hätten *Ergebnis* gemessen. „Ich habe diese Woche 12 Stunden gelernt" misst Anwesenheit am Schreibtisch. Es misst nicht, ob ich etwas verstanden habe. Beides hat seinen Platz — aber man sollte wissen, was man gerade misst.
 
-Beide Wege funktionieren. Wähle, was zu dir passt.
+**Anti-Muster.** *„Ich nehme bis Ende des Jahres 10 Kilo ab."* Das ist messbar, aber es misst das falsche. Gewicht schwankt mit Wassergehalt, Muskelaufbau, Tageszeit. Wenn du nur die Zahl auf der Waage anschaust, kannst du ein Ziel verfehlen, obwohl du genau das erreicht hast, was du wolltest.
 
----
+**Bessere Formulierung.** Zwei Messungen kombinieren: ein Hauptindikator („ich kann zwei Hosengrößen kleiner tragen") und ein Verhaltensindikator („ich gehe drei Mal pro Woche eine Stunde laufen"). So merkst du, ob du auf dem Weg bist, auch wenn die Hauptmessung träge ist.
 
-## 1.6 Was du nicht tun solltest
+**Eine Faustregel.** Wenn dir die Messung schwerfällt, ist das oft kein Hinweis, dass du anders messen solltest. Es ist ein Hinweis, dass das Ziel selbst noch nicht klar genug ist. *„Ich will eine bessere Beziehung zu meinem Vater"* ist nicht schwer zu messen, weil Beziehungen nicht messbar sind — sondern weil du noch nicht definiert hast, was *besser* in diesem Fall bedeutet. Vielleicht: wir telefonieren einmal im Monat, ohne dass einer von uns auflegt. Das ist eine Messung. Sie wirkt klein. Sie ist deshalb gut.
 
-Drei Dinge bitte nicht:
+### A — Erreichbar
 
-**Erstens: Nicht alles auf einmal lesen.** Ich habe schon Leute gesehen, die ein Workbook in zwei Stunden durchgeblättert haben und am Ende sagten *naja, war ganz interessant.* Das Workbook hat dann nicht funktioniert. Es hat aber auch nicht stattgefunden. Du hast es konsumiert wie einen Artikel.
+**Was funktioniert.** Ein erreichbares Ziel ist eines, von dem du selbst glaubst, dass du es mit Anstrengung schaffen kannst. Das ist ein subjektives Kriterium, kein objektives.
 
-Ein Workbook wirkt durch das, was du schreibst. Nicht durch das, was du liest.
+**Wo es stolpert.** Hier liegen zwei symmetrische Fehler. Der erste: Ziele setzen, die offensichtlich unmöglich sind. Der zweite, der häufiger vorkommt: Ziele setzen, die so vorsichtig sind, dass sie dich nichts kosten. Beide funktionieren nicht. Forschung zur Zielwirksamkeit zeigt klar: spezifische, *anspruchsvolle* Ziele führen zu höherer Leistung als leichte oder vage Ziele. Das Ziel muss dich strecken.
 
-**Zweitens: Nicht für jemand anderen arbeiten.** Wenn dein Chef dir gesagt hat *du musst SMART-Ziele setzen*, dann kannst du das Workbook trotzdem für dich nutzen. Aber dann musst du eine zweite Ebene mitdenken: was du dem Chef zeigst, und was du wirklich für dich willst. Das Ziel, das du dem Chef zeigst, ist Pflichterfüllung. Das Ziel, das du für dich machst, ist das, an dem du tatsächlich arbeiten wirst.
+**Anti-Muster.** *„Ich nehme dieses Jahr 30 Kilo ab"* ist die offensichtliche Variante. Die unauffälligere, problematischere Variante: *„Ich lese dieses Jahr 12 Bücher."* Wenn du normalerweise 14 liest, ist das kein Ziel — das ist eine Statusquo-Beschreibung mit Schleife.
 
-Wir machen hier das Zweite.
+**Faustregel.** Frag dich: Glaube ich, dass ich das mit 70-prozentiger Wahrscheinlichkeit schaffe? Wenn ja, ist das ein gutes Ziel. Bei 95 Prozent ist es zu leicht. Bei 30 Prozent ist es zu schwer.
 
-**Drittens: Nicht die Übungen überspringen.** Die Übungen sind nicht Beiwerk. Sie sind das Buch. Wenn du sie überspringst, hast du am Ende kein Ziel, sondern eine Liste gelesener Kapitel. Das hilft niemandem.
+### R — Relevant
 
-Wenn dir gerade nicht nach einer Übung ist, mach sie später. Markiere die Stelle, schreib ein Datum dazu. Aber überspringen wäre schade.
+**Was funktioniert.** Ein relevantes Ziel passt in dein Leben, deinen Job, deine Lebensphase. Es konfligiert nicht mit anderen wichtigen Zielen und es bedient etwas, das dir wirklich wichtig ist.
 
----
+**Wo es stolpert.** Relevanz ist die am häufigsten übersehene Eigenschaft. Viele Menschen springen direkt zu *Spezifisch und Messbar*, weil das technisch klar ist, und übergehen die Frage, warum sie das überhaupt wollen.
 
-## 1.7 Was du brauchst — konkret
+**Anti-Muster.** Drei berufliche Ziele, ein Fitness-Ziel, ein Spracherwerb-Ziel, ein Beziehungsziel, alle für dieselbe Quartal. Auch wenn jedes einzelne sinnvoll formuliert ist — zusammen sind sie nicht relevant, weil ein einzelner Mensch sich nicht in sechs Richtungen gleichzeitig verändern kann. Mindestens drei davon werden im Schlafzimmerschrank landen.
 
-Vor der nächsten Sitzung legst du dir hin:
+**Faustregel.** Pro Quartal nicht mehr als drei aktive Ziele. Mindestens eines davon sollte mit einem deiner persönlichen Werte direkt verbunden sein, sonst hat es im Konfliktfall keine Kraft.
 
-```
-[ ] Einen Stift, der gut schreibt.
-[ ] Ein Notizbuch mit mindestens 30 leeren Seiten.
-    Alternativ: dieses Workbook ausgedruckt.
-[ ] Zwei Stunden ungestörte Zeit.
-    Telefon weg. Tür zu. Keine "ich schau nur kurz".
-[ ] Ein Getränk, das du magst.
-[ ] Eine bequeme Sitzposition.
-    Workbook-Arbeit funktioniert nicht auf der Couch.
-    Du brauchst einen Tisch.
-```
+### T — Zeitgebunden
 
-Wenn eine dieser Voraussetzungen fehlt, mach sie. Vorher fangen wir nicht an.
+**Was funktioniert.** Ein Termin verwandelt einen Wunsch in eine Verpflichtung mit sich selbst. „Bis zum 31. März" ist anders als „bis ich es schaffe".
+
+**Wo es stolpert.** Die meisten Menschen wählen zu lange Zeiträume. „Bis Ende des Jahres" wirkt großzügig, ist aber tückisch: bis Mitte des Jahres hast du das Gefühl, noch Zeit zu haben, und im Oktober merkst du, dass du das ganze Jahr nicht angefangen hast.
+
+**Anti-Muster.** Jahresziele ohne Zwischenstationen. Sechs Monate ohne Kontrollpunkt.
+
+**Bessere Praxis.** Wähle Zeiträume zwischen sechs Wochen und sechs Monaten. Wenn du längere Vorhaben hast, brich sie in Etappen. Jeder Etappentermin ist ein eigenes SMART-Ziel mit eigenem Datum.
 
 ---
 
-## 1.8 Ein kurzes Wort zur Stimme in diesem Buch
+## Teil 3: Vom Ziel zur Handlung
 
-Ich spreche dich durchgehend mit *du* an. Nicht aus Anbiederung. Coaching-Situationen sind per Definition vertraut. Wenn dir das fremd ist, ersetze *du* beim Lesen still durch *Sie*. Der Inhalt bleibt gleich.
+### Das eigentliche Problem ist nicht das Ziel
 
-Ich verwende einfache Sprache. Wenn ich einen Fachbegriff einführe, erkläre ich ihn beim ersten Auftauchen. Falls du etwas nicht verstehst, schau ins Glossar (`53-glossar.md`).
+Hier wird oft übersehen: Ein gut formuliertes Ziel ist ein Anfang, kein Ende. Zwischen einer SMART-Formulierung und einer tatsächlichen Verhaltensänderung liegt der schwierigste Teil des Weges. Diesen Teil behandeln viele Bücher gar nicht, weil sie nach dem Akronym aufhören.
 
-Ich vermeide bewusst:
+Drei Bewegungen müssen passieren, damit aus einem Ziel Handlung wird.
 
-```
-- Buzzwords wie "synergetisch", "ganzheitlich", "nachhaltig"
-- Englische Modewörter, wenn ein deutsches gleichgut tut
-- Pseudo-tiefgründige Sätze ohne Inhalt
-- Aufzählungen, die nur Aufzählungen sind
-- "Es ist wichtig zu verstehen, dass..."
-- "In der heutigen schnelllebigen Welt..."
-```
+### Bewegung 1: Den ersten Schritt klein machen
 
-Wenn ich an einer Stelle doch in so etwas verfalle, hast du mein Einverständnis, mich dort innerlich zu korrigieren.
+Wenn dein Ziel lautet, in drei Monaten einen 10-Kilometer-Lauf zu schaffen, dann sollte der erste Schritt nicht *„ich laufe 5 Kilometer"* sein, sondern *„ich ziehe morgen früh Laufkleidung an"*. Das klingt lächerlich, ist aber wirksam. Verhaltensänderung beginnt fast nie mit der Hauptaktion. Sie beginnt mit der Vorbereitung dafür.
 
----
+Frag dich nach jeder Zielformulierung: Was ist die kleinste Handlung, die ich morgen ausführen kann und die mich auf den Weg bringt? Wenn diese Handlung mehr als zehn Minuten kostet oder Überwindung braucht, ist sie zu groß. Mach sie kleiner.
 
-## 1.9 Übung 2: Deine Geschichte mit Zielen
+### Bewegung 2: Das Verhalten an einen vorhandenen Anker hängen
 
-Bevor wir weitergehen, will ich, dass du eine ehrliche Bilanz ziehst.
+Neues Verhalten überlebt selten als freistehende Aktion. Es überlebt, wenn es an etwas hängt, das du sowieso schon tust. „Nach dem ersten Kaffee am Morgen schreibe ich eine Seite", ist haltbarer als „ich schreibe jeden Tag eine Seite".
 
-**Frage 1: Welche Ziele hast du dir in den letzten drei Jahren gesetzt und auch erreicht?**
+Das ist keine Coaching-Folklore, sondern eine robuste Beobachtung aus der Verhaltensforschung — sie geht auf Arbeiten von Peter Gollwitzer zu „Implementation Intentions" zurück. Studien zeigen Wirksamkeitssteigerungen von 30 bis 50 Prozent bei Zielen, die mit einem konkreten Wenn-Dann-Plan verknüpft sind, verglichen mit identischen Zielen ohne Plan.
 
-Liste sie auf. Auch kleine. Auch private.
+### Bewegung 3: Die Umgebung anpassen
 
-```
-1. _________________________________________________________
-2. _________________________________________________________
-3. _________________________________________________________
-4. _________________________________________________________
-5. _________________________________________________________
-```
+Du wirst dein Ziel nicht durch Willenskraft erreichen. Willenskraft ist eine begrenzte Ressource, und an einem schlechten Tag wirst du sie nicht haben. Was funktioniert, ist die Umgebung so zu gestalten, dass das richtige Verhalten der Weg des geringsten Widerstands wird.
 
-**Frage 2: Welche Ziele hast du dir gesetzt und nicht erreicht?**
+Wenn dein Ziel ist, weniger Zeit am Handy zu verbringen, lade das Handy nicht im Schlafzimmer. Wenn dein Ziel ist, mehr zu lesen, leg das Buch dort hin, wo du den Fernseher anmachen würdest. Wenn dein Ziel ist, gesünder zu essen, kauf das Ungesunde nicht ein.
 
-```
-1. _________________________________________________________
-2. _________________________________________________________
-3. _________________________________________________________
-4. _________________________________________________________
-5. _________________________________________________________
-```
-
-**Frage 3: Schau auf beide Listen. Was unterschied die erreichten Ziele von den nicht erreichten? Mindestens drei Punkte.**
-
-```
-1. _________________________________________________________
-2. _________________________________________________________
-3. _________________________________________________________
-```
+Das sind triviale Beispiele. Das Prinzip ist nicht trivial: Verhalten ist eine Funktion der Umgebung, nicht nur der Person.
 
 ---
 
-## 1.10 Was diese Übung dir gerade gezeigt hat
+## Teil 4: Wie ein Ziel am Leben bleibt
 
-Wenn du die letzte Frage ehrlich beantwortet hast, hast du wahrscheinlich Dinge entdeckt wie:
+### Der Review-Rhythmus
+
+Ein formuliertes Ziel, das nicht in regelmäßigen Abständen angeschaut wird, stirbt. Nicht dramatisch, sondern still. In der vierten Woche denkst du nicht mehr daran, in der achten Woche erinnerst du dich nicht mehr genau, und im Quartalswechsel ersetzt du es durch ein neues, ohne das alte je beerdigt zu haben.
+
+Was funktioniert, ist ein klarer Rhythmus mit zwei Frequenzen.
+
+**Wöchentlich (zehn Minuten).** Nicht „bewerten", sondern nur „anschauen". Drei Fragen:
 
 ```
-- Die erreichten Ziele waren konkreter formuliert.
-- Sie hatten einen klaren Termin.
-- Du hast jemandem davon erzählt.
-- Du hast einen kleinen ersten Schritt gemacht,
-  bevor du groß darüber nachdachtest.
-- Sie waren dir wirklich wichtig — nicht nur ein vager
-  Vorsatz, sondern etwas, das du wolltest.
-- Du wusstest, woran du erkannt hast, dass du fertig bist.
+Habe ich diese Woche etwas getan, das mich näher zum Ziel bringt?
+Was kommt nächste Woche, das damit zu tun hat?
+Steht meinem Vorhaben gerade etwas im Weg, das ich klären sollte?
 ```
 
-Das ist im Kern, was SMART formalisiert. SMART erfindet kein neues Geheimnis. SMART macht aus dem, was bei deinen erfolgreichen Zielen ohnehin geklappt hat, eine Methode, die du bewusst anwenden kannst.
+Das ist kein Plan, keine Reflexion, kein Tribunal. Es ist ein kurzer Blick. Mehr braucht es wöchentlich nicht.
 
-Das ist der ganze Trick.
+**Monatlich (30 bis 45 Minuten).** Tieferer Blick. Hier prüfst du, ob das Ziel noch das richtige ist. Manchmal stellst du fest, dass es dir nicht mehr wichtig ist. Das ist kein Versagen — das ist ein Befund. Ein Ziel, das nicht mehr deinem Leben entspricht, gehört nicht modifiziert, sondern abgesetzt. Mit Datum, mit Begründung, mit Würde.
+
+### Was man unterschätzt: das gute Abschließen
+
+Wenn du ein Ziel erreichst, neigt man dazu, sofort zum nächsten überzugehen. Mach das nicht. Was du erreicht hast, wahrzunehmen, ist Teil der Methode, nicht Belohnung. Ohne den Schritt des Anerkennens verlernst du, deinen eigenen Zielen zu glauben.
+
+Schreib einen Satz auf, was du geschafft hast. Erzähl es jemandem. Nimm dir einen Abend, der das Erreichte markiert. Erst dann nimm das nächste Ziel an.
+
+Wenn du ein Ziel *nicht* erreichst, gilt dasselbe in umgekehrter Form. Setz dich hin und schreib auf, was passiert ist. Drei Sätze reichen. Was hat gefehlt? Was hätte ich anders machen können? Was nehme ich für das nächste Mal mit? Ein nicht erreichtes Ziel ist nur dann eine Niederlage, wenn du nichts daraus lernst.
 
 ---
 
-## 1.11 Ein kurzer Realitätscheck
+## Teil 5: Fünf Fehler, die ich immer wieder sehe
 
-Bevor wir in die Methodik gehen, eine ehrliche Bemerkung:
+### Fehler 1: SMART nachträglich anwenden
 
-SMART macht aus einer schlechten Idee kein gutes Ziel.
+Jemand hat schon angefangen — neue Routine, neues Projekt, neue Gewohnheit — und formuliert *nachträglich* ein SMART-Ziel daraus. Das wirkt ordentlich, ist aber nutzlos. Das Ziel erfüllt dann keine Funktion, die nicht das laufende Verhalten schon erfüllen würde. Es ist Bürokratie ohne Wirkung.
 
-Wenn du dir vornimmst, in drei Monaten 30 Kilo abzunehmen, dann ist das auch in SMART-Formulierung eine schlechte Idee. Es ist dann eine SMART-formulierte schlechte Idee.
+SMART hilft, *bevor* du anfängst. Es klärt, *was* du anfangen wirst. Wenn du schon angefangen hast, brauchst du keinen SMART-Eintrag — du brauchst Beobachtung deines tatsächlichen Verhaltens.
 
-SMART ist ein Werkzeug zur **Strukturierung**, nicht zur **Bewertung**. Die Bewertung musst du selbst leisten.
+### Fehler 2: Zu viele Ziele gleichzeitig
 
-Deshalb verbringen wir in diesem Workbook auch Zeit mit:
+Ich habe es im Abschnitt zu *Relevant* schon erwähnt: mehr als drei aktive Ziele gleichzeitig funktionieren nicht. Aber der Fehler ist so verbreitet, dass er hier noch einmal stehen sollte. Wenn dir das Workbook eine Liste von zehn Vorhaben aus dem Kopf gelockt hat, dann ist das wertvoll für die Klärung — aber nur drei davon nimmst du mit.
 
-- Reflexion (was willst du eigentlich wirklich?)
-- Einbettung (passt das Ziel in dein Leben?)
-- Realismus (hast du die Ressourcen?)
-- Werten (entspricht das Ziel dem, was dir wichtig ist?)
+### Fehler 3: Das Ziel mit der Maßnahme verwechseln
 
-Wer dir verspricht, dass SMART alle Probleme löst, verkauft dir etwas. Was SMART tut, ist nicht klein. Aber es ist auch nicht alles.
+*„Ich gehe jeden Morgen joggen"* ist kein Ziel. Das ist eine Maßnahme. Das Ziel wäre *„ich kann zu Ostern zehn Kilometer am Stück laufen"*. Die Maßnahme ist der Weg dorthin.
 
----
+Der Unterschied ist wichtig, weil Maßnahmen oft korrigiert werden müssen. Wenn das Joggen wegen einer Knieverletzung nicht klappt, ist das Ziel nicht verloren — die Maßnahme muss sich ändern. Verwechselt man beides, gibt man bei jedem Maßnahmenproblem das Ziel auf.
 
-## 1.12 Zusammenfassung dieses Kapitels
+### Fehler 4: Sich von Zahlen blenden lassen
 
-Was du jetzt weißt:
+Eine messbare Größe gibt das beruhigende Gefühl von Objektivität. Aber nicht alles, was sich messen lässt, ist wichtig — und nicht alles, was wichtig ist, lässt sich messen. Wenn dein gewähltes Maß nicht den Kern dessen erfasst, was du eigentlich willst, bist du nach der Zielerreichung enttäuscht. Du hast die Zahl, aber nicht das, wonach du wirklich gesucht hast.
 
-```
-✓ Was ein Workbook von einem Buch unterscheidet.
-✓ Warum wir nicht mit der Definition von SMART anfangen.
-✓ Welche zwei Wege durch das Workbook funktionieren.
-✓ Was du konkret brauchst, um anzufangen.
-✓ Welche Ziele du in der Vergangenheit erreicht hast
-  und woran das lag.
-✓ Was SMART kann und was nicht.
-```
+Frag dich vor der Festlegung: Würde ich mich auch dann erfolgreich fühlen, wenn ich diese Zahl erreiche, aber innerlich nichts anders ist? Wenn die Antwort *nein* lautet, miss etwas anderes.
 
-Was du jetzt hast:
+### Fehler 5: Den Termin als Anlass nutzen, kurz vor Ablauf hektisch zu werden
 
-```
-✓ Antworten auf die Frage, warum du hier bist.
-✓ Ein Bild davon, was Erfolg für dich heißt.
-✓ Eine Bilanz deiner bisherigen Ziel-Erfahrungen.
-```
+Ein Termin ist da, um Dringlichkeit zu erzeugen — aber die meisten Menschen unterschätzen, wie sehr sie zur Last-Minute-Arbeit neigen. Wenn du dein Ziel auf den 30. Juni datierst, wirst du im Juni feststellen, dass die letzten zwei Wochen nicht reichen.
 
-Damit kannst du weitergehen.
+Bau dir Zwischentermine ein. Ein guter Rhythmus: 25 % Fortschritt nach einem Viertel der Zeit, 50 % nach der Hälfte, 75 % nach drei Vierteln. Das klingt mechanisch, hat aber den Effekt, dass du am Endspurt nicht überrascht wirst.
 
 ---
 
-## 1.13 Mini-Reflexion vor dem Weiterlesen
+## Teil 6: SMART im Kontext anderer Methoden
 
-Bevor du das nächste Kapitel öffnest, eine Frage:
+SMART ist eine von vielen Methoden, um mit Vorhaben umzugehen. Es lohnt sich zu wissen, was die anderen sind — nicht um zu wechseln, sondern um zu erkennen, wann SMART nicht das richtige Werkzeug ist.
 
-```
-Was ist die EINE Veränderung in deinem Leben, an der zu
-arbeiten gerade am dringlichsten wäre?
-```
+### Wenn du Richtung statt Ziel brauchst: Werte- und Visionsarbeit
 
-___________________________________________________________
+Wenn du nicht weißt, wohin, hilft kein präzise formuliertes Ziel. Du brauchst dann erst Klarheit über deine Werte und über die Richtung, in die du dich entwickeln willst. Lebensrad, Werte-Listen, Tiefenfragen über *was wäre wichtig, wenn ich nichts beweisen müsste*. Erst wenn die Richtung steht, wird SMART nützlich.
 
-___________________________________________________________
+### Wenn du Gewohnheiten formen willst: Habit-Stacking
 
-___________________________________________________________
+Habit-Stacking ist die Praxis, neue Gewohnheiten an bestehende anzuhängen. Es ist im Kern dieselbe Idee wie Gollwitzers Implementation Intentions, nur populärer formuliert. Bei reinen Gewohnheits-Themen — täglich meditieren, jeden Morgen Wasser trinken, abends das Handy weglegen — ist Habit-Stacking oft wirksamer als ein SMART-Ziel. Weil die Frage nicht ist *was* du erreichen willst, sondern *wie* du eine kleine, wiederholbare Handlung verankerst.
 
-Eine. Nicht drei. Nicht fünf.
+### Wenn du in einer Organisation arbeitest: OKR
 
-Auch wenn dir mehrere Dinge wichtig sind: Wenn du jetzt nur an einer einzigen Sache arbeiten könntest, welche wäre das?
+OKR (Objectives and Key Results) ist eine Methode für Teams und Organisationen, die in den 1970er-Jahren bei Intel entstand. Sie hat zwei Bestandteile: ein qualitatives Ziel (Objective), das beschreibt, *was* erreicht werden soll, und drei bis fünf messbare Ergebnisse (Key Results), die zeigen, *ob* es erreicht ist.
 
-Diese eine Sache trägst du durch die nächsten Kapitel. An ihr üben wir die Methodik. Sie wird am Ende dieses Workbooks ein vollständiges SMART-Ziel sein.
+Im Vergleich zu SMART hat OKR drei Eigenheiten: es ist explizit für Organisationen gedacht, es arbeitet mit kurzen Zyklen (Quartal), und es trennt das qualitative *Was* vom quantitativen *Wie messen wir es*. Wenn du Engineering-Teams führst, ist OKR oft das geeignetere Werkzeug. Für dein persönliches Vorhaben bleibt SMART meist einfacher.
 
-Hast du sie aufgeschrieben? Gut.
+### Wenn du explorierst: Zeit-Boxing und Lernziele
 
-Dann blätter weiter zu `02-verstehen.md`.
+Manche Vorhaben kann man nicht im Voraus präzise definieren, weil das Ergebnis selbst Teil der Erkundung ist. Forschung. Künstlerische Arbeit. Echte Innovation. Hier funktioniert SMART nicht — du würdest dich nur auf das festlegen, was du schon kennst.
+
+Stattdessen: ein Zeitfenster setzen („ich arbeite drei Monate an diesem Thema"), ein Lernziel formulieren („ich will am Ende verstehen, ob X für unseren Kontext tragfähig ist"), und nach Ablauf eine ehrliche Bewertung. Das ist näher an einem Forschungsdesign als an einem Ziel im SMART-Sinne. Es ist nicht weniger ernsthaft, nur anders strukturiert.
+
+### Wenn du in einer Krise bist: nichts davon
+
+Wenn dein Zustand akut ist — Burnout-Symptome, eine Trennung, eine schwere gesundheitliche Diagnose — dann ist nichts davon das richtige Werkzeug. Werkzeuge sind nützlich, wenn jemand handlungsfähig ist. In akuten Krisen geht es nicht um Methoden, sondern um Hilfe. Such jemanden, dem du es erzählen kannst. Such professionelle Unterstützung. Methoden kommen später wieder dran.
+
+---
+
+## Abschluss: Was diese Anleitung tut und was nicht
+
+Was du mit dieser Anleitung in der Hand kannst:
+
+- Vor dem Formulieren prüfen, ob das Vorhaben dir wirklich gehört
+- Die fünf Eigenschaften so anwenden, dass sie kein Selbstzweck werden
+- Den Übergang von der Formulierung zur Handlung systematisch angehen
+- Ziele in einem Rhythmus pflegen, der zum Leben passt
+- Erkennen, wann SMART das falsche Werkzeug ist
+
+Was sie nicht ersetzt:
+
+- Die ehrliche Auseinandersetzung mit dem, was dir wichtig ist
+- Die innere Arbeit, die anstehen kann, bevor ein Ziel überhaupt sinnvoll ist
+- Den Mut, ein Ziel abzusetzen, das nicht mehr deins ist
+
+Letzteres ist die am häufigsten unterschätzte Fähigkeit. Wer einmal gelernt hat, ein gut formuliertes Ziel ohne schlechtes Gewissen wieder zu schließen, weil es seinen Sinn verloren hat, hat mehr verstanden als jemand, der alle Ziele bis zum bitteren Ende durchzieht.
+
+Ein Werkzeug bleibt ein Werkzeug. Dass du es legst, wenn die Arbeit eine andere geworden ist, gehört dazu.
+
+--- 
