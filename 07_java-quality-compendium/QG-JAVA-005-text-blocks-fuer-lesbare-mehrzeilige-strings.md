@@ -1,23 +1,5 @@
 # QG-JAVA-005 — Text Blocks für lesbare mehrzeilige Strings
 
-## Dokumentstatus
-
-| Aspekt | Details/Erklärung |
-|---|---|
-| Dokumenttyp | Java Quality Guideline |
-| ID | QG-JAVA-005 |
-| Titel | Text Blocks für lesbare mehrzeilige Strings |
-| Status | Accepted / verbindlicher Standard für mehrzeilige statische String-Literale in neuen Java-Codebasen |
-| Zielgruppe | Java-Entwickler, Tech Leads, Reviewer, QA, Security, Architektur |
-| Primärer Kontext | Java 21+, SaaS-Plattformen, Clean Code, SQL-Lesbarkeit, Testdaten, JSON/XML/HTML/GraphQL-Fragmente, sichere String-Verarbeitung |
-| Java-Baseline | Java 21+ als Kompendium-Standard; Text Blocks sind seit Java 15 finaler Bestandteil der Sprache |
-| Primäres Java-Feature | Text Blocks gemäß JEP 378 |
-| Verwandte Java-Features | `String::formatted`, `String::stripIndent`, `String::translateEscapes`, reguläre String-Literale, Prepared Statements, Template Engines |
-| Letzte Validierung | 2026-05-02 |
-| Validierte Quellenbasis | OpenJDK JEP 378, OpenJDK Programmer’s Guide to Text Blocks, Oracle Java SE Documentation, Oracle Java `String` API, OWASP SQL Injection Prevention Cheat Sheet, OWASP Query Parameterization Cheat Sheet, OWASP Cross-Site Scripting Prevention Cheat Sheet, OWASP Logging Cheat Sheet |
-| Technische Beispielvalidierung | Die zentralen Java-21-Beispiele ohne externe Framework-Abhängigkeiten wurden mit `javac --release 21` syntaktisch geprüft. |
-| Verbindlichkeit | Diese Richtlinie gilt verbindlich für neue mehrzeilige statische String-Literale. Abweichungen sind zulässig, wenn ein konkreter technischer, fachlicher oder sicherheitsbezogener Grund im Pull Request nachvollziehbar dokumentiert wird. |
-
 ---
 
 ## 1. Zweck dieser Richtlinie

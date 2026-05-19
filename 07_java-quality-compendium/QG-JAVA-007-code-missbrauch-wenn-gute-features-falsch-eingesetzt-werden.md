@@ -1,22 +1,5 @@
 # QG-JAVA-007 — Code-Missbrauch: Wenn gute Features falsch eingesetzt werden
 
-## Dokumentstatus
-
-| Aspekt | Details/Erklärung |
-|---|---|
-| Dokumenttyp | Java Quality Guideline |
-| ID | QG-JAVA-007 |
-| Titel | Code-Missbrauch: Wenn gute Features falsch eingesetzt werden |
-| Status | Accepted / verbindlicher Standard für lesbaren, wartbaren und sicheren Java-Code in neuen und wesentlich geänderten Codebereichen |
-| Zielgruppe | Java-Entwickler, Tech Leads, Reviewer, QA, Security, Architektur |
-| Primärer Kontext | Java 21+, Spring Boot 3.x, SaaS-Plattformen, Enterprise-Backends, API-Services, Domänenlogik, Integrationscode |
-| Java-Baseline | Java 21+ als Kompendium-Standard |
-| Kategorie | Code Quality / Anti-Patterns / Wartbarkeit / Security by Design |
-| Letzte Validierung | 2026-05-02 |
-| Validierte Quellenbasis | Oracle Java SE 21 API zu `Optional`, `Stream` und Reflection; Oracle-Dokumentation zu Pattern Matching; OpenJDK JEP 395, JEP 409 und JEP 441; OWASP Logging Cheat Sheet; OWASP Input Validation Cheat Sheet; OWASP API Security Top 10 2023; Spring Framework Reference Documentation zu Validation und Fehlerbehandlung |
-| Technische Beispielvalidierung | Die eigenständigen Java-21-Beispiele ohne externe Framework-Abhängigkeiten wurden syntaktisch mit `javac --release 21` geprüft. Spring-, Bean-Validation-, MapStruct- und OWASP-bezogene Beispiele sind referenzbasiert validiert und benötigen die jeweiligen Projektabhängigkeiten. |
-| Verbindlichkeit | Diese Richtlinie gilt verbindlich für neuen Code und für wesentlich geänderte bestehende Codebereiche. Abweichungen sind zulässig, wenn ein konkreter fachlicher, technischer oder architektonischer Grund im Pull Request nachvollziehbar dokumentiert wird. |
-
 ---
 
 ## 1. Zweck dieser Richtlinie
