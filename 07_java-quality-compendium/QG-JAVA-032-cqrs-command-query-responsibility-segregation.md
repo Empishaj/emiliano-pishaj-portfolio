@@ -1,24 +1,5 @@
 # QG-JAVA-032 — CQRS: Command Query Responsibility Segregation richtig anwenden
-
-## Dokumentstatus
-
-| Aspekt | Details/Erklärung |
-|---|---|
-| Dokumenttyp | Java Quality Guideline |
-| ID | QG-JAVA-032 |
-| Titel | CQRS: Command Query Responsibility Segregation richtig anwenden |
-| Status | Accepted / verbindlicher Orientierungsstandard für Command-/Query-Trennung |
-| Version | 1.0.0 |
-| Datum | 2024-08-19 |
-| Kategorie | Architektur / Datenzugriff / Performance / Domain Design |
-| Zielgruppe | Java-Entwickler, Tech Leads, Reviewer, Architektur, QA, SRE |
-| Java-Baseline | Java 21 |
-| Framework-Kontext | Spring Boot 3.x, Spring Data JPA, Hibernate 6, PostgreSQL/MySQL, REST APIs, Events, optional Kafka/Outbox |
-| Geltungsbereich | Service-Schicht, Controller, Repositories, DTOs, Read-Models, Write-Models, Query-Projektionen, Transaktionsgrenzen, Reporting, API-Design |
-| Verbindlichkeit | Schreibende Use Cases und lesende Use Cases werden in nichttrivialen Fachbereichen mindestens logisch getrennt. Vollständiges CQRS mit separaten Datenbanken wird nur bei nachgewiesenem Bedarf eingesetzt. |
-| Technische Validierung | Gegen CQRS-Grundlagen nach Martin Fowler, Microsoft Azure Architecture Center, CQS nach Bertrand Meyer, Spring Data JPA Projection-Mechanismen und gängige DDD-/Read-Model-Praktiken eingeordnet |
-| Kurzentscheidung | CQRS trennt die Verantwortung für Schreiboperationen und Leseoperationen. Commands verändern Zustand und schützen Konsistenz. Queries lesen Daten und optimieren Darstellung, Performance und Projektion. CQRS ist kein Pflichtmuster für jede CRUD-Anwendung, sondern ein gezieltes Architekturwerkzeug für unterschiedliche Anforderungen an Schreiben und Lesen. |
-
+ 
 ---
 
 ## 1. Zweck
