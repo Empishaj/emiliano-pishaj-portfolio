@@ -1,64 +1,6 @@
 # QG-JAVA-008 — Falsche Objektorientierung: OOP richtig verstehen und anwenden
 
-## Dokumentstatus
-
-| Aspekt | Details/Erklärung |
-| --- | --- |
-| ID | QG-JAVA-008 |
-| Titel | Falsche Objektorientierung: OOP richtig verstehen und anwenden |
-| Status | Accepted / verbindlicher Standard für objektorientiertes Design in Java-Codebasen |
-| Version | 2.0 |
-| Datum | 2026-05-08|
-| Java-Baseline | Java 21+ (Records, Sealed Types, Pattern Matching for Switch JEP 441, Record Patterns JEP 440) |
-| Framework-Baseline | Spring Boot 3.4+, Spring Framework 6.x, Jakarta Persistence 3.1, Bean Validation 3.0, Hibernate 6.5+ |
-| Kategorie | Domain Design · Objektorientierung · Code Quality · Security · DDD |
-| Zielgruppe | Java-Entwickler, Tech Leads, Reviewer, QA, Security, Architektur |
-| Verbindlichkeit | Neue Domänenlogik MUSS so modelliert werden, dass fachliche Invarianten, Zustandsübergänge und Verhaltensregeln nicht beliebig von außen umgangen werden können. Abweichungen sind im Pull Request nachvollziehbar zu begründen. |
-| Technische Validierung | Reine Java-21-Beispiele wurden syntaktisch geprüft. JPA-Beispiele sind gegen Jakarta Persistence 3.1 und Hibernate 6.5 referenzbasiert validiert. Bean-Validation-Annotationen sind gegen Jakarta Validation 3.0 geprüft. |
-| Schwester-Guidelines | QG-JAVA-006 v2 (Spring-Boot-Serviceschicht), QG-JAVA-019 v2 (Contract Testing), QG-JAVA-039-01 v2 (Statische Feature Flags und Bean Validation), QG-JAVA-041 v2 (Event-Driven Architecture und Kafka), QG-JAVA-126 v2 (Docker) |
-| Qualitätsziel | Code soll fachliche Absicht ausdrücken, Invarianten schützen, Testbarkeit verbessern, versehentliche Zustandsverletzungen verhindern, sicherheitsrelevante Daten- und Objektgrenzen sichtbar machen und Tenant-Isolation als Domänenkonzept verankern. |
-| Wesentliche Änderungen ggü. v1.0 | `Money`-Selbstwiderspruch zwischen Sektion 11 und 12 aufgelöst (Account verwendet jetzt Money als Balance) · `OrderEntity` mit vollständigen JPA-Annotationen (`@GeneratedValue`, `@Version`, `@OneToMany` mit Cascade, `@Table` mit Tenant-Index) · `Money`-Value-Object mit vollständigen Operationen (`plus`, `minus`, `isLessThan`, `requireSameCurrency`) · `Quantity` mit `Math.addExact` / `subtractExact` für Overflow-Schutz · Record Patterns (JEP 440) als eigene Sektion · Pattern Matching als Refactoring-Schritt zwischen `instanceof` und Polymorphismus · `Email`-Validierung mit Regex statt `contains("@")` · `BirthDate` mit `Clock` konsistent · `TenantAccessDeniedException` mit Information-Disclosure-Schutz · Bean Validation 3.0 als deklarative Alternative · Lombok-Position klargestellt (`@Data` als Anti-Pattern) · `equals`/`hashCode` für Aggregate Roots vs. Value Objects · Aggregate Root und Repository-Pattern als eigene Sektion · Cross-References zu QG-JAVA-006 v2 (Tenant-Context, Optimistic Locking), QG-JAVA-039-01 v2 (Bean Validation), QG-JAVA-041 v2 (Eventual Consistency), QG-JAVA-019 v2 (Domain Events) · ausformulierte ArchUnit-Sektion mit konkreten Regeln · strukturell an QG-JAVA-006 v2 angeglichen (TOC, Lese-Anleitung, MUSS/DARF/SOLLTE getrennt, Begriffsglossar als eigene Sektion, RFC-2119-Großschreibung) |
-| Nicht-Ziel | Diese Richtlinie verbietet keine einfachen Lösungen. Für triviale CRUD-Verwaltung ohne Fachlogik ist Transaction-Script-Stil zulässig. Diese Richtlinie verbietet, komplexe Fachlogik in schwach benannten Services, Utility-Klassen oder Setter-Sequenzen zu verstecken. |
-
 ---
-
-## Inhaltsverzeichnis
-
-1. [Zweck dieser Richtlinie](#1-zweck-dieser-richtlinie)
-2. [Kurzregel für Entwickler](#2-kurzregel-für-entwickler)
-3. [Verbindlicher Standard](#3-verbindlicher-standard)
-4. [Geltungsbereich](#4-geltungsbereich)
-5. [Begriffe](#5-begriffe)
-6. [Technischer Hintergrund: Java 21 für Domänen-Modellierung](#6-technischer-hintergrund-java-21-für-domänen-modellierung)
-7. [Reiches Domänenmodell vs. Transaction Script vs. CRUD](#7-reiches-domänenmodell-vs-transaction-script-vs-crud)
-8. [Fehlmuster 1 — Anämisches Domänenmodell](#8-fehlmuster-1--anämisches-domänenmodell)
-9. [Fehlmuster 2 — Utility-Klassen als Ersatz für Modellierung](#9-fehlmuster-2--utility-klassen-als-ersatz-für-modellierung)
-10. [Fehlmuster 3 — Vererbung zur Code-Wiederverwendung](#10-fehlmuster-3--vererbung-zur-code-wiederverwendung)
-11. [Fehlmuster 4 — God Class und God Service](#11-fehlmuster-4--god-class-und-god-service)
-12. [Fehlmuster 5 — Primitive Obsession](#12-fehlmuster-5--primitive-obsession)
-13. [Value Objects mit vollständigen Operationen](#13-value-objects-mit-vollständigen-operationen)
-14. [Fehlmuster 6 — Getter/Setter als Scheinkapselung](#14-fehlmuster-6--gettersetter-als-scheinkapselung)
-15. [Fehlmuster 7 — `instanceof` als Ersatz für Polymorphismus](#15-fehlmuster-7--instanceof-als-ersatz-für-polymorphismus)
-16. [Record Patterns und Pattern Matching for Switch](#16-record-patterns-und-pattern-matching-for-switch)
-17. [Domain Services vs. Application Services](#17-domain-services-vs-application-services)
-18. [Aggregate Root, Aggregate Boundary, Repository](#18-aggregate-root-aggregate-boundary-repository)
-19. [`equals` und `hashCode` für Aggregate Roots vs. Value Objects](#19-equals-und-hashcode-für-aggregate-roots-vs-value-objects)
-20. [JPA und reiches Domänenmodell](#20-jpa-und-reiches-domänenmodell)
-21. [Bean Validation 3.0 als deklarative Alternative](#21-bean-validation-30-als-deklarative-alternative)
-22. [Lombok: Wann hilfreich, wann gefährlich](#22-lombok-wann-hilfreich-wann-gefährlich)
-23. [Security- und SaaS-Auswirkungen](#23-security--und-saas-auswirkungen)
-24. [Tenant-Context: Domänen-Modellierung trifft Security](#24-tenant-context-domänen-modellierung-trifft-security)
-25. [Framework- und Plattform-Kontext](#25-framework--und-plattform-kontext)
-26. [Designregeln](#26-designregeln)
-27. [Entscheidungsbaum](#27-entscheidungsbaum)
-28. [Gute und falsche Anwendung im Überblick](#28-gute-und-falsche-anwendung-im-überblick)
-29. [Review-Checkliste](#29-review-checkliste)
-30. [Automatisierbare Prüfungen](#30-automatisierbare-prüfungen)
-31. [Migration und Refactoring](#31-migration-und-refactoring)
-32. [Ausnahmen](#32-ausnahmen)
-33. [Definition of Done](#33-definition-of-done)
-34. [Quellen und weiterführende Literatur](#34-quellen-und-weiterführende-literatur)
-
 ### Wie liest du dieses Dokument
 
 Dieses Dokument ist mit ca. 110 KB ein Nachschlagewerk, kein Lesebuch. Drei Lesepfade werden empfohlen:
@@ -642,7 +584,7 @@ public class EmailNotificationSender implements NotificationSender {
 
 ### 10.4 Qualitätsregel
 
-Vererbung DARF NICHT nur verwendet werden, um Methoden oder Felder wiederzuverwenden. Wenn eine Klasse lediglich Verhalten nutzt, SOLLTE Komposition verwendet werden. Wenn eine Klasse wirklich eine spezialisierte Form eines Typs ist, kann Vererbung sinnvoll sein. Bei geschlossenen Typfamilien SOLLTEN Sealed Interfaces geprüft werden (siehe Sektion 6.2).
+Vererbung DARF NICHT nur verwendet werden, um Methoden oder Felder wiederzuverwenden. Wenn eine Klasse lediglich Verhalten nutzt, SOLLTE Komposition verwendet werden. Wenn eine Klasse wirklich eine spezialisierte Form eines Typs ist, kann Vererbung sinnvoll sein. Bei geschlossenen Typfamilien SOLLTEN Sealed Interfaces geprüft werden.
 
 ---
 

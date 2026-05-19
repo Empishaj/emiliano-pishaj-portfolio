@@ -1,24 +1,5 @@
 # QG-JAVA-009 — Architekturentscheidungen im Quellcode sichtbar machen
 
-## 0. Dokumentenstatus
-
-| Aspekt | Details/Erklärung |
-|---|---|
-| Dokumenttyp | Java Quality Guideline |
-| ID | QG-JAVA-009 |
-| Titel | Architekturentscheidungen im Quellcode sichtbar machen |
-| Status | Accepted / verbindlicher Standard für neue architekturrelevante Java-Codebestandteile |
-| Sprache | Deutsch |
-| Java-Baseline | Java 21+ |
-| Spring-Baseline | Spring Boot 3.x, sofern Spring-Beispiele verwendet werden |
-| Kategorie | Clean Code / Architekturkommunikation / Governance im Code |
-| Zielgruppe | Java-Entwickler, Tech Leads, Reviewer, QA, Security, Architektur, DevSecOps |
-| Zweck | Diese Richtlinie beschreibt, wie wichtige Architektur- und Qualitätsentscheidungen im Quellcode sichtbar gemacht werden, ohne den Code mit Kommentaren zu überladen. Ziel ist, dass Entwickler die lokale Begründung einer ungewöhnlichen oder verbindlichen Implementierung direkt an der relevanten Code-Stelle verstehen. |
-| Verbindlichkeit | Architekturrelevante Code-Stellen MÜSSEN ihre Begründung entweder durch klare Benennung, Javadoc, eine Entscheidungsreferenz-Annotation, eine Paketdokumentation oder eine automatisierte ArchUnit-Regel sichtbar machen. Nicht jede Klasse benötigt eine Referenz. Referenzen sind dort Pflicht, wo eine Entscheidung sonst leicht rückgängig gemacht oder falsch interpretiert würde. |
-| Prüfstatus | Fachlich geprüft gegen Java-21-Annotationsmodell, ArchUnit-1.4.x-Dokumentation, Spring-Transaktionsevents und OWASP-Logging-Grundsätze. |
-| Technische Validierung | Die reinen Java-21-Beispiele für Annotationen und grundlegende Nutzung wurden mit `javac --release 21` syntaktisch geprüft. Framework-Beispiele mit Spring und ArchUnit sind als umsetzbare Muster formuliert und müssen im Zielprojekt mit den konkret verwendeten Dependencies kompiliert werden. |
-| Letzte Aktualisierung | 2026-05-02 |
-
 ---
 
 ## 1. Zweck dieser Richtlinie
