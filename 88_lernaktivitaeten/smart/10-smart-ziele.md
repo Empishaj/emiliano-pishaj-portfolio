@@ -1,7 +1,5 @@
 # 11 — Der monatliche Review
-
-> Dies ist Teil XI des SMART-Workbooks. Voriges Kapitel: `10-wochenreview.md`. Nächstes Kapitel: `12-wenn-ein-ziel-nicht-traegt.md`.
-
+ 
 ---
 
 ## 11.1 Worum es in diesem Kapitel geht
@@ -406,5 +404,4 @@ Wenn du *Weitermachen* gewählt hast: blätter zurück zu Kapitel 09 oder 10 und
 Wenn du *Anpassen* gewählt hast: schreib jetzt die konkreten Anpassungen auf, bevor du diesen Tag vergisst.
 
 Wenn du den dritten Befund gezogen hast — *auf Kapitel 12 zugehen* —, dann ist das nächste Kapitel das wichtigste in diesem Workbook für dich. Lies es nicht erst dann, wenn du es brauchst, sondern jetzt. Es behandelt eine Fähigkeit, die kein Standardwerk über Ziele vermittelt: ein Ziel bewusst und gut zu beenden, wenn es seinen Sinn verloren hat.
-
-Weiter zu `12-wenn-ein-ziel-nicht-traegt.md`.
+ 
